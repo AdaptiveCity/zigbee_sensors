@@ -1,11 +1,63 @@
 <html>
     <head>
         <title>wstest</title>
+<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet'/>
 
-    <script>
-/*! phoscon-app 2020-02-25 */
+<style> 
+    body { font-family: 'Ubuntu'; }
+    pre { margin: 3px; }
 
-var url="ws:192.168.1.53:443";
+    /* entire page in this div to fill window, scroll bars in messages divs */
+    #outer {
+      display: flex;
+      flex-flow: column;
+      height: 100%;
+    }
+ 
+    #url_div { 
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        padding: 10px;
+        background-color: #ffffff;
+    }
+
+    #input_messages {
+        resize: vertical;
+        border: 2px solid #9999ff;
+        width: 100%;
+        min-height: 2em; 
+        overflow: auto; /* necessary for resize */
+    }
+
+    #output_messages {
+        background-color: #DDffDD;
+        flex-grow : 1;
+        resize: vertical;
+        border: 2px solid #9999ff;
+        width: 100%;
+        min-height: 2em; 
+        overflow-y: scroll; /* necessary for resize */
+    }
+
+    .odd {
+        background-color: #ccccff;
+    }
+
+    .even {
+        background-color: #ffcccc;
+    }
+/* for pretty print of json */
+.json_string { color: green; }
+.json_number { color: darkorange; }
+.json_boolean { color: blue; }
+.json_null { color: magenta; }
+.json_key { color: black; }
+
+</style>
+
+<script>
+"use strict";
 
 /* SAMPLE DATA FROM AQARA DOOR/WINDOW SENSOR
 {
@@ -20,27 +72,110 @@ var url="ws:192.168.1.53:443";
 }
 */
 
-var ws;
 
-function wsOnMessage(msg)
+var url="ws:192.168.1.53:443"; // websocket URL
+
+var ws; // web socket
+
+var odd_row = true;
+
+// Convert a JSON object/string into a color/indented html string
+function pretty(json)
+{
+    if (typeof json != 'string') {
+         json = JSON.stringify(json, null, 4);
+    }
+    json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+        var cls = 'json_number';
+        if (/^"/.test(match)) {
+            if (/:$/.test(match)) {
+                cls = 'json_key';
+            } else {
+                cls = 'json_string';
+            }
+        } else if (/true|false/.test(match)) {
+            cls = 'json_boolean';
+        } else if (/null/.test(match)) {
+            cls = 'json_null';
+        }
+        return '<span class="' + cls + '">' + match + '</span>';
+    });
+}
+
+function ws_message(msg)
 {
     var data=JSON.parse(msg.data);
     console.log("Msg:",msg.data);
+    var display_msg = document.createElement('div');
+    display_msg.innerHTML = '<pre>'+pretty(data)+'</pre>';
+
+    display_msg.className = 'display_msg';
+    if (odd_row)
+    {
+        display_msg.className += ' odd';
+        odd_row = false;
+    }
+    else
+    {
+        display_msg.className += ' even';
+        odd_row = true;
+    }
+    var div = document.getElementById('output_messages')
+    console.log('scrollTop='+div.scrollTop,'scrollHeight='+div.scrollHeight);
+    var auto_scroll = div.scrollHeight <= div.scrollTop + div.clientHeight;
+    div.appendChild(display_msg);
+    if (auto_scroll)
+    {
+        div.scrollTop = div.scrollHeight;
+    }
 //    app.ws&&app.ws.rxCounter++,"event"===data.t&&app.api.trigger("event",data)
 }
 
-function wsOnOpen(e)
+function ws_connected(e)
 {
-    console.log("websocket connected:",url)
+    console.log('websocket connected()',url);
+    document.getElementById('url_div').style.backgroundColor = '#99ff99';
 }
 
-function connect()
+function ws_disconnected(e)
 {
+    console.log('websocket disconnected()',url);
+    document.getElementById('url_div').style.backgroundColor = '#ffffff';
+}
+
+function url_clicked(button)
+{
+    console.log('usr_clicked');
+    if (button.textContent == 'Connect')
+    {
+        url = document.getElementById('url').value;
+        connect(url);
+        button.textContent = 'Disconnect';
+    }
+    else
+    {
+        disconnect(ws);
+        button.textContent = 'Connect';
+    }
+}
+
+function connect(url)
+{
+    console.log('connect()', url);
     ws = new WebSocket(url);
-    ws.onmessage=wsOnMessage;
-    ws.onopen=wsOnOpen;
+    ws.onmessage = ws_message;
+    ws.onopen = ws_connected;
+    ws.onclose = ws_disconnected;
 }
 
+function disconnect(ws)
+{
+    console.log('disconnect()');
+    ws.close();
+}
+
+// code copied from deconz example
 function initWebSocket()
 {
     app.isWebSocketAlive=function(){return!(!app.ws||app.ws.readyState!==WebSocket.OPEN)},
@@ -58,12 +193,40 @@ function initWebSocket()
             }()
 }
 
-    </script>
-    </head>
-    <body>
-        <button onclick="connect();">Connect</button>
-        <div id="messages">
-        </div>
-    </body>
+function init()
+{
+    console.log('init()');
+
+    //window.resize = window_resized;
+
+    var button = document.getElementById('url_button');
+    console.log(button)
+    button.textContent = "Connect";
+    console.log(button.textContent);
+    document.getElementById('url').value = url
+}
+
+</script>
+</head>
+
+<body onload="init()">
+<div id="outer">
+<h1>Testing websocket connection</h1>
+
+<div id="url_div">
+        <table>
+            <tr>
+                <td><b>Deconz&nbsp;websocket&nbsp;url:</b></td>
+                <td style="width:100%"><input style="width:100%" type="text" id="url" name="url"/></td>
+                <td><button type="button" id="url_button" name="url_button" onclick="url_clicked(this)">X</button></td>
+            </tr>
+        </table>
+</div>
+<textarea id="input_messages">
+</textarea>
+<div id="output_messages">
+</div>
+</div><!-- outer -->
+</body>
 </html>
 
