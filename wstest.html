@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>wstest</title>
+
+    <script>
+/*! phoscon-app 2020-02-25 */
+
+var url="ws:192.168.1.53:443";
+
+/* SAMPLE DATA FROM AQARA DOOR/WINDOW SENSOR
+{
+  "e":"changed",
+  "id":"2",
+  "r":"sensors",
+  "state":{
+        "lastupdated":"2020-04-23T12:20:51",
+        "open":false},
+  "t":"event",
+  "uniqueid":"00:15:8d:00:04:5c:91:b3-01-0006"
+}
+*/
+
+var ws;
+
+function wsOnMessage(msg)
+{
+    var data=JSON.parse(msg.data);
+    console.log("Msg:",msg.data);
+//    app.ws&&app.ws.rxCounter++,"event"===data.t&&app.api.trigger("event",data)
+}
+
+function wsOnOpen(e)
+{
+    console.log("websocket connected:",url)
+}
+
+function connect()
+{
+    ws = new WebSocket(url);
+    ws.onmessage=wsOnMessage;
+    ws.onopen=wsOnOpen;
+}
+
+function initWebSocket()
+{
+    app.isWebSocketAlive=function(){return!(!app.ws||app.ws.readyState!==WebSocket.OPEN)},
+        function check()
+            {
+                app.ws&&app.ws.readyState===WebSocket.CLOSED&&(delete app.ws,app.ws=void 0);
+                var port=app.config?app.config.get("websocketport"):void 0,host=app.session.gw.split(":")[0];
+                if(port&&!app.ws)
+                {
+                    const prot="http:"===location.protocol?"ws://":"wss://";
+                    app.ws=new WebSocket(prot+host+":"+port),
+                           app.ws.rxCounter=0,
+                           app.ws.onmessage=wsOnMessage,app.ws.onopen=wsOnOpen}
+                setTimeout(check,app.ws?1e4:1e3)
+            }()
+}
+
+    </script>
+    </head>
+    <body>
+        <button onclick="connect();">Connect</button>
+        <div id="messages">
+        </div>
+    </body>
+</html>
+
