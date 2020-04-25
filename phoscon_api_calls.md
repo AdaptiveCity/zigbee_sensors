@@ -1,6 +1,6 @@
 # Phoscon Web App deconz rest API calls
 
-## `/api/A3515DC097/config?_=1587834781941`
+## `/api/<api key>/config?_=1587834781941`
 
 ```
 {
@@ -8,7 +8,7 @@
   "time": 42.18999991111457,
   "request": {
     "method": "GET",
-    "url": "http://192.168.1.53/api/A3515DC097/config?_=1587834781941",
+    "url": "http://192.168.1.53/api/<api key>/config?_=1587834781941",
     "httpVersion": "HTTP/1.1",
     "headers": [
       {
@@ -163,7 +163,7 @@
         "61F1E18763":{"create date":"2020-04-25T17:06:28","last use date":"2020-04-25T17:11:49","name":"Phoscon#B1299x762"},
         "909DDC09DC":{"create date":"2020-04-23T08:40:04","last use date":"2020-04-23T08:40:06","name":"Phoscon#B1133x817"},
         "9D79C29584":{"create date":"2020-04-22T15:49:44","last use date":"2020-04-22T15:50:04","name":"Phoscon#B1133x817"},
-        "A3515DC097":{"create date":"2020-04-25T17:12:42","last use date":"2020-04-25T17:12:52","name":"Phoscon#B1299x762"},
+        "<api key>":{"create date":"2020-04-25T17:12:42","last use date":"2020-04-25T17:12:52","name":"Phoscon#B1299x762"},
         "B7FB9FC8DF":{"create date":"2020-04-22T15:34:00","last use date":"2020-04-22T15:34:00","name":"Phoscon#B1073x819"}},
     "wifi":"not-configured",
     "wifiavailable":[
@@ -205,15 +205,14 @@
   "pageref": "page_4"
 }
 ```
-## `/api/A3515DC097/sensors/new`
-```
+## `/api/<api key>/sensors/new`
 ```
 {
   "startedDateTime": "2020-04-25T17:13:02.209Z",
   "time": 34.73899996335805,
   "request": {
     "method": "GET",
-    "url": "http://192.168.1.53/api/A3515DC097/sensors/new",
+    "url": "http://192.168.1.53/api/<api key>/sensors/new",
     "httpVersion": "HTTP/1.1",
     "headers": [
       {
@@ -310,7 +309,7 @@
   "pageref": "page_4"
 }
 ```
-## `/api/A3515DC097/sensors?_=1587834781943`
+## `/api/<api key>/sensors?_=1587834781943`
 
 ```
 {
@@ -318,7 +317,7 @@
   "time": 45.940999989397824,
   "request": {
     "method": "GET",
-    "url": "http://192.168.1.53/api/A3515DC097/sensors?_=1587834781943",
+    "url": "http://192.168.1.53/api/<api key>/sensors?_=1587834781943",
     "httpVersion": "HTTP/1.1",
     "headers": "same as above",
     "queryString": [
