@@ -1,0 +1,1878 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2020-04-26T15:15:00.058Z",
+        "id": "page_1",
+        "title": "http://192.168.1.118/pwa/index.html?1582649514000&gwid=00212EFFFF050360",
+        "pageTimings": {
+          "onContentLoad": 413.8730000704527,
+          "onLoad": 474.04700005427003
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2020-04-26T15:15:20.618Z",
+        "time": 7.179000065661967,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/groups?_=1587914100421",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/index.html?1582649514000&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914100421"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 484,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "352"
+            },
+            {
+              "name": "ETag",
+              "value": "\"daf06e71e7b950b30d387a684648c296\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 352,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"1\":{\"action\":{\"bri\":127,\"colormode\":\"hs\",\"ct\":0,\"effect\":\"none\",\"hue\":0,\"on\":false,\"sat\":127,\"scene\":null,\"xy\":[0,0]},\"devicemembership\":[],\"etag\":\"daf06e71e7b950b30d387a684648c296\",\"hidden\":false,\"id\":\"1\",\"lights\":[],\"lightsequence\":[],\"multideviceids\":[],\"name\":\"test group\",\"scenes\":[],\"state\":{\"all_on\":false,\"any_on\":false},\"type\":\"LightGroup\"}}"
+          },
+          "redirectURL": "",
+          "headersSize": 159,
+          "bodySize": 352,
+          "_transferSize": 511
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.7340000835359097,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.238,
+          "wait": 1.7030000550448894,
+          "receive": 1.5039999270811677,
+          "_blocked_queueing": 2.3960000835359097
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 9113
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 12317
+              },
+              {
+                "functionName": "",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1374
+              },
+              {
+                "functionName": "restGetResource",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1325
+              },
+              {
+                "functionName": "",
+                "scriptId": "77",
+                "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                "lineNumber": 2,
+                "columnNumber": 3839
+              }
+            ],
+            "parent": {
+              "description": "setInterval",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "77",
+                  "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                  "lineNumber": 2,
+                  "columnNumber": 3681
+                }
+              ],
+              "parent": {
+                "description": "Promise.then",
+                "callFrames": [
+                  {
+                    "functionName": "getStarted",
+                    "scriptId": "77",
+                    "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                    "lineNumber": 2,
+                    "columnNumber": 3633
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "77",
+                    "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                    "lineNumber": 2,
+                    "columnNumber": 34570
+                  }
+                ],
+                "parent": {
+                  "description": "load",
+                  "callFrames": [
+                    {
+                      "functionName": "",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 14026
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "27508",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:15:20.631Z",
+        "time": 3.067999961785972,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/lights?_=1587914100422",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/index.html?1582649514000&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914100422"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 484,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "282"
+            },
+            {
+              "name": "ETag",
+              "value": "\"975baee787641faedb375f6ad0ede5c2\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 282,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"1\":{\"etag\":\"975baee787641faedb375f6ad0ede5c2\",\"hascolor\":false,\"manufacturername\":\"dresden elektronik\",\"modelid\":\"ConBee II\",\"name\":\"Unknown 1\",\"state\":{\"alert\":\"none\",\"on\":false,\"reachable\":true},\"swversion\":\"0x264a0700\",\"type\":\"Unknown\",\"uniqueid\":\"00:21:2e:ff:ff:05:03:60-01\"}}"
+          },
+          "redirectURL": "",
+          "headersSize": 159,
+          "bodySize": 282,
+          "_transferSize": 441
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.3889999630302192,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.07799999999999996,
+          "wait": 1.0199999985173345,
+          "receive": 0.5810000002384186,
+          "_blocked_queueing": 0.7289999630302191
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 9113
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 12317
+              },
+              {
+                "functionName": "",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1374
+              },
+              {
+                "functionName": "restGetResource",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1325
+              },
+              {
+                "functionName": "",
+                "scriptId": "77",
+                "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                "lineNumber": 2,
+                "columnNumber": 3876
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "77",
+                  "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                  "lineNumber": 2,
+                  "columnNumber": 3867
+                }
+              ],
+              "parent": {
+                "description": "setInterval",
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "77",
+                    "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                    "lineNumber": 2,
+                    "columnNumber": 3681
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "getStarted",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 3633
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 34570
+                    }
+                  ],
+                  "parent": {
+                    "description": "load",
+                    "callFrames": [
+                      {
+                        "functionName": "",
+                        "scriptId": "77",
+                        "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                        "lineNumber": 2,
+                        "columnNumber": 14026
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "27508",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:15:20.636Z",
+        "time": 3.3129999646916986,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/sensors?_=1587914100423",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/index.html?1582649514000&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914100423"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 485,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "776"
+            },
+            {
+              "name": "ETag",
+              "value": "\"6cc0fe30d3e4d2a5c6c2b156a1c432e6\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 776,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"1\":{\"config\":{\"configured\":true,\"on\":true,\"sunriseoffset\":30,\"sunsetoffset\":-30},\"etag\":\"daf06e71e7b950b30d387a684648c296\",\"manufacturername\":\"Philips\",\"modelid\":\"PHDL00\",\"name\":\"Daylight\",\"state\":{\"dark\":false,\"daylight\":true,\"lastupdated\":\"2020-04-26T11:58:10\",\"status\":170,\"sunrise\":\"2020-04-26T04:39:23\",\"sunset\":\"2020-04-26T19:16:43\"},\"swversion\":\"1.0\",\"type\":\"Daylight\",\"uniqueid\":\"00:21:2e:ff:ff:05:03:60-01\"},\"2\":{\"config\":{\"battery\":100,\"on\":true,\"reachable\":true,\"temperature\":2700},\"ep\":1,\"etag\":\"6cc0fe30d3e4d2a5c6c2b156a1c432e6\",\"manufacturername\":\"LUMI\",\"modelid\":\"lumi.sensor_magnet.aq2\",\"name\":\"OpenClose 2\",\"state\":{\"lastupdated\":\"2020-04-26T14:42:40\",\"open\":false},\"swversion\":\"20161128\",\"type\":\"ZHAOpenClose\",\"uniqueid\":\"00:15:8d:00:04:5c:91:b3-01-0006\"}}"
+          },
+          "redirectURL": "",
+          "headersSize": 159,
+          "bodySize": 776,
+          "_transferSize": 935
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.3730000682994723,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.09300000000000003,
+          "wait": 1.3059999679028986,
+          "receive": 0.5409999284893274,
+          "_blocked_queueing": 0.9110000682994723
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "70",
+                "url": "http://192.168.1.118/pwa/js/models/sensors.js?bd167e",
+                "lineNumber": 2,
+                "columnNumber": 1875
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 12317
+              },
+              {
+                "functionName": "",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1374
+              },
+              {
+                "functionName": "restGetResource",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1325
+              },
+              {
+                "functionName": "",
+                "scriptId": "77",
+                "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                "lineNumber": 2,
+                "columnNumber": 3914
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "77",
+                  "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                  "lineNumber": 2,
+                  "columnNumber": 3905
+                }
+              ],
+              "parent": {
+                "description": "setInterval",
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "77",
+                    "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                    "lineNumber": 2,
+                    "columnNumber": 3681
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "getStarted",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 3633
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 34570
+                    }
+                  ],
+                  "parent": {
+                    "description": "load",
+                    "callFrames": [
+                      {
+                        "functionName": "",
+                        "scriptId": "77",
+                        "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                        "lineNumber": 2,
+                        "columnNumber": 14026
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "27508",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:15:20.641Z",
+        "time": 3.8659999845549464,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/config?_=1587914100424",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/index.html?1582649514000&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914100424"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 484,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "3381"
+            },
+            {
+              "name": "ETag",
+              "value": "\"2972ae856847f31fa1710027003f7c09\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 3381,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"UTC\":\"2020-04-26T15:15:07\",\"announceinterval\":45,\"announceurl\":\"https://phoscon.de/discover\",\"apiversion\":\"2.05.74\",\"bridgeid\":\"00212EFFFF050360\",\"datastoreversion\":\"60\",\"devicename\":\"ConBee II\",\"dhcp\":true,\"discovery\":true,\"factorynew\":false,\"fwneedupdate\":false,\"fwupdatestate\":\"idle\",\"fwversion\":\"0x264a0700\",\"gateway\":\"192.168.1.1\",\"groupdelay\":50,\"homebridge\":\"not-managed\",\"homebridgepin\":null,\"homebridgeupdate\":false,\"homebridgeupdateversion\":null,\"homebridgeversion\":null,\"ipaddress\":\"192.168.1.53\",\"linkbutton\":false,\"localtime\":\"2020-04-26T16:15:07\",\"mac\":\"dc:a6:32:41:bf:10\",\"modelid\":\"deCONZ\",\"name\":\"Phoscon-GW-1.53\",\"netmask\":\"255.255.255.0\",\"networkopenduration\":60,\"otauactive\":false,\"otaustate\":\"off\",\"panid\":11231,\"permitjoin\":0,\"permitjoinfull\":0,\"port\":80,\"portalservices\":false,\"proxyaddress\":\"none\",\"proxyport\":0,\"replacesbridgeid\":null,\"rfconnected\":true,\"runmode\":\"systemd/gui\",\"starterkitid\":\"\",\"swcommit\":\"fc464a7b5d2873c5b32080f1a825d315607bbe29\",\"swupdate\":{\"notify\":false,\"text\":\"\",\"updatestate\":0,\"url\":\"\",\"version\":\"2.04.35\"},\"swupdate2\":{\"autoinstall\":{\"on\":false,\"updatetime\":\"\"},\"bridge\":{\"lastinstall\":\"2020-02-25T11:46:04\",\"state\":\"allreadytoinstall\"},\"checkforupdate\":false,\"install\":false,\"lastchange\":\"\",\"lastinstall\":\"\",\"state\":\"allreadytoinstall\"},\"swversion\":\"2.05.74\",\"system\":\"linux-gw\",\"timeformat\":\"24h\",\"timezone\":\"Europe/London\",\"updatechannel\":\"stable\",\"uuid\":\"c091859f-0ae1-4f67-90c3-ebe0802a213b\",\"websocketnotifyall\":true,\"websocketport\":443,\"whitelist\":{\"14FF97815B\":{\"create date\":\"2020-04-22T16:10:09\",\"last use date\":\"2020-04-22T16:10:09\",\"name\":\"Phoscon#B1133x817\"},\"1B85D49BBE\":{\"create date\":\"2020-04-23T08:39:27\",\"last use date\":\"2020-04-23T08:40:04\",\"name\":\"Phoscon#B1133x817\"},\"26566B5B76\":{\"create date\":\"2020-04-25T17:04:24\",\"last use date\":\"2020-04-25T17:04:29\",\"name\":\"Phoscon#B1299x762\"},\"4638AF7F91\":{\"create date\":\"2020-04-22T15:36:25\",\"last use date\":\"2020-04-22T21:05:32\",\"name\":\"Phoscon#B1073x819\"},\"49C806834E\":{\"create date\":\"2020-04-23T09:20:12\",\"last use date\":\"2020-04-23T16:21:15\",\"name\":\"Phoscon#B1073x868\"},\"61F1E18763\":{\"create date\":\"2020-04-25T17:06:28\",\"last use date\":\"2020-04-25T17:11:49\",\"name\":\"Phoscon#B1299x762\"},\"909DDC09DC\":{\"create date\":\"2020-04-23T08:40:04\",\"last use date\":\"2020-04-23T08:40:06\",\"name\":\"Phoscon#B1133x817\"},\"9D79C29584\":{\"create date\":\"2020-04-22T15:49:44\",\"last use date\":\"2020-04-22T15:50:04\",\"name\":\"Phoscon#B1133x817\"},\"A3515DC097\":{\"create date\":\"2020-04-25T17:12:42\",\"last use date\":\"2020-04-25T19:01:46\",\"name\":\"Phoscon#B1299x762\"},\"B7FB9FC8DF\":{\"create date\":\"2020-04-22T15:34:00\",\"last use date\":\"2020-04-22T15:34:00\",\"name\":\"Phoscon#B1073x819\"},\"B9FAF065F0\":{\"create date\":\"2020-04-26T15:14:47\",\"last use date\":\"2020-04-26T15:15:07\",\"name\":\"Phoscon#B1203x781\"}},\"wifi\":\"not-configured\",\"wifiavailable\":[{\"channel\":1,\"mac\":\"*\",\"rssi\":-51,\"ssid\":\"Forster-Lewis\"},{\"channel\":11,\"mac\":\"50:d4:f7:be:cc:be\",\"rssi\":-35,\"ssid\":\"CSN_NODE\"},{\"channel\":1,\"mac\":\"5c:dc:96:51:4e:ec\",\"rssi\":-42,\"ssid\":\"ianstudy\"},{\"channel\":44,\"mac\":\"5c:dc:96:51:4e:ed\",\"rssi\":-48,\"ssid\":\"5GHz-ianstudy\"},{\"channel\":1,\"mac\":\"00:26:75:a4:50:bc\",\"rssi\":-69,\"ssid\":\"Forster-Lewis\"},{\"channel\":1,\"mac\":\"*\",\"rssi\":-82,\"ssid\":\"Forster-Lewis\"}],\"wifichannel\":\"1\",\"wificlientname\":\"Forster-Lewis\",\"wifiip\":\"192.168.1.53\",\"wifimgmt\":0,\"wifiname\":null,\"wifitype\":\"accesspoint\",\"zigbeechannel\":15}"
+          },
+          "redirectURL": "",
+          "headersSize": 160,
+          "bodySize": 3381,
+          "_transferSize": 3541
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.9459999740198255,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.04300000000000004,
+          "wait": 2.412999969869852,
+          "receive": 0.4640000406652689,
+          "_blocked_queueing": 0.6539999740198255
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "59",
+                "url": "http://192.168.1.118/pwa/js/models/config.js?058c59",
+                "lineNumber": 2,
+                "columnNumber": 368
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 6673
+              },
+              {
+                "functionName": "",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1374
+              },
+              {
+                "functionName": "restGetResource",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1325
+              },
+              {
+                "functionName": "",
+                "scriptId": "77",
+                "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                "lineNumber": 2,
+                "columnNumber": 3953
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "77",
+                  "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                  "lineNumber": 2,
+                  "columnNumber": 3944
+                }
+              ],
+              "parent": {
+                "description": "setInterval",
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "77",
+                    "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                    "lineNumber": 2,
+                    "columnNumber": 3681
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "getStarted",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 3633
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 34570
+                    }
+                  ],
+                  "parent": {
+                    "description": "load",
+                    "callFrames": [
+                      {
+                        "functionName": "",
+                        "scriptId": "77",
+                        "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                        "lineNumber": 2,
+                        "columnNumber": 14026
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "27508",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:15:35.617Z",
+        "time": 3.2399999909102917,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/groups?_=1587914100425",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/index.html?1582649514000&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914100425"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 484,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "352"
+            },
+            {
+              "name": "ETag",
+              "value": "\"daf06e71e7b950b30d387a684648c296\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 352,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"1\":{\"action\":{\"bri\":127,\"colormode\":\"hs\",\"ct\":0,\"effect\":\"none\",\"hue\":0,\"on\":false,\"sat\":127,\"scene\":null,\"xy\":[0,0]},\"devicemembership\":[],\"etag\":\"daf06e71e7b950b30d387a684648c296\",\"hidden\":false,\"id\":\"1\",\"lights\":[],\"lightsequence\":[],\"multideviceids\":[],\"name\":\"test group\",\"scenes\":[],\"state\":{\"all_on\":false,\"any_on\":false},\"type\":\"LightGroup\"}}"
+          },
+          "redirectURL": "",
+          "headersSize": 159,
+          "bodySize": 352,
+          "_transferSize": 511
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.5810000136643647,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.10299999999999998,
+          "wait": 1.1149999952986835,
+          "receive": 0.4409999819472432,
+          "_blocked_queueing": 1.0720000136643648
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 9113
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 12317
+              },
+              {
+                "functionName": "",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1374
+              },
+              {
+                "functionName": "restGetResource",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1325
+              },
+              {
+                "functionName": "",
+                "scriptId": "77",
+                "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                "lineNumber": 2,
+                "columnNumber": 3839
+              }
+            ],
+            "parent": {
+              "description": "setInterval",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "77",
+                  "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                  "lineNumber": 2,
+                  "columnNumber": 3681
+                }
+              ],
+              "parent": {
+                "description": "Promise.then",
+                "callFrames": [
+                  {
+                    "functionName": "getStarted",
+                    "scriptId": "77",
+                    "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                    "lineNumber": 2,
+                    "columnNumber": 3633
+                  },
+                  {
+                    "functionName": "",
+                    "scriptId": "77",
+                    "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                    "lineNumber": 2,
+                    "columnNumber": 34570
+                  }
+                ],
+                "parent": {
+                  "description": "load",
+                  "callFrames": [
+                    {
+                      "functionName": "",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 14026
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "27508",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:15:35.622Z",
+        "time": 2.6340000331401825,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/lights?_=1587914100426",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/index.html?1582649514000&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914100426"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 484,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "282"
+            },
+            {
+              "name": "ETag",
+              "value": "\"975baee787641faedb375f6ad0ede5c2\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 282,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"1\":{\"etag\":\"975baee787641faedb375f6ad0ede5c2\",\"hascolor\":false,\"manufacturername\":\"dresden elektronik\",\"modelid\":\"ConBee II\",\"name\":\"Unknown 1\",\"state\":{\"alert\":\"none\",\"on\":false,\"reachable\":true},\"swversion\":\"0x264a0700\",\"type\":\"Unknown\",\"uniqueid\":\"00:21:2e:ff:ff:05:03:60-01\"}}"
+          },
+          "redirectURL": "",
+          "headersSize": 159,
+          "bodySize": 282,
+          "_transferSize": 441
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.1329999816343188,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.08499999999999996,
+          "wait": 0.9870000445172191,
+          "receive": 0.4290000069886446,
+          "_blocked_queueing": 0.6549999816343188
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 9113
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 12317
+              },
+              {
+                "functionName": "",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1374
+              },
+              {
+                "functionName": "restGetResource",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1325
+              },
+              {
+                "functionName": "",
+                "scriptId": "77",
+                "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                "lineNumber": 2,
+                "columnNumber": 3876
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "77",
+                  "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                  "lineNumber": 2,
+                  "columnNumber": 3867
+                }
+              ],
+              "parent": {
+                "description": "setInterval",
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "77",
+                    "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                    "lineNumber": 2,
+                    "columnNumber": 3681
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "getStarted",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 3633
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 34570
+                    }
+                  ],
+                  "parent": {
+                    "description": "load",
+                    "callFrames": [
+                      {
+                        "functionName": "",
+                        "scriptId": "77",
+                        "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                        "lineNumber": 2,
+                        "columnNumber": 14026
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "27508",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:15:35.626Z",
+        "time": 3.0850000912323594,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/sensors?_=1587914100427",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/index.html?1582649514000&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914100427"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 485,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "776"
+            },
+            {
+              "name": "ETag",
+              "value": "\"6cc0fe30d3e4d2a5c6c2b156a1c432e6\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 776,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"1\":{\"config\":{\"configured\":true,\"on\":true,\"sunriseoffset\":30,\"sunsetoffset\":-30},\"etag\":\"daf06e71e7b950b30d387a684648c296\",\"manufacturername\":\"Philips\",\"modelid\":\"PHDL00\",\"name\":\"Daylight\",\"state\":{\"dark\":false,\"daylight\":true,\"lastupdated\":\"2020-04-26T11:58:10\",\"status\":170,\"sunrise\":\"2020-04-26T04:39:23\",\"sunset\":\"2020-04-26T19:16:43\"},\"swversion\":\"1.0\",\"type\":\"Daylight\",\"uniqueid\":\"00:21:2e:ff:ff:05:03:60-01\"},\"2\":{\"config\":{\"battery\":100,\"on\":true,\"reachable\":true,\"temperature\":2700},\"ep\":1,\"etag\":\"6cc0fe30d3e4d2a5c6c2b156a1c432e6\",\"manufacturername\":\"LUMI\",\"modelid\":\"lumi.sensor_magnet.aq2\",\"name\":\"OpenClose 2\",\"state\":{\"lastupdated\":\"2020-04-26T14:42:40\",\"open\":false},\"swversion\":\"20161128\",\"type\":\"ZHAOpenClose\",\"uniqueid\":\"00:15:8d:00:04:5c:91:b3-01-0006\"}}"
+          },
+          "redirectURL": "",
+          "headersSize": 159,
+          "bodySize": 776,
+          "_transferSize": 935
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.2559999814778566,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.11299999999999999,
+          "wait": 1.2999999689236283,
+          "receive": 0.41600014083087444,
+          "_blocked_queueing": 0.7619999814778566
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "70",
+                "url": "http://192.168.1.118/pwa/js/models/sensors.js?bd167e",
+                "lineNumber": 2,
+                "columnNumber": 1875
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 12317
+              },
+              {
+                "functionName": "",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1374
+              },
+              {
+                "functionName": "restGetResource",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1325
+              },
+              {
+                "functionName": "",
+                "scriptId": "77",
+                "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                "lineNumber": 2,
+                "columnNumber": 3914
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "77",
+                  "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                  "lineNumber": 2,
+                  "columnNumber": 3905
+                }
+              ],
+              "parent": {
+                "description": "setInterval",
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "77",
+                    "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                    "lineNumber": 2,
+                    "columnNumber": 3681
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "getStarted",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 3633
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 34570
+                    }
+                  ],
+                  "parent": {
+                    "description": "load",
+                    "callFrames": [
+                      {
+                        "functionName": "",
+                        "scriptId": "77",
+                        "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                        "lineNumber": 2,
+                        "columnNumber": 14026
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "27508",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:15:35.630Z",
+        "time": 15.939000062644482,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/config?_=1587914100428",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/index.html?1582649514000&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914100428"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 484,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "3381"
+            },
+            {
+              "name": "ETag",
+              "value": "\"2972ae856847f31fa1710027003f7c09\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 3381,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"UTC\":\"2020-04-26T15:15:22\",\"announceinterval\":45,\"announceurl\":\"https://phoscon.de/discover\",\"apiversion\":\"2.05.74\",\"bridgeid\":\"00212EFFFF050360\",\"datastoreversion\":\"60\",\"devicename\":\"ConBee II\",\"dhcp\":true,\"discovery\":true,\"factorynew\":false,\"fwneedupdate\":false,\"fwupdatestate\":\"idle\",\"fwversion\":\"0x264a0700\",\"gateway\":\"192.168.1.1\",\"groupdelay\":50,\"homebridge\":\"not-managed\",\"homebridgepin\":null,\"homebridgeupdate\":false,\"homebridgeupdateversion\":null,\"homebridgeversion\":null,\"ipaddress\":\"192.168.1.53\",\"linkbutton\":false,\"localtime\":\"2020-04-26T16:15:22\",\"mac\":\"dc:a6:32:41:bf:10\",\"modelid\":\"deCONZ\",\"name\":\"Phoscon-GW-1.53\",\"netmask\":\"255.255.255.0\",\"networkopenduration\":60,\"otauactive\":false,\"otaustate\":\"off\",\"panid\":11231,\"permitjoin\":0,\"permitjoinfull\":0,\"port\":80,\"portalservices\":false,\"proxyaddress\":\"none\",\"proxyport\":0,\"replacesbridgeid\":null,\"rfconnected\":true,\"runmode\":\"systemd/gui\",\"starterkitid\":\"\",\"swcommit\":\"fc464a7b5d2873c5b32080f1a825d315607bbe29\",\"swupdate\":{\"notify\":false,\"text\":\"\",\"updatestate\":0,\"url\":\"\",\"version\":\"2.04.35\"},\"swupdate2\":{\"autoinstall\":{\"on\":false,\"updatetime\":\"\"},\"bridge\":{\"lastinstall\":\"2020-02-25T11:46:04\",\"state\":\"allreadytoinstall\"},\"checkforupdate\":false,\"install\":false,\"lastchange\":\"\",\"lastinstall\":\"\",\"state\":\"allreadytoinstall\"},\"swversion\":\"2.05.74\",\"system\":\"linux-gw\",\"timeformat\":\"24h\",\"timezone\":\"Europe/London\",\"updatechannel\":\"stable\",\"uuid\":\"c091859f-0ae1-4f67-90c3-ebe0802a213b\",\"websocketnotifyall\":true,\"websocketport\":443,\"whitelist\":{\"14FF97815B\":{\"create date\":\"2020-04-22T16:10:09\",\"last use date\":\"2020-04-22T16:10:09\",\"name\":\"Phoscon#B1133x817\"},\"1B85D49BBE\":{\"create date\":\"2020-04-23T08:39:27\",\"last use date\":\"2020-04-23T08:40:04\",\"name\":\"Phoscon#B1133x817\"},\"26566B5B76\":{\"create date\":\"2020-04-25T17:04:24\",\"last use date\":\"2020-04-25T17:04:29\",\"name\":\"Phoscon#B1299x762\"},\"4638AF7F91\":{\"create date\":\"2020-04-22T15:36:25\",\"last use date\":\"2020-04-22T21:05:32\",\"name\":\"Phoscon#B1073x819\"},\"49C806834E\":{\"create date\":\"2020-04-23T09:20:12\",\"last use date\":\"2020-04-23T16:21:15\",\"name\":\"Phoscon#B1073x868\"},\"61F1E18763\":{\"create date\":\"2020-04-25T17:06:28\",\"last use date\":\"2020-04-25T17:11:49\",\"name\":\"Phoscon#B1299x762\"},\"909DDC09DC\":{\"create date\":\"2020-04-23T08:40:04\",\"last use date\":\"2020-04-23T08:40:06\",\"name\":\"Phoscon#B1133x817\"},\"9D79C29584\":{\"create date\":\"2020-04-22T15:49:44\",\"last use date\":\"2020-04-22T15:50:04\",\"name\":\"Phoscon#B1133x817\"},\"A3515DC097\":{\"create date\":\"2020-04-25T17:12:42\",\"last use date\":\"2020-04-25T19:01:46\",\"name\":\"Phoscon#B1299x762\"},\"B7FB9FC8DF\":{\"create date\":\"2020-04-22T15:34:00\",\"last use date\":\"2020-04-22T15:34:00\",\"name\":\"Phoscon#B1073x819\"},\"B9FAF065F0\":{\"create date\":\"2020-04-26T15:14:47\",\"last use date\":\"2020-04-26T15:15:22\",\"name\":\"Phoscon#B1203x781\"}},\"wifi\":\"not-configured\",\"wifiavailable\":[{\"channel\":1,\"mac\":\"*\",\"rssi\":-51,\"ssid\":\"Forster-Lewis\"},{\"channel\":11,\"mac\":\"50:d4:f7:be:cc:be\",\"rssi\":-35,\"ssid\":\"CSN_NODE\"},{\"channel\":1,\"mac\":\"5c:dc:96:51:4e:ec\",\"rssi\":-42,\"ssid\":\"ianstudy\"},{\"channel\":44,\"mac\":\"5c:dc:96:51:4e:ed\",\"rssi\":-48,\"ssid\":\"5GHz-ianstudy\"},{\"channel\":1,\"mac\":\"00:26:75:a4:50:bc\",\"rssi\":-69,\"ssid\":\"Forster-Lewis\"},{\"channel\":1,\"mac\":\"*\",\"rssi\":-82,\"ssid\":\"Forster-Lewis\"}],\"wifichannel\":\"1\",\"wificlientname\":\"Forster-Lewis\",\"wifiip\":\"192.168.1.53\",\"wifimgmt\":0,\"wifiname\":null,\"wifitype\":\"accesspoint\",\"zigbeechannel\":15}"
+          },
+          "redirectURL": "",
+          "headersSize": 160,
+          "bodySize": 3381,
+          "_transferSize": 3541
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.256999978415668,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.07900000000000018,
+          "wait": 8.049999990791083,
+          "receive": 4.553000093437731,
+          "_blocked_queueing": 0.623999978415668
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "43",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "59",
+                "url": "http://192.168.1.118/pwa/js/models/config.js?058c59",
+                "lineNumber": 2,
+                "columnNumber": 368
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "50",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 6673
+              },
+              {
+                "functionName": "",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1374
+              },
+              {
+                "functionName": "restGetResource",
+                "scriptId": "54",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1325
+              },
+              {
+                "functionName": "",
+                "scriptId": "77",
+                "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                "lineNumber": 2,
+                "columnNumber": 3953
+              }
+            ],
+            "parent": {
+              "description": "Promise.then",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "77",
+                  "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                  "lineNumber": 2,
+                  "columnNumber": 3944
+                }
+              ],
+              "parent": {
+                "description": "setInterval",
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "77",
+                    "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                    "lineNumber": 2,
+                    "columnNumber": 3681
+                  }
+                ],
+                "parent": {
+                  "description": "Promise.then",
+                  "callFrames": [
+                    {
+                      "functionName": "getStarted",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 3633
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "77",
+                      "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                      "lineNumber": 2,
+                      "columnNumber": 34570
+                    }
+                  ],
+                  "parent": {
+                    "description": "load",
+                    "callFrames": [
+                      {
+                        "functionName": "",
+                        "scriptId": "77",
+                        "url": "http://192.168.1.118/pwa/js/main.js?f94c17",
+                        "lineNumber": 2,
+                        "columnNumber": 14026
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "27508",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}

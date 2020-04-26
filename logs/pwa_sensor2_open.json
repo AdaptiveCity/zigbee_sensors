@@ -1,0 +1,3130 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2020-04-26T15:15:00.057Z",
+        "id": "page_1",
+        "title": "http://192.168.1.118/pwa/index.html?1582649514000&gwid=00212EFFFF050360",
+        "pageTimings": {
+          "onContentLoad": 413.8730000704527,
+          "onLoad": 474.04700005427003
+        }
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2020-04-26T15:30:02.880Z",
+        "time": 3.7820000434294343,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/sensors?_=1587914812742",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/devices-sensors.html?_v=fc464a7b5d2873c5b32080f1a825d315607bbe29,3,0,16&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914812742"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 532,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "776"
+            },
+            {
+              "name": "ETag",
+              "value": "\"6cc0fe30d3e4d2a5c6c2b156a1c432e6\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 776,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"1\":{\"config\":{\"configured\":true,\"on\":true,\"sunriseoffset\":30,\"sunsetoffset\":-30},\"etag\":\"daf06e71e7b950b30d387a684648c296\",\"manufacturername\":\"Philips\",\"modelid\":\"PHDL00\",\"name\":\"Daylight\",\"state\":{\"dark\":false,\"daylight\":true,\"lastupdated\":\"2020-04-26T11:58:10\",\"status\":170,\"sunrise\":\"2020-04-26T04:39:23\",\"sunset\":\"2020-04-26T19:16:43\"},\"swversion\":\"1.0\",\"type\":\"Daylight\",\"uniqueid\":\"00:21:2e:ff:ff:05:03:60-01\"},\"2\":{\"config\":{\"battery\":100,\"on\":true,\"reachable\":true,\"temperature\":2700},\"ep\":1,\"etag\":\"6cc0fe30d3e4d2a5c6c2b156a1c432e6\",\"manufacturername\":\"LUMI\",\"modelid\":\"lumi.sensor_magnet.aq2\",\"name\":\"OpenClose 2\",\"state\":{\"lastupdated\":\"2020-04-26T14:42:40\",\"open\":false},\"swversion\":\"20161128\",\"type\":\"ZHAOpenClose\",\"uniqueid\":\"00:15:8d:00:04:5c:91:b3-01-0006\"}}"
+          },
+          "redirectURL": "",
+          "headersSize": 159,
+          "bodySize": 776,
+          "_transferSize": 935
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.9800000117048622,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.055999999999999994,
+          "wait": 1.3640000333711506,
+          "receive": 0.3819999983534217,
+          "_blocked_queueing": 1.6680000117048621
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "115",
+                "url": "http://192.168.1.118/pwa/js/models/sensors.js?bd167e",
+                "lineNumber": 2,
+                "columnNumber": 1875
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 12317
+              },
+              {
+                "functionName": "doPoll",
+                "scriptId": "102",
+                "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                "lineNumber": 2,
+                "columnNumber": 1148
+              }
+            ],
+            "parent": {
+              "description": "requestIdleCallback",
+              "callFrames": [
+                {
+                  "functionName": "run",
+                  "scriptId": "102",
+                  "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                  "lineNumber": 2,
+                  "columnNumber": 1267
+                }
+              ],
+              "parent": {
+                "description": "setInterval",
+                "callFrames": [
+                  {
+                    "functionName": "mountIntervalTimer",
+                    "scriptId": "102",
+                    "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                    "lineNumber": 2,
+                    "columnNumber": 935
+                  },
+                  {
+                    "functionName": "run",
+                    "scriptId": "102",
+                    "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                    "lineNumber": 2,
+                    "columnNumber": 1349
+                  }
+                ],
+                "parent": {
+                  "description": "setInterval",
+                  "callFrames": [
+                    {
+                      "functionName": "mountIntervalTimer",
+                      "scriptId": "102",
+                      "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                      "lineNumber": 2,
+                      "columnNumber": 935
+                    },
+                    {
+                      "functionName": "Poll",
+                      "scriptId": "102",
+                      "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                      "lineNumber": 2,
+                      "columnNumber": 974
+                    },
+                    {
+                      "functionName": "initApp",
+                      "scriptId": "103",
+                      "url": "http://192.168.1.118/pwa/js/global.js?eaa4b9",
+                      "lineNumber": 2,
+                      "columnNumber": 36165
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "121",
+                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                      "lineNumber": 2,
+                      "columnNumber": 4650
+                    },
+                    {
+                      "functionName": "j",
+                      "scriptId": "97",
+                      "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                      "lineNumber": 1,
+                      "columnNumber": 29998
+                    },
+                    {
+                      "functionName": "k",
+                      "scriptId": "97",
+                      "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                      "lineNumber": 1,
+                      "columnNumber": 30312
+                    }
+                  ],
+                  "parent": {
+                    "description": "setTimeout",
+                    "callFrames": [
+                      {
+                        "functionName": "",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30521
+                      },
+                      {
+                        "functionName": "i",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 28016
+                      },
+                      {
+                        "functionName": "add",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 28315
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30628
+                      },
+                      {
+                        "functionName": "Deferred",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 31032
+                      },
+                      {
+                        "functionName": "then",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30546
+                      },
+                      {
+                        "functionName": "r.fn.ready",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 31750
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "121",
+                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                        "lineNumber": 2,
+                        "columnNumber": 4452
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "29537",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:30:03.920Z",
+        "time": 6.5830000676214695,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/sensors/new?_=1587914812743",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/devices-sensors.html?_v=fc464a7b5d2873c5b32080f1a825d315607bbe29,3,0,16&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914812743"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 536,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "19"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 19,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"lastscan\":\"none\"}"
+          },
+          "redirectURL": "",
+          "headersSize": 117,
+          "bodySize": 19,
+          "_transferSize": 136
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.3810000850260256,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.19799999999999995,
+          "wait": 1.573000029295683,
+          "receive": 1.4309999532997608,
+          "_blocked_queueing": 2.1210000850260258
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 4683
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 6673
+              },
+              {
+                "functionName": "",
+                "scriptId": "104",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1374
+              },
+              {
+                "functionName": "restGetResource",
+                "scriptId": "104",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1325
+              },
+              {
+                "functionName": "pollDone",
+                "scriptId": "121",
+                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                "lineNumber": 2,
+                "columnNumber": 3515
+              }
+            ],
+            "parent": {
+              "description": "setTimeout",
+              "callFrames": [
+                {
+                  "functionName": "pollDone",
+                  "scriptId": "121",
+                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                  "lineNumber": 2,
+                  "columnNumber": 3683
+                }
+              ],
+              "parent": {
+                "description": "setTimeout",
+                "callFrames": [
+                  {
+                    "functionName": "pollDone",
+                    "scriptId": "121",
+                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                    "lineNumber": 2,
+                    "columnNumber": 3683
+                  }
+                ],
+                "parent": {
+                  "description": "setTimeout",
+                  "callFrames": [
+                    {
+                      "functionName": "pollDone",
+                      "scriptId": "121",
+                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                      "lineNumber": 2,
+                      "columnNumber": 3683
+                    }
+                  ],
+                  "parent": {
+                    "description": "setTimeout",
+                    "callFrames": [
+                      {
+                        "functionName": "pollDone",
+                        "scriptId": "121",
+                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                        "lineNumber": 2,
+                        "columnNumber": 3683
+                      }
+                    ],
+                    "parent": {
+                      "description": "setTimeout",
+                      "callFrames": [
+                        {
+                          "functionName": "pollDone",
+                          "scriptId": "121",
+                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                          "lineNumber": 2,
+                          "columnNumber": 3683
+                        }
+                      ],
+                      "parent": {
+                        "description": "setTimeout",
+                        "callFrames": [
+                          {
+                            "functionName": "pollDone",
+                            "scriptId": "121",
+                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                            "lineNumber": 2,
+                            "columnNumber": 3683
+                          }
+                        ],
+                        "parent": {
+                          "description": "setTimeout",
+                          "callFrames": [
+                            {
+                              "functionName": "pollDone",
+                              "scriptId": "121",
+                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                              "lineNumber": 2,
+                              "columnNumber": 3683
+                            }
+                          ],
+                          "parent": {
+                            "description": "setTimeout",
+                            "callFrames": [
+                              {
+                                "functionName": "pollDone",
+                                "scriptId": "121",
+                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                "lineNumber": 2,
+                                "columnNumber": 3683
+                              }
+                            ],
+                            "parent": {
+                              "description": "setTimeout",
+                              "callFrames": [
+                                {
+                                  "functionName": "pollDone",
+                                  "scriptId": "121",
+                                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                  "lineNumber": 2,
+                                  "columnNumber": 3683
+                                }
+                              ],
+                              "parent": {
+                                "description": "setTimeout",
+                                "callFrames": [
+                                  {
+                                    "functionName": "pollDone",
+                                    "scriptId": "121",
+                                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                    "lineNumber": 2,
+                                    "columnNumber": 3683
+                                  }
+                                ],
+                                "parent": {
+                                  "description": "setTimeout",
+                                  "callFrames": [
+                                    {
+                                      "functionName": "pollDone",
+                                      "scriptId": "121",
+                                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                      "lineNumber": 2,
+                                      "columnNumber": 3683
+                                    }
+                                  ],
+                                  "parent": {
+                                    "description": "setTimeout",
+                                    "callFrames": [
+                                      {
+                                        "functionName": "pollDone",
+                                        "scriptId": "121",
+                                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                        "lineNumber": 2,
+                                        "columnNumber": 3683
+                                      }
+                                    ],
+                                    "parent": {
+                                      "description": "setTimeout",
+                                      "callFrames": [
+                                        {
+                                          "functionName": "pollDone",
+                                          "scriptId": "121",
+                                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                          "lineNumber": 2,
+                                          "columnNumber": 3683
+                                        }
+                                      ],
+                                      "parent": {
+                                        "description": "setTimeout",
+                                        "callFrames": [
+                                          {
+                                            "functionName": "pollDone",
+                                            "scriptId": "121",
+                                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                            "lineNumber": 2,
+                                            "columnNumber": 3683
+                                          }
+                                        ],
+                                        "parent": {
+                                          "description": "setTimeout",
+                                          "callFrames": [
+                                            {
+                                              "functionName": "pollDone",
+                                              "scriptId": "121",
+                                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                              "lineNumber": 2,
+                                              "columnNumber": 3683
+                                            }
+                                          ],
+                                          "parent": {
+                                            "description": "setTimeout",
+                                            "callFrames": [
+                                              {
+                                                "functionName": "pollDone",
+                                                "scriptId": "121",
+                                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                "lineNumber": 2,
+                                                "columnNumber": 3683
+                                              }
+                                            ],
+                                            "parent": {
+                                              "description": "setTimeout",
+                                              "callFrames": [
+                                                {
+                                                  "functionName": "pollDone",
+                                                  "scriptId": "121",
+                                                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                  "lineNumber": 2,
+                                                  "columnNumber": 3683
+                                                }
+                                              ],
+                                              "parent": {
+                                                "description": "setTimeout",
+                                                "callFrames": [
+                                                  {
+                                                    "functionName": "pollDone",
+                                                    "scriptId": "121",
+                                                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                    "lineNumber": 2,
+                                                    "columnNumber": 3683
+                                                  }
+                                                ],
+                                                "parent": {
+                                                  "description": "setTimeout",
+                                                  "callFrames": [
+                                                    {
+                                                      "functionName": "pollDone",
+                                                      "scriptId": "121",
+                                                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                      "lineNumber": 2,
+                                                      "columnNumber": 3683
+                                                    }
+                                                  ],
+                                                  "parent": {
+                                                    "description": "setTimeout",
+                                                    "callFrames": [
+                                                      {
+                                                        "functionName": "pollDone",
+                                                        "scriptId": "121",
+                                                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                        "lineNumber": 2,
+                                                        "columnNumber": 3683
+                                                      }
+                                                    ],
+                                                    "parent": {
+                                                      "description": "setTimeout",
+                                                      "callFrames": [
+                                                        {
+                                                          "functionName": "pollDone",
+                                                          "scriptId": "121",
+                                                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                          "lineNumber": 2,
+                                                          "columnNumber": 3683
+                                                        }
+                                                      ],
+                                                      "parent": {
+                                                        "description": "setTimeout",
+                                                        "callFrames": [
+                                                          {
+                                                            "functionName": "pollDone",
+                                                            "scriptId": "121",
+                                                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                            "lineNumber": 2,
+                                                            "columnNumber": 3683
+                                                          }
+                                                        ],
+                                                        "parent": {
+                                                          "description": "setTimeout",
+                                                          "callFrames": [
+                                                            {
+                                                              "functionName": "pollDone",
+                                                              "scriptId": "121",
+                                                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                              "lineNumber": 2,
+                                                              "columnNumber": 3683
+                                                            }
+                                                          ],
+                                                          "parent": {
+                                                            "description": "setTimeout",
+                                                            "callFrames": [
+                                                              {
+                                                                "functionName": "pollDone",
+                                                                "scriptId": "121",
+                                                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                "lineNumber": 2,
+                                                                "columnNumber": 3683
+                                                              }
+                                                            ],
+                                                            "parent": {
+                                                              "description": "setTimeout",
+                                                              "callFrames": [
+                                                                {
+                                                                  "functionName": "pollDone",
+                                                                  "scriptId": "121",
+                                                                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                  "lineNumber": 2,
+                                                                  "columnNumber": 3683
+                                                                }
+                                                              ],
+                                                              "parent": {
+                                                                "description": "setTimeout",
+                                                                "callFrames": [
+                                                                  {
+                                                                    "functionName": "pollDone",
+                                                                    "scriptId": "121",
+                                                                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                    "lineNumber": 2,
+                                                                    "columnNumber": 3683
+                                                                  }
+                                                                ],
+                                                                "parent": {
+                                                                  "description": "setTimeout",
+                                                                  "callFrames": [
+                                                                    {
+                                                                      "functionName": "pollDone",
+                                                                      "scriptId": "121",
+                                                                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                      "lineNumber": 2,
+                                                                      "columnNumber": 3683
+                                                                    }
+                                                                  ],
+                                                                  "parent": {
+                                                                    "description": "setTimeout",
+                                                                    "callFrames": [
+                                                                      {
+                                                                        "functionName": "pollDone",
+                                                                        "scriptId": "121",
+                                                                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                        "lineNumber": 2,
+                                                                        "columnNumber": 3683
+                                                                      }
+                                                                    ],
+                                                                    "parent": {
+                                                                      "description": "setTimeout",
+                                                                      "callFrames": [
+                                                                        {
+                                                                          "functionName": "pollDone",
+                                                                          "scriptId": "121",
+                                                                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                          "lineNumber": 2,
+                                                                          "columnNumber": 3683
+                                                                        }
+                                                                      ],
+                                                                      "parent": {
+                                                                        "description": "setTimeout",
+                                                                        "callFrames": [
+                                                                          {
+                                                                            "functionName": "pollDone",
+                                                                            "scriptId": "121",
+                                                                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                            "lineNumber": 2,
+                                                                            "columnNumber": 3683
+                                                                          }
+                                                                        ],
+                                                                        "parent": {
+                                                                          "description": "setTimeout",
+                                                                          "callFrames": [
+                                                                            {
+                                                                              "functionName": "pollDone",
+                                                                              "scriptId": "121",
+                                                                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                              "lineNumber": 2,
+                                                                              "columnNumber": 3683
+                                                                            }
+                                                                          ],
+                                                                          "parent": {
+                                                                            "description": "setTimeout",
+                                                                            "callFrames": [
+                                                                              {
+                                                                                "functionName": "pollDone",
+                                                                                "scriptId": "121",
+                                                                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                                "lineNumber": 2,
+                                                                                "columnNumber": 3683
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "29537",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:30:07.879Z",
+        "time": 7.60799995623529,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/sensors?_=1587914812744",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/devices-sensors.html?_v=fc464a7b5d2873c5b32080f1a825d315607bbe29,3,0,16&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914812744"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 532,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "776"
+            },
+            {
+              "name": "ETag",
+              "value": "\"6cc0fe30d3e4d2a5c6c2b156a1c432e6\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 776,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"1\":{\"config\":{\"configured\":true,\"on\":true,\"sunriseoffset\":30,\"sunsetoffset\":-30},\"etag\":\"daf06e71e7b950b30d387a684648c296\",\"manufacturername\":\"Philips\",\"modelid\":\"PHDL00\",\"name\":\"Daylight\",\"state\":{\"dark\":false,\"daylight\":true,\"lastupdated\":\"2020-04-26T11:58:10\",\"status\":170,\"sunrise\":\"2020-04-26T04:39:23\",\"sunset\":\"2020-04-26T19:16:43\"},\"swversion\":\"1.0\",\"type\":\"Daylight\",\"uniqueid\":\"00:21:2e:ff:ff:05:03:60-01\"},\"2\":{\"config\":{\"battery\":100,\"on\":true,\"reachable\":true,\"temperature\":2700},\"ep\":1,\"etag\":\"6cc0fe30d3e4d2a5c6c2b156a1c432e6\",\"manufacturername\":\"LUMI\",\"modelid\":\"lumi.sensor_magnet.aq2\",\"name\":\"OpenClose 2\",\"state\":{\"lastupdated\":\"2020-04-26T14:42:40\",\"open\":false},\"swversion\":\"20161128\",\"type\":\"ZHAOpenClose\",\"uniqueid\":\"00:15:8d:00:04:5c:91:b3-01-0006\"}}"
+          },
+          "redirectURL": "",
+          "headersSize": 159,
+          "bodySize": 776,
+          "_transferSize": 935
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.0979999664127824,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.18700000000000006,
+          "wait": 2.8750000234916806,
+          "receive": 1.4479999663308263,
+          "_blocked_queueing": 2.1359999664127827
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "115",
+                "url": "http://192.168.1.118/pwa/js/models/sensors.js?bd167e",
+                "lineNumber": 2,
+                "columnNumber": 1875
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 12317
+              },
+              {
+                "functionName": "doPoll",
+                "scriptId": "102",
+                "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                "lineNumber": 2,
+                "columnNumber": 1148
+              }
+            ],
+            "parent": {
+              "description": "requestIdleCallback",
+              "callFrames": [
+                {
+                  "functionName": "run",
+                  "scriptId": "102",
+                  "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                  "lineNumber": 2,
+                  "columnNumber": 1267
+                }
+              ],
+              "parent": {
+                "description": "setInterval",
+                "callFrames": [
+                  {
+                    "functionName": "mountIntervalTimer",
+                    "scriptId": "102",
+                    "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                    "lineNumber": 2,
+                    "columnNumber": 935
+                  },
+                  {
+                    "functionName": "run",
+                    "scriptId": "102",
+                    "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                    "lineNumber": 2,
+                    "columnNumber": 1349
+                  }
+                ],
+                "parent": {
+                  "description": "setInterval",
+                  "callFrames": [
+                    {
+                      "functionName": "mountIntervalTimer",
+                      "scriptId": "102",
+                      "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                      "lineNumber": 2,
+                      "columnNumber": 935
+                    },
+                    {
+                      "functionName": "Poll",
+                      "scriptId": "102",
+                      "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                      "lineNumber": 2,
+                      "columnNumber": 974
+                    },
+                    {
+                      "functionName": "initApp",
+                      "scriptId": "103",
+                      "url": "http://192.168.1.118/pwa/js/global.js?eaa4b9",
+                      "lineNumber": 2,
+                      "columnNumber": 36165
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "121",
+                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                      "lineNumber": 2,
+                      "columnNumber": 4650
+                    },
+                    {
+                      "functionName": "j",
+                      "scriptId": "97",
+                      "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                      "lineNumber": 1,
+                      "columnNumber": 29998
+                    },
+                    {
+                      "functionName": "k",
+                      "scriptId": "97",
+                      "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                      "lineNumber": 1,
+                      "columnNumber": 30312
+                    }
+                  ],
+                  "parent": {
+                    "description": "setTimeout",
+                    "callFrames": [
+                      {
+                        "functionName": "",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30521
+                      },
+                      {
+                        "functionName": "i",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 28016
+                      },
+                      {
+                        "functionName": "add",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 28315
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30628
+                      },
+                      {
+                        "functionName": "Deferred",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 31032
+                      },
+                      {
+                        "functionName": "then",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30546
+                      },
+                      {
+                        "functionName": "r.fn.ready",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 31750
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "121",
+                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                        "lineNumber": 2,
+                        "columnNumber": 4452
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "29537",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:30:08.924Z",
+        "time": 6.016000057570636,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/sensors/new?_=1587914812745",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/devices-sensors.html?_v=fc464a7b5d2873c5b32080f1a825d315607bbe29,3,0,16&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914812745"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 536,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "19"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 19,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"lastscan\":\"none\"}"
+          },
+          "redirectURL": "",
+          "headersSize": 117,
+          "bodySize": 19,
+          "_transferSize": 136
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 3.068000067599118,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.18699999999999994,
+          "wait": 1.3499999561309814,
+          "receive": 1.411000033840537,
+          "_blocked_queueing": 2.1340000675991178
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 4683
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 6673
+              },
+              {
+                "functionName": "",
+                "scriptId": "104",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1374
+              },
+              {
+                "functionName": "restGetResource",
+                "scriptId": "104",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1325
+              },
+              {
+                "functionName": "pollDone",
+                "scriptId": "121",
+                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                "lineNumber": 2,
+                "columnNumber": 3515
+              }
+            ],
+            "parent": {
+              "description": "setTimeout",
+              "callFrames": [
+                {
+                  "functionName": "pollDone",
+                  "scriptId": "121",
+                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                  "lineNumber": 2,
+                  "columnNumber": 3683
+                }
+              ],
+              "parent": {
+                "description": "setTimeout",
+                "callFrames": [
+                  {
+                    "functionName": "pollDone",
+                    "scriptId": "121",
+                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                    "lineNumber": 2,
+                    "columnNumber": 3683
+                  }
+                ],
+                "parent": {
+                  "description": "setTimeout",
+                  "callFrames": [
+                    {
+                      "functionName": "pollDone",
+                      "scriptId": "121",
+                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                      "lineNumber": 2,
+                      "columnNumber": 3683
+                    }
+                  ],
+                  "parent": {
+                    "description": "setTimeout",
+                    "callFrames": [
+                      {
+                        "functionName": "pollDone",
+                        "scriptId": "121",
+                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                        "lineNumber": 2,
+                        "columnNumber": 3683
+                      }
+                    ],
+                    "parent": {
+                      "description": "setTimeout",
+                      "callFrames": [
+                        {
+                          "functionName": "pollDone",
+                          "scriptId": "121",
+                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                          "lineNumber": 2,
+                          "columnNumber": 3683
+                        }
+                      ],
+                      "parent": {
+                        "description": "setTimeout",
+                        "callFrames": [
+                          {
+                            "functionName": "pollDone",
+                            "scriptId": "121",
+                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                            "lineNumber": 2,
+                            "columnNumber": 3683
+                          }
+                        ],
+                        "parent": {
+                          "description": "setTimeout",
+                          "callFrames": [
+                            {
+                              "functionName": "pollDone",
+                              "scriptId": "121",
+                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                              "lineNumber": 2,
+                              "columnNumber": 3683
+                            }
+                          ],
+                          "parent": {
+                            "description": "setTimeout",
+                            "callFrames": [
+                              {
+                                "functionName": "pollDone",
+                                "scriptId": "121",
+                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                "lineNumber": 2,
+                                "columnNumber": 3683
+                              }
+                            ],
+                            "parent": {
+                              "description": "setTimeout",
+                              "callFrames": [
+                                {
+                                  "functionName": "pollDone",
+                                  "scriptId": "121",
+                                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                  "lineNumber": 2,
+                                  "columnNumber": 3683
+                                }
+                              ],
+                              "parent": {
+                                "description": "setTimeout",
+                                "callFrames": [
+                                  {
+                                    "functionName": "pollDone",
+                                    "scriptId": "121",
+                                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                    "lineNumber": 2,
+                                    "columnNumber": 3683
+                                  }
+                                ],
+                                "parent": {
+                                  "description": "setTimeout",
+                                  "callFrames": [
+                                    {
+                                      "functionName": "pollDone",
+                                      "scriptId": "121",
+                                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                      "lineNumber": 2,
+                                      "columnNumber": 3683
+                                    }
+                                  ],
+                                  "parent": {
+                                    "description": "setTimeout",
+                                    "callFrames": [
+                                      {
+                                        "functionName": "pollDone",
+                                        "scriptId": "121",
+                                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                        "lineNumber": 2,
+                                        "columnNumber": 3683
+                                      }
+                                    ],
+                                    "parent": {
+                                      "description": "setTimeout",
+                                      "callFrames": [
+                                        {
+                                          "functionName": "pollDone",
+                                          "scriptId": "121",
+                                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                          "lineNumber": 2,
+                                          "columnNumber": 3683
+                                        }
+                                      ],
+                                      "parent": {
+                                        "description": "setTimeout",
+                                        "callFrames": [
+                                          {
+                                            "functionName": "pollDone",
+                                            "scriptId": "121",
+                                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                            "lineNumber": 2,
+                                            "columnNumber": 3683
+                                          }
+                                        ],
+                                        "parent": {
+                                          "description": "setTimeout",
+                                          "callFrames": [
+                                            {
+                                              "functionName": "pollDone",
+                                              "scriptId": "121",
+                                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                              "lineNumber": 2,
+                                              "columnNumber": 3683
+                                            }
+                                          ],
+                                          "parent": {
+                                            "description": "setTimeout",
+                                            "callFrames": [
+                                              {
+                                                "functionName": "pollDone",
+                                                "scriptId": "121",
+                                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                "lineNumber": 2,
+                                                "columnNumber": 3683
+                                              }
+                                            ],
+                                            "parent": {
+                                              "description": "setTimeout",
+                                              "callFrames": [
+                                                {
+                                                  "functionName": "pollDone",
+                                                  "scriptId": "121",
+                                                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                  "lineNumber": 2,
+                                                  "columnNumber": 3683
+                                                }
+                                              ],
+                                              "parent": {
+                                                "description": "setTimeout",
+                                                "callFrames": [
+                                                  {
+                                                    "functionName": "pollDone",
+                                                    "scriptId": "121",
+                                                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                    "lineNumber": 2,
+                                                    "columnNumber": 3683
+                                                  }
+                                                ],
+                                                "parent": {
+                                                  "description": "setTimeout",
+                                                  "callFrames": [
+                                                    {
+                                                      "functionName": "pollDone",
+                                                      "scriptId": "121",
+                                                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                      "lineNumber": 2,
+                                                      "columnNumber": 3683
+                                                    }
+                                                  ],
+                                                  "parent": {
+                                                    "description": "setTimeout",
+                                                    "callFrames": [
+                                                      {
+                                                        "functionName": "pollDone",
+                                                        "scriptId": "121",
+                                                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                        "lineNumber": 2,
+                                                        "columnNumber": 3683
+                                                      }
+                                                    ],
+                                                    "parent": {
+                                                      "description": "setTimeout",
+                                                      "callFrames": [
+                                                        {
+                                                          "functionName": "pollDone",
+                                                          "scriptId": "121",
+                                                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                          "lineNumber": 2,
+                                                          "columnNumber": 3683
+                                                        }
+                                                      ],
+                                                      "parent": {
+                                                        "description": "setTimeout",
+                                                        "callFrames": [
+                                                          {
+                                                            "functionName": "pollDone",
+                                                            "scriptId": "121",
+                                                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                            "lineNumber": 2,
+                                                            "columnNumber": 3683
+                                                          }
+                                                        ],
+                                                        "parent": {
+                                                          "description": "setTimeout",
+                                                          "callFrames": [
+                                                            {
+                                                              "functionName": "pollDone",
+                                                              "scriptId": "121",
+                                                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                              "lineNumber": 2,
+                                                              "columnNumber": 3683
+                                                            }
+                                                          ],
+                                                          "parent": {
+                                                            "description": "setTimeout",
+                                                            "callFrames": [
+                                                              {
+                                                                "functionName": "pollDone",
+                                                                "scriptId": "121",
+                                                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                "lineNumber": 2,
+                                                                "columnNumber": 3683
+                                                              }
+                                                            ],
+                                                            "parent": {
+                                                              "description": "setTimeout",
+                                                              "callFrames": [
+                                                                {
+                                                                  "functionName": "pollDone",
+                                                                  "scriptId": "121",
+                                                                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                  "lineNumber": 2,
+                                                                  "columnNumber": 3683
+                                                                }
+                                                              ],
+                                                              "parent": {
+                                                                "description": "setTimeout",
+                                                                "callFrames": [
+                                                                  {
+                                                                    "functionName": "pollDone",
+                                                                    "scriptId": "121",
+                                                                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                    "lineNumber": 2,
+                                                                    "columnNumber": 3683
+                                                                  }
+                                                                ],
+                                                                "parent": {
+                                                                  "description": "setTimeout",
+                                                                  "callFrames": [
+                                                                    {
+                                                                      "functionName": "pollDone",
+                                                                      "scriptId": "121",
+                                                                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                      "lineNumber": 2,
+                                                                      "columnNumber": 3683
+                                                                    }
+                                                                  ],
+                                                                  "parent": {
+                                                                    "description": "setTimeout",
+                                                                    "callFrames": [
+                                                                      {
+                                                                        "functionName": "pollDone",
+                                                                        "scriptId": "121",
+                                                                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                        "lineNumber": 2,
+                                                                        "columnNumber": 3683
+                                                                      }
+                                                                    ],
+                                                                    "parent": {
+                                                                      "description": "setTimeout",
+                                                                      "callFrames": [
+                                                                        {
+                                                                          "functionName": "pollDone",
+                                                                          "scriptId": "121",
+                                                                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                          "lineNumber": 2,
+                                                                          "columnNumber": 3683
+                                                                        }
+                                                                      ],
+                                                                      "parent": {
+                                                                        "description": "setTimeout",
+                                                                        "callFrames": [
+                                                                          {
+                                                                            "functionName": "pollDone",
+                                                                            "scriptId": "121",
+                                                                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                            "lineNumber": 2,
+                                                                            "columnNumber": 3683
+                                                                          }
+                                                                        ],
+                                                                        "parent": {
+                                                                          "description": "setTimeout",
+                                                                          "callFrames": [
+                                                                            {
+                                                                              "functionName": "pollDone",
+                                                                              "scriptId": "121",
+                                                                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                              "lineNumber": 2,
+                                                                              "columnNumber": 3683
+                                                                            }
+                                                                          ],
+                                                                          "parent": {
+                                                                            "description": "setTimeout",
+                                                                            "callFrames": [
+                                                                              {
+                                                                                "functionName": "pollDone",
+                                                                                "scriptId": "121",
+                                                                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                                "lineNumber": 2,
+                                                                                "columnNumber": 3683
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "29537",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:30:09.955Z",
+        "time": 3.7360000424087048,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/sensors/2",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/devices-sensors.html?_v=fc464a7b5d2873c5b32080f1a825d315607bbe29,3,0,16&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": 518,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "351"
+            },
+            {
+              "name": "ETag",
+              "value": "\"96371585b06d87a977395cbe7fc589d1\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 351,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"config\":{\"battery\":100,\"on\":true,\"reachable\":true,\"temperature\":2700},\"ep\":1,\"etag\":\"96371585b06d87a977395cbe7fc589d1\",\"manufacturername\":\"LUMI\",\"modelid\":\"lumi.sensor_magnet.aq2\",\"name\":\"OpenClose 2\",\"state\":{\"lastupdated\":\"2020-04-26T15:29:57\",\"open\":true},\"swversion\":\"20161128\",\"type\":\"ZHAOpenClose\",\"uniqueid\":\"00:15:8d:00:04:5c:91:b3-01-0006\"}"
+          },
+          "redirectURL": "",
+          "headersSize": 159,
+          "bodySize": 351,
+          "_transferSize": 510
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.2760000858828424,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.11399999999999999,
+          "wait": 1.7590000270158053,
+          "receive": 0.586999929510057,
+          "_blocked_queueing": 0.7910000858828425
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "115",
+                "url": "http://192.168.1.118/pwa/js/models/sensors.js?bd167e",
+                "lineNumber": 2,
+                "columnNumber": 902
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 6673
+              },
+              {
+                "functionName": "",
+                "scriptId": "115",
+                "url": "http://192.168.1.118/pwa/js/models/sensors.js?bd167e",
+                "lineNumber": 2,
+                "columnNumber": 585
+              }
+            ],
+            "parent": {
+              "description": "setTimeout",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "115",
+                  "url": "http://192.168.1.118/pwa/js/models/sensors.js?bd167e",
+                  "lineNumber": 2,
+                  "columnNumber": 568
+                },
+                {
+                  "functionName": "_",
+                  "scriptId": "100",
+                  "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                  "lineNumber": 0,
+                  "columnNumber": 3925
+                },
+                {
+                  "functionName": "m",
+                  "scriptId": "100",
+                  "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                  "lineNumber": 0,
+                  "columnNumber": 3711
+                },
+                {
+                  "functionName": "f",
+                  "scriptId": "100",
+                  "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                  "lineNumber": 0,
+                  "columnNumber": 1564
+                },
+                {
+                  "functionName": "u.trigger",
+                  "scriptId": "100",
+                  "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                  "lineNumber": 0,
+                  "columnNumber": 3591
+                },
+                {
+                  "functionName": "wsOnMessage",
+                  "scriptId": "112",
+                  "url": "http://192.168.1.118/pwa/js/websocket.js?e9ddc6",
+                  "lineNumber": 2,
+                  "columnNumber": 109
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "29537",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:30:12.876Z",
+        "time": 2.6340000331401825,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/sensors?_=1587914812746",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/devices-sensors.html?_v=fc464a7b5d2873c5b32080f1a825d315607bbe29,3,0,16&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914812746"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 532,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "775"
+            },
+            {
+              "name": "ETag",
+              "value": "\"96371585b06d87a977395cbe7fc589d1\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 775,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"1\":{\"config\":{\"configured\":true,\"on\":true,\"sunriseoffset\":30,\"sunsetoffset\":-30},\"etag\":\"daf06e71e7b950b30d387a684648c296\",\"manufacturername\":\"Philips\",\"modelid\":\"PHDL00\",\"name\":\"Daylight\",\"state\":{\"dark\":false,\"daylight\":true,\"lastupdated\":\"2020-04-26T11:58:10\",\"status\":170,\"sunrise\":\"2020-04-26T04:39:23\",\"sunset\":\"2020-04-26T19:16:43\"},\"swversion\":\"1.0\",\"type\":\"Daylight\",\"uniqueid\":\"00:21:2e:ff:ff:05:03:60-01\"},\"2\":{\"config\":{\"battery\":100,\"on\":true,\"reachable\":true,\"temperature\":2700},\"ep\":1,\"etag\":\"96371585b06d87a977395cbe7fc589d1\",\"manufacturername\":\"LUMI\",\"modelid\":\"lumi.sensor_magnet.aq2\",\"name\":\"OpenClose 2\",\"state\":{\"lastupdated\":\"2020-04-26T15:29:57\",\"open\":true},\"swversion\":\"20161128\",\"type\":\"ZHAOpenClose\",\"uniqueid\":\"00:15:8d:00:04:5c:91:b3-01-0006\"}}"
+          },
+          "redirectURL": "",
+          "headersSize": 159,
+          "bodySize": 775,
+          "_transferSize": 934
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0.9530001046434045,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.04899999999999999,
+          "wait": 1.2340000411421062,
+          "receive": 0.39799988735467196,
+          "_blocked_queueing": 0.6100001046434045
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "115",
+                "url": "http://192.168.1.118/pwa/js/models/sensors.js?bd167e",
+                "lineNumber": 2,
+                "columnNumber": 1875
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 12317
+              },
+              {
+                "functionName": "doPoll",
+                "scriptId": "102",
+                "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                "lineNumber": 2,
+                "columnNumber": 1148
+              }
+            ],
+            "parent": {
+              "description": "requestIdleCallback",
+              "callFrames": [
+                {
+                  "functionName": "run",
+                  "scriptId": "102",
+                  "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                  "lineNumber": 2,
+                  "columnNumber": 1267
+                }
+              ],
+              "parent": {
+                "description": "setInterval",
+                "callFrames": [
+                  {
+                    "functionName": "mountIntervalTimer",
+                    "scriptId": "102",
+                    "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                    "lineNumber": 2,
+                    "columnNumber": 935
+                  },
+                  {
+                    "functionName": "run",
+                    "scriptId": "102",
+                    "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                    "lineNumber": 2,
+                    "columnNumber": 1349
+                  }
+                ],
+                "parent": {
+                  "description": "setInterval",
+                  "callFrames": [
+                    {
+                      "functionName": "mountIntervalTimer",
+                      "scriptId": "102",
+                      "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                      "lineNumber": 2,
+                      "columnNumber": 935
+                    },
+                    {
+                      "functionName": "Poll",
+                      "scriptId": "102",
+                      "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                      "lineNumber": 2,
+                      "columnNumber": 974
+                    },
+                    {
+                      "functionName": "initApp",
+                      "scriptId": "103",
+                      "url": "http://192.168.1.118/pwa/js/global.js?eaa4b9",
+                      "lineNumber": 2,
+                      "columnNumber": 36165
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "121",
+                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                      "lineNumber": 2,
+                      "columnNumber": 4650
+                    },
+                    {
+                      "functionName": "j",
+                      "scriptId": "97",
+                      "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                      "lineNumber": 1,
+                      "columnNumber": 29998
+                    },
+                    {
+                      "functionName": "k",
+                      "scriptId": "97",
+                      "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                      "lineNumber": 1,
+                      "columnNumber": 30312
+                    }
+                  ],
+                  "parent": {
+                    "description": "setTimeout",
+                    "callFrames": [
+                      {
+                        "functionName": "",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30521
+                      },
+                      {
+                        "functionName": "i",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 28016
+                      },
+                      {
+                        "functionName": "add",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 28315
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30628
+                      },
+                      {
+                        "functionName": "Deferred",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 31032
+                      },
+                      {
+                        "functionName": "then",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30546
+                      },
+                      {
+                        "functionName": "r.fn.ready",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 31750
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "121",
+                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                        "lineNumber": 2,
+                        "columnNumber": 4452
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "29537",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:30:13.927Z",
+        "time": 2.909999922849238,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/sensors/new?_=1587914812747",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/devices-sensors.html?_v=fc464a7b5d2873c5b32080f1a825d315607bbe29,3,0,16&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914812747"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 536,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "19"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 19,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"lastscan\":\"none\"}"
+          },
+          "redirectURL": "",
+          "headersSize": 117,
+          "bodySize": 19,
+          "_transferSize": 136
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1.130999936968088,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.08900000000000002,
+          "wait": 1.2279999604448677,
+          "receive": 0.46200002543628216,
+          "_blocked_queueing": 0.6949999369680882
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 4683
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 6673
+              },
+              {
+                "functionName": "",
+                "scriptId": "104",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1374
+              },
+              {
+                "functionName": "restGetResource",
+                "scriptId": "104",
+                "url": "http://192.168.1.118/pwa/js/rest.js?fab857",
+                "lineNumber": 2,
+                "columnNumber": 1325
+              },
+              {
+                "functionName": "pollDone",
+                "scriptId": "121",
+                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                "lineNumber": 2,
+                "columnNumber": 3515
+              }
+            ],
+            "parent": {
+              "description": "setTimeout",
+              "callFrames": [
+                {
+                  "functionName": "pollDone",
+                  "scriptId": "121",
+                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                  "lineNumber": 2,
+                  "columnNumber": 3683
+                }
+              ],
+              "parent": {
+                "description": "setTimeout",
+                "callFrames": [
+                  {
+                    "functionName": "pollDone",
+                    "scriptId": "121",
+                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                    "lineNumber": 2,
+                    "columnNumber": 3683
+                  }
+                ],
+                "parent": {
+                  "description": "setTimeout",
+                  "callFrames": [
+                    {
+                      "functionName": "pollDone",
+                      "scriptId": "121",
+                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                      "lineNumber": 2,
+                      "columnNumber": 3683
+                    }
+                  ],
+                  "parent": {
+                    "description": "setTimeout",
+                    "callFrames": [
+                      {
+                        "functionName": "pollDone",
+                        "scriptId": "121",
+                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                        "lineNumber": 2,
+                        "columnNumber": 3683
+                      }
+                    ],
+                    "parent": {
+                      "description": "setTimeout",
+                      "callFrames": [
+                        {
+                          "functionName": "pollDone",
+                          "scriptId": "121",
+                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                          "lineNumber": 2,
+                          "columnNumber": 3683
+                        }
+                      ],
+                      "parent": {
+                        "description": "setTimeout",
+                        "callFrames": [
+                          {
+                            "functionName": "pollDone",
+                            "scriptId": "121",
+                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                            "lineNumber": 2,
+                            "columnNumber": 3683
+                          }
+                        ],
+                        "parent": {
+                          "description": "setTimeout",
+                          "callFrames": [
+                            {
+                              "functionName": "pollDone",
+                              "scriptId": "121",
+                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                              "lineNumber": 2,
+                              "columnNumber": 3683
+                            }
+                          ],
+                          "parent": {
+                            "description": "setTimeout",
+                            "callFrames": [
+                              {
+                                "functionName": "pollDone",
+                                "scriptId": "121",
+                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                "lineNumber": 2,
+                                "columnNumber": 3683
+                              }
+                            ],
+                            "parent": {
+                              "description": "setTimeout",
+                              "callFrames": [
+                                {
+                                  "functionName": "pollDone",
+                                  "scriptId": "121",
+                                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                  "lineNumber": 2,
+                                  "columnNumber": 3683
+                                }
+                              ],
+                              "parent": {
+                                "description": "setTimeout",
+                                "callFrames": [
+                                  {
+                                    "functionName": "pollDone",
+                                    "scriptId": "121",
+                                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                    "lineNumber": 2,
+                                    "columnNumber": 3683
+                                  }
+                                ],
+                                "parent": {
+                                  "description": "setTimeout",
+                                  "callFrames": [
+                                    {
+                                      "functionName": "pollDone",
+                                      "scriptId": "121",
+                                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                      "lineNumber": 2,
+                                      "columnNumber": 3683
+                                    }
+                                  ],
+                                  "parent": {
+                                    "description": "setTimeout",
+                                    "callFrames": [
+                                      {
+                                        "functionName": "pollDone",
+                                        "scriptId": "121",
+                                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                        "lineNumber": 2,
+                                        "columnNumber": 3683
+                                      }
+                                    ],
+                                    "parent": {
+                                      "description": "setTimeout",
+                                      "callFrames": [
+                                        {
+                                          "functionName": "pollDone",
+                                          "scriptId": "121",
+                                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                          "lineNumber": 2,
+                                          "columnNumber": 3683
+                                        }
+                                      ],
+                                      "parent": {
+                                        "description": "setTimeout",
+                                        "callFrames": [
+                                          {
+                                            "functionName": "pollDone",
+                                            "scriptId": "121",
+                                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                            "lineNumber": 2,
+                                            "columnNumber": 3683
+                                          }
+                                        ],
+                                        "parent": {
+                                          "description": "setTimeout",
+                                          "callFrames": [
+                                            {
+                                              "functionName": "pollDone",
+                                              "scriptId": "121",
+                                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                              "lineNumber": 2,
+                                              "columnNumber": 3683
+                                            }
+                                          ],
+                                          "parent": {
+                                            "description": "setTimeout",
+                                            "callFrames": [
+                                              {
+                                                "functionName": "pollDone",
+                                                "scriptId": "121",
+                                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                "lineNumber": 2,
+                                                "columnNumber": 3683
+                                              }
+                                            ],
+                                            "parent": {
+                                              "description": "setTimeout",
+                                              "callFrames": [
+                                                {
+                                                  "functionName": "pollDone",
+                                                  "scriptId": "121",
+                                                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                  "lineNumber": 2,
+                                                  "columnNumber": 3683
+                                                }
+                                              ],
+                                              "parent": {
+                                                "description": "setTimeout",
+                                                "callFrames": [
+                                                  {
+                                                    "functionName": "pollDone",
+                                                    "scriptId": "121",
+                                                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                    "lineNumber": 2,
+                                                    "columnNumber": 3683
+                                                  }
+                                                ],
+                                                "parent": {
+                                                  "description": "setTimeout",
+                                                  "callFrames": [
+                                                    {
+                                                      "functionName": "pollDone",
+                                                      "scriptId": "121",
+                                                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                      "lineNumber": 2,
+                                                      "columnNumber": 3683
+                                                    }
+                                                  ],
+                                                  "parent": {
+                                                    "description": "setTimeout",
+                                                    "callFrames": [
+                                                      {
+                                                        "functionName": "pollDone",
+                                                        "scriptId": "121",
+                                                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                        "lineNumber": 2,
+                                                        "columnNumber": 3683
+                                                      }
+                                                    ],
+                                                    "parent": {
+                                                      "description": "setTimeout",
+                                                      "callFrames": [
+                                                        {
+                                                          "functionName": "pollDone",
+                                                          "scriptId": "121",
+                                                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                          "lineNumber": 2,
+                                                          "columnNumber": 3683
+                                                        }
+                                                      ],
+                                                      "parent": {
+                                                        "description": "setTimeout",
+                                                        "callFrames": [
+                                                          {
+                                                            "functionName": "pollDone",
+                                                            "scriptId": "121",
+                                                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                            "lineNumber": 2,
+                                                            "columnNumber": 3683
+                                                          }
+                                                        ],
+                                                        "parent": {
+                                                          "description": "setTimeout",
+                                                          "callFrames": [
+                                                            {
+                                                              "functionName": "pollDone",
+                                                              "scriptId": "121",
+                                                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                              "lineNumber": 2,
+                                                              "columnNumber": 3683
+                                                            }
+                                                          ],
+                                                          "parent": {
+                                                            "description": "setTimeout",
+                                                            "callFrames": [
+                                                              {
+                                                                "functionName": "pollDone",
+                                                                "scriptId": "121",
+                                                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                "lineNumber": 2,
+                                                                "columnNumber": 3683
+                                                              }
+                                                            ],
+                                                            "parent": {
+                                                              "description": "setTimeout",
+                                                              "callFrames": [
+                                                                {
+                                                                  "functionName": "pollDone",
+                                                                  "scriptId": "121",
+                                                                  "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                  "lineNumber": 2,
+                                                                  "columnNumber": 3683
+                                                                }
+                                                              ],
+                                                              "parent": {
+                                                                "description": "setTimeout",
+                                                                "callFrames": [
+                                                                  {
+                                                                    "functionName": "pollDone",
+                                                                    "scriptId": "121",
+                                                                    "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                    "lineNumber": 2,
+                                                                    "columnNumber": 3683
+                                                                  }
+                                                                ],
+                                                                "parent": {
+                                                                  "description": "setTimeout",
+                                                                  "callFrames": [
+                                                                    {
+                                                                      "functionName": "pollDone",
+                                                                      "scriptId": "121",
+                                                                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                      "lineNumber": 2,
+                                                                      "columnNumber": 3683
+                                                                    }
+                                                                  ],
+                                                                  "parent": {
+                                                                    "description": "setTimeout",
+                                                                    "callFrames": [
+                                                                      {
+                                                                        "functionName": "pollDone",
+                                                                        "scriptId": "121",
+                                                                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                        "lineNumber": 2,
+                                                                        "columnNumber": 3683
+                                                                      }
+                                                                    ],
+                                                                    "parent": {
+                                                                      "description": "setTimeout",
+                                                                      "callFrames": [
+                                                                        {
+                                                                          "functionName": "pollDone",
+                                                                          "scriptId": "121",
+                                                                          "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                          "lineNumber": 2,
+                                                                          "columnNumber": 3683
+                                                                        }
+                                                                      ],
+                                                                      "parent": {
+                                                                        "description": "setTimeout",
+                                                                        "callFrames": [
+                                                                          {
+                                                                            "functionName": "pollDone",
+                                                                            "scriptId": "121",
+                                                                            "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                            "lineNumber": 2,
+                                                                            "columnNumber": 3683
+                                                                          }
+                                                                        ],
+                                                                        "parent": {
+                                                                          "description": "setTimeout",
+                                                                          "callFrames": [
+                                                                            {
+                                                                              "functionName": "pollDone",
+                                                                              "scriptId": "121",
+                                                                              "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                              "lineNumber": 2,
+                                                                              "columnNumber": 3683
+                                                                            }
+                                                                          ],
+                                                                          "parent": {
+                                                                            "description": "setTimeout",
+                                                                            "callFrames": [
+                                                                              {
+                                                                                "functionName": "pollDone",
+                                                                                "scriptId": "121",
+                                                                                "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                                                                                "lineNumber": 2,
+                                                                                "columnNumber": 3683
+                                                                              }
+                                                                            ]
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "29537",
+        "pageref": "page_1"
+      },
+      {
+        "startedDateTime": "2020-04-26T15:30:17.879Z",
+        "time": 14.316000044345856,
+        "request": {
+          "method": "GET",
+          "url": "http://192.168.1.118/api/B9FAF065F0/sensors?_=1587914812748",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "192.168.1.118"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Accept",
+              "value": "vnd.ddel.v1"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            },
+            {
+              "name": "Referer",
+              "value": "http://192.168.1.118/pwa/devices-sensors.html?_v=fc464a7b5d2873c5b32080f1a825d315607bbe29,3,0,16&gwid=00212EFFFF050360"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-GB,en-US;q=0.9,en;q=0.8"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "_",
+              "value": "1587914812748"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 532,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "Content-Length",
+              "value": "775"
+            },
+            {
+              "name": "ETag",
+              "value": "\"96371585b06d87a977395cbe7fc589d1\""
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 775,
+            "mimeType": "application/json",
+            "compression": 0,
+            "text": "{\"1\":{\"config\":{\"configured\":true,\"on\":true,\"sunriseoffset\":30,\"sunsetoffset\":-30},\"etag\":\"daf06e71e7b950b30d387a684648c296\",\"manufacturername\":\"Philips\",\"modelid\":\"PHDL00\",\"name\":\"Daylight\",\"state\":{\"dark\":false,\"daylight\":true,\"lastupdated\":\"2020-04-26T11:58:10\",\"status\":170,\"sunrise\":\"2020-04-26T04:39:23\",\"sunset\":\"2020-04-26T19:16:43\"},\"swversion\":\"1.0\",\"type\":\"Daylight\",\"uniqueid\":\"00:21:2e:ff:ff:05:03:60-01\"},\"2\":{\"config\":{\"battery\":100,\"on\":true,\"reachable\":true,\"temperature\":2700},\"ep\":1,\"etag\":\"96371585b06d87a977395cbe7fc589d1\",\"manufacturername\":\"LUMI\",\"modelid\":\"lumi.sensor_magnet.aq2\",\"name\":\"OpenClose 2\",\"state\":{\"lastupdated\":\"2020-04-26T15:29:57\",\"open\":true},\"swversion\":\"20161128\",\"type\":\"ZHAOpenClose\",\"uniqueid\":\"00:15:8d:00:04:5c:91:b3-01-0006\"}}"
+          },
+          "redirectURL": "",
+          "headersSize": 159,
+          "bodySize": 775,
+          "_transferSize": 934
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 11.493000087223948,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.10899999999999999,
+          "wait": 2.1829999883621927,
+          "receive": 0.5309999687597156,
+          "_blocked_queueing": 2.106000087223947
+        },
+        "serverIPAddress": "192.168.1.118",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 16651
+              },
+              {
+                "functionName": "ajax",
+                "scriptId": "97",
+                "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                "lineNumber": 3,
+                "columnNumber": 13483
+              },
+              {
+                "functionName": "e.ajax",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17220
+              },
+              {
+                "functionName": "e.sync",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 17051
+              },
+              {
+                "functionName": "sync",
+                "scriptId": "115",
+                "url": "http://192.168.1.118/pwa/js/models/sensors.js?bd167e",
+                "lineNumber": 2,
+                "columnNumber": 1875
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "100",
+                "url": "http://192.168.1.118/pwa/library/js/backbone-min.js?cedae4",
+                "lineNumber": 0,
+                "columnNumber": 12317
+              },
+              {
+                "functionName": "doPoll",
+                "scriptId": "102",
+                "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                "lineNumber": 2,
+                "columnNumber": 1148
+              }
+            ],
+            "parent": {
+              "description": "requestIdleCallback",
+              "callFrames": [
+                {
+                  "functionName": "run",
+                  "scriptId": "102",
+                  "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                  "lineNumber": 2,
+                  "columnNumber": 1267
+                }
+              ],
+              "parent": {
+                "description": "setInterval",
+                "callFrames": [
+                  {
+                    "functionName": "mountIntervalTimer",
+                    "scriptId": "102",
+                    "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                    "lineNumber": 2,
+                    "columnNumber": 935
+                  },
+                  {
+                    "functionName": "run",
+                    "scriptId": "102",
+                    "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                    "lineNumber": 2,
+                    "columnNumber": 1349
+                  }
+                ],
+                "parent": {
+                  "description": "setInterval",
+                  "callFrames": [
+                    {
+                      "functionName": "mountIntervalTimer",
+                      "scriptId": "102",
+                      "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                      "lineNumber": 2,
+                      "columnNumber": 935
+                    },
+                    {
+                      "functionName": "Poll",
+                      "scriptId": "102",
+                      "url": "http://192.168.1.118/pwa/js/poll.js?5bcca9",
+                      "lineNumber": 2,
+                      "columnNumber": 974
+                    },
+                    {
+                      "functionName": "initApp",
+                      "scriptId": "103",
+                      "url": "http://192.168.1.118/pwa/js/global.js?eaa4b9",
+                      "lineNumber": 2,
+                      "columnNumber": 36165
+                    },
+                    {
+                      "functionName": "",
+                      "scriptId": "121",
+                      "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                      "lineNumber": 2,
+                      "columnNumber": 4650
+                    },
+                    {
+                      "functionName": "j",
+                      "scriptId": "97",
+                      "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                      "lineNumber": 1,
+                      "columnNumber": 29998
+                    },
+                    {
+                      "functionName": "k",
+                      "scriptId": "97",
+                      "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                      "lineNumber": 1,
+                      "columnNumber": 30312
+                    }
+                  ],
+                  "parent": {
+                    "description": "setTimeout",
+                    "callFrames": [
+                      {
+                        "functionName": "",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30521
+                      },
+                      {
+                        "functionName": "i",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 28016
+                      },
+                      {
+                        "functionName": "add",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 28315
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30628
+                      },
+                      {
+                        "functionName": "Deferred",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 31032
+                      },
+                      {
+                        "functionName": "then",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 30546
+                      },
+                      {
+                        "functionName": "r.fn.ready",
+                        "scriptId": "97",
+                        "url": "http://192.168.1.118/pwa/library/js/jquery-min.js?0baf29",
+                        "lineNumber": 1,
+                        "columnNumber": 31750
+                      },
+                      {
+                        "functionName": "",
+                        "scriptId": "121",
+                        "url": "http://192.168.1.118/pwa/js/devices-sensors.js?323dd8",
+                        "lineNumber": 2,
+                        "columnNumber": 4452
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "connection": "29537",
+        "pageref": "page_1"
+      }
+    ]
+  }
+}
