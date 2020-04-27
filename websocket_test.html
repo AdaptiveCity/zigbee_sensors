@@ -75,9 +75,11 @@
 
 var url="ws:192.168.1.53:443"; // websocket URL
 
-var ws; // web socket
+var ws = null; // web socket
 
-var odd_row = true;
+var odd_row = true; // alternate-color log messages
+
+var reconnect_ws = true; // reconnect websocket if it closes
 
 // Convert a JSON object/string into a color/indented html string
 function pretty(json)
@@ -106,9 +108,14 @@ function pretty(json)
 function ws_message(msg)
 {
     var data=JSON.parse(msg.data);
-    console.log("Msg:",msg.data);
+    console.log(Date(),"Msg:",msg.data);
+    log_message(data);
+}
+
+function log_message(json_data)
+{
     var display_msg = document.createElement('div');
-    display_msg.innerHTML = '<pre>'+pretty(data)+'</pre>';
+    display_msg.innerHTML = '<pre>'+pretty(json_data)+'</pre>';
 
     display_msg.className = 'display_msg';
     if (odd_row)
@@ -122,7 +129,7 @@ function ws_message(msg)
         odd_row = true;
     }
     var div = document.getElementById('output_messages')
-    console.log('scrollTop='+div.scrollTop,'scrollHeight='+div.scrollHeight);
+    //console.log('scrollTop='+div.scrollTop,'scrollHeight='+div.scrollHeight);
     var auto_scroll = div.scrollHeight <= div.scrollTop + div.clientHeight;
     div.appendChild(display_msg);
     if (auto_scroll)
@@ -134,75 +141,68 @@ function ws_message(msg)
 
 function ws_connected(e)
 {
-    console.log('websocket connected()',url);
+    console.log(Date(),'websocket connected()',url);
+    reconnect_ws = true; // trigger a re-connect if this websocket closes
     document.getElementById('url_div').style.backgroundColor = '#99ff99';
+    document.getElementById('url_button').textContent = 'Disconnect';
 }
 
 function ws_disconnected(e)
 {
-    console.log('websocket disconnected()',url);
+    console.log('Date(), websocket disconnected()',url);
     document.getElementById('url_div').style.backgroundColor = '#ffffff';
+    document.getElementById('url_button').textContent = 'Connect';
+    if (reconnect_ws)
+    {
+        console.log(Date(),'websocket reconnecting');
+        url_connect();
+    }
 }
 
 function url_clicked(button)
 {
-    console.log('usr_clicked');
+    console.log(Date(),'usr_clicked()');
     if (button.textContent == 'Connect')
     {
-        url = document.getElementById('url').value;
-        connect(url);
-        button.textContent = 'Disconnect';
+        url_connect();
     }
     else
     {
-        disconnect(ws);
-        button.textContent = 'Connect';
+        button.textContent = 'Disconnecting...';
+        ws_disconnect(ws);
     }
 }
 
-function connect(url)
+function url_connect()
 {
-    console.log('connect()', url);
+    var url = document.getElementById('url').value;
+    var button = document.getElementById('url_button');
+    button.textContent = 'Connecting...';
+    ws_connect(url);
+}
+
+function ws_connect(url)
+{
+    console.log(Date(),'ws_connect()', url);
     ws = new WebSocket(url);
     ws.onmessage = ws_message;
     ws.onopen = ws_connected;
     ws.onclose = ws_disconnected;
 }
 
-function disconnect(ws)
+function ws_disconnect(ws)
 {
-    console.log('disconnect()');
+    console.log(Date(),'ws_disconnect()');
+    reconnect_ws = false;
     ws.close();
-}
-
-// code copied from deconz example
-function initWebSocket()
-{
-    app.isWebSocketAlive=function(){return!(!app.ws||app.ws.readyState!==WebSocket.OPEN)},
-        function check()
-            {
-                app.ws&&app.ws.readyState===WebSocket.CLOSED&&(delete app.ws,app.ws=void 0);
-                var port=app.config?app.config.get("websocketport"):void 0,host=app.session.gw.split(":")[0];
-                if(port&&!app.ws)
-                {
-                    const prot="http:"===location.protocol?"ws://":"wss://";
-                    app.ws=new WebSocket(prot+host+":"+port),
-                           app.ws.rxCounter=0,
-                           app.ws.onmessage=wsOnMessage,app.ws.onopen=wsOnOpen}
-                setTimeout(check,app.ws?1e4:1e3)
-            }()
 }
 
 function init()
 {
-    console.log('init()');
-
-    //window.resize = window_resized;
+    console.log(Date(),'init()');
 
     var button = document.getElementById('url_button');
-    console.log(button)
     button.textContent = "Connect";
-    console.log(button.textContent);
     document.getElementById('url').value = url
 }
 

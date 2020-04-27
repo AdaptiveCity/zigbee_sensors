@@ -34,7 +34,7 @@ GET /api/<apikey>/sensors?_=1587914812746
 GET /api/<apikey>/sensors/new?_=1587914812747
 ```
 
-API calls while "Add new sensor"
+API calls while "Add new sensor" (quitting before 'add')
 ```
 "GET /api/<apikey>/sensors/new?_=1587915444273"
 "GET /api/<apikey>/sensors?_=1587915444274"
@@ -48,7 +48,89 @@ API calls while "Add new sensor"
 "PUT /api/<apikey>/config"
 "GET /api/<apikey>/sensors/new?_=1587915444285"
 ```
-Detail of each API call is listed below:
+
+API calls complete "Add new smartplug"
+```
+"GET","/api/<apikey>/config?_=1587984654804"
+"GET","/api/<apikey>/config?_=1587984654805"
+"GET","/api/<apikey>/lights?_=1587984654806"
+"GET","/api/<apikey>/lights?_=1587984654807"
+"GET","ws://192.168.1.118:443/"
+"PUT","/api/<apikey>/config"
+{
+      "mimeType": "application/json",
+      "text": "{"permitjoin":0}"
+}
+```
+Then websocket receives:
+```
+{
+    "e": "added",
+    "id": "2",
+    "r": "lights",
+    "t": "event",
+    "uniqueid": "00:0d:6f:ff:fe:53:c1:fa-01"
+}
+{
+    "e": "changed",
+    "id": "65520",
+    "r": "groups",
+    "state": {
+        "all_on": false,
+        "any_on": false
+    },
+    "t": "event"
+}
+```
+```
+"GET","/api/<apikey>/sensors/new"
+{
+    "lastscan": "active"
+}
+"GET","/api/<apikey>/lights?_=1587984654808"
+{ 
+    "mimeType": "application/json",
+    "text": {
+        "1":{
+            "etag":"c6b9edd49b165fc2bcc15f0baff92d22",
+            "hascolor":false,
+            "manufacturername":"dresden elektronik",
+            "modelid":"ConBee II",
+            "name":"Unknown 1",
+            "state":{
+                "alert":"none",
+                "on":false,
+                "reachable":true},
+            "swversion":"0x264a0700",
+            "type":"Unknown",
+            "uniqueid":"00:21:2e:ff:ff:05:03:60-01"},
+        "2":{
+            "etag":"4acab2584ab114d94445f139d90c0883",
+            "hascolor":false,
+            "manufacturername":"innr",
+            "modelid":"SP 222",
+            "name":"On/Off plug-in unit 2",
+            "state":{
+                "alert":"none",
+                "on":false,
+                "reachable":true},
+            "swversion":"2.1",
+            "type":"On/Off plug-in unit",
+            "uniqueid":"00:0d:6f:ff:fe:53:c1:fa-01"}
+        }
+}
+    
+"PUT","/api/<apikey>/config"
+{
+      "mimeType": "application/json",
+      "text": {
+        "permitjoin":0
+      }
+}
+"GET","/api/<apikey>/sensors/new"
+
+```
+## Detail of each API call
 
 ## POST `/api/<apikey>/sensors` (from Add New Sensor)
 ```
@@ -79,7 +161,7 @@ Detail of each API call is listed below:
         "size": 77,
         "mimeType": "application/json",
         "compression": 0,
-        "text": "[{\"success\":{\"/sensors\":\"Searching for new devices\",\"/sensors/duration\":60}}]"
+        "text": "[{"success":{"/sensors":"Searching for new devices","/sensors/duration":60}}]"
       },
       "redirectURL": "",
       "headersSize": 117,
@@ -112,7 +194,7 @@ Detail of each API call is listed below:
     "time": 13.6009999550879,
     "request": {
       "method": "PUT",
-      "url": "http://192.168.1.118/api/B9FAF065F0/config",
+      "url": "http://192.168.1.118/api/<apikey>/config",
       "httpVersion": "HTTP/1.1",
       "headers": "usual stuff",
       "queryString": [],
@@ -121,7 +203,7 @@ Detail of each API call is listed below:
       "bodySize": 16,
       "postData": {
         "mimeType": "application/json",
-        "text": "{\"permitjoin\":0}"
+        "text": "{"permitjoin":0}"
       }
     },
     "response": {
@@ -134,7 +216,7 @@ Detail of each API call is listed below:
         "size": 38,
         "mimeType": "application/json",
         "compression": 0,
-        "text": "[{\"success\":{\"/config/permitjoin\":0}}]"
+        "text": "[{"success":{"/config/permitjoin":0}}]"
       },
       "redirectURL": "",
       "headersSize": 158,
