@@ -1,21 +1,154 @@
 # Phoscon Web App deconz rest API calls
 
+This document provides a detailed look at the deconz REST API calls
+actually made by the Phoscon Web App (PWA). PWA is best thought
+of as the user interface to `deconz` which provides a device-driver like
+interface to the actual gateway device, typically a Conbee USB gateway, with
+which it communicates using a serial protocol on virtual tty `/dev/ttyACM0`.
+
+`deconz` provides a REST API with GET, POST, PUT, DELETE http requests
+supporting the control of the gateway. PWA fast-polls the API to learn of
+updates, and a work-in-progress websocket has been added which pipes JSON
+messages e.g. when a sensor sends data.
+
+![PWA screenshot](pwa.png)
+
+PWA (and deconz?) categorizes all Zigbee devices (including the controller)
+as one of 
+* Lights
+* Sensors
+* Switches
+
+However, it seems the 'Add Sensor', 'Add Light' etc all send the same
+initial command via the REST API to allow new devices to connect to the
+network.
+
+## Phoscon Web Application actions
+
+### 'Unlock' the REST API to allow issue of `apikey`
+In a classic chicken-and-egg, you need an `apikey` to be issued an
+`apikey`. You can bootstrap this process by setting a *password* for PWA
+and this will then get an `apikey` at login.
+
+```
+PUT /api/<apikey>/config
+{
+    unlock: 60
+}
+```
+Returns
+```
+[
+    {
+        "success":{
+            "config/unlock":60
+        }
+    }
+]
+```
+
+### Get 'config' of gateway
+```
+GET /api/<apikey>/config
+```
+Returns
+```
+{
+    "UTC":"2020-04-27T13:05:27",
+    "apiversion":"1.16.0",
+    "backup":{
+        "errorcode":0,
+        "status":"idle"},
+    "bridgeid":"00212EFFFF050360",
+    "datastoreversion":"60",
+    "devicename":"ConBee II",
+    "dhcp":true,
+    "factorynew":false,
+    "fwversion":"0x264a0700",
+    "gateway":"192.168.1.1",
+    "internetservices":{
+        "remoteaccess":"disconnected"},
+    "ipaddress":"192.168.1.118",
+    "linkbutton":false,
+    "localtime":"2020-04-27T14:05:27",
+    "mac":"dc:a6:32:41:bf:0e",
+    "modelid":"deCONZ",
+    "name":"Phoscon-GW-1.53",
+    "netmask":"255.255.255.0",
+    "networkopenduration":60,
+    "panid":11231,
+    "portalconnection":"disconnected",
+    "portalservices":false,
+    "portalstate":{
+        "communication":"disconnected",
+        "incoming":false,
+        "outgoing":false,
+        "signedon":false},
+    "proxyaddress":"none",
+    "proxyport":0,
+    "replacesbridgeid":null,
+    "rfconnected":true,
+    "starterkitid":"",
+    "swupdate":{
+        "checkforupdate":false,
+        "devicetypes":{
+            "bridge":false,
+            "lights":[],
+            "sensors":[]},
+        "notify":false,
+        "text":"",
+        "updatestate":0,
+        "url":""},
+    "swupdate2":{
+        "autoinstall":{
+            "on":false,
+            "updatetime":""},
+        "bridge":{
+            "lastinstall":"2020-02-25T11:46:04",
+            "state":"allreadytoinstall"},
+        "checkforupdate":false,
+        "install":false,
+        "lastchange":"",
+        "lastinstall":"",
+        "state":"allreadytoinstall"},
+    "swversion":"2.5.74",
+    "timeformat":"24h",
+    "timezone":"Europe/London",
+    "uuid":"c091859f-0ae1-4f67-90c3-ebe0802a213b",
+    "websocketnotifyall":true,
+    "websocketport":443,
+    "whitelist":{
+        "14FF97915B":{
+            "create date":"2020-04-22T16:10:09",
+            "last use date":"2020-04-22T16:10:09",
+            "name":"Phoscon#B1133x817"},
+         ... more API keys
+        "B9FAF075F0":{
+            "create date":"2020-04-26T15:14:47",
+            "last use date":"2020-04-27T13:05:24",
+            "name":"Phoscon#B1203x781"}
+    },
+    "zigbeechannel":15
+}
+```
+
+### View a sensor status
 With test usage of PWA: startup, select `Sensors`, select `Sensor #2`, 
 PWA makes the following calls to the deconz REST API:
 
 ```
-/api/<apikey>/config?_=1587834781941
-/api/<apikey>/config?_=1587834781942
-/api/<apikey>/sensors/new
-/api/<apikey>/sensors?_=1587834781943
-/api/<apikey>/sensors?_=1587834781944
+GET /api/<apikey>/config?_=1587834781941
+GET /api/<apikey>/config?_=1587834781942
+GET /api/<apikey>/sensors/new
+GET /api/<apikey>/sensors?_=1587834781943
+GET /api/<apikey>/sensors?_=1587834781944
 ws://<hostaddress>:443/
-/api/<apikey>/sensors/new?_=1587834781945
-/api/<apikey>/sensors?_=1587834781946     (repeats 5 seconds)
-/api/<apikey>/sensors/new?_=1587834781947 (repeats 5 seconds)
+GET /api/<apikey>/sensors/new?_=1587834781945
+GET /api/<apikey>/sensors?_=1587834781946     (repeats 5 seconds)
+GET /api/<apikey>/sensors/new?_=1587834781947 (repeats 5 seconds)
 ```
 
-API calls while idle on home page:
+### API calls while idle on home page:
 
 ```
 /api/<apikey>/groups?_=1587914100421
@@ -25,16 +158,40 @@ API calls while idle on home page:
 ```
 (repeating at 15 seconds)
 
-API calls while viewing Sensor 2 and opening sensor:
+### API calls while viewing Sensor 2 and opening sensor:
 ```
 GET /api/<apikey>/sensors?_=1587914812744
 GET /api/<apikey>/sensors/new?_=1587914812745
 GET /api/<apikey>/sensors/2
+```
+Returns:
+```
+{
+    "mimeType": "application/json",
+    "text": {
+        "config": {
+            "battery":100,
+            "on":true,
+            "reachable":true,
+            "temperature":2700},
+        "ep":1,
+        "etag":"96371585b06d87a977395cbe7fc589d1",
+        "manufacturername":"LUMI",
+        "modelid":"lumi.sensor_magnet.aq2",
+        "name":"OpenClose 2",
+        "state":{
+            "lastupdated":"2020-04-26T15:29:57",
+            "open":true},
+        "swversion":"20161128",
+        "type":"ZHAOpenClose",
+        "uniqueid":"00:15:8d:00:04:5c:91:b3-01-0006"
+    }
+}
 GET /api/<apikey>/sensors?_=1587914812746
 GET /api/<apikey>/sensors/new?_=1587914812747
 ```
 
-API calls while "Add new sensor" (quitting before 'add')
+### API calls while "Add new sensor" (quitting before 'add')
 ```
 "GET /api/<apikey>/sensors/new?_=1587915444273"
 "GET /api/<apikey>/sensors?_=1587915444274"
@@ -49,7 +206,7 @@ API calls while "Add new sensor" (quitting before 'add')
 "GET /api/<apikey>/sensors/new?_=1587915444285"
 ```
 
-API calls complete "Add new smartplug"
+### API calls complete "Add new smartplug"
 ```
 "GET","/api/<apikey>/config?_=1587984654804"
 "GET","/api/<apikey>/config?_=1587984654805"
@@ -130,7 +287,127 @@ Then websocket receives:
 "GET","/api/<apikey>/sensors/new"
 
 ```
-## Detail of each API call
+
+### Add smartplug to group
+```
+"GET","/api/<apikey>/sensors/new"
+"GET","/api/<apikey>/lights?_=1587984655758"
+"GET","/api/<apikey>/sensors/new"
+"GET","/api/<apikey>/lights?_=1587984655759"
+"GET","/api/<apikey>/sensors/new"
+"GET","/api/<apikey>/lights?_=1587984655760"
+"PUT","/api/<apikey>/groups/1"
+```
+Request payload:
+```
+{
+    "mimeType": "application/json",
+    "text": {
+        "lights":["2"]
+    }"
+}
+```
+Response:
+```
+[
+    {
+        "success":{
+            "/groups/1/lights": ["2"]
+        }
+    }
+]
+```
+```
+"GET","/api/<apikey>/groups/1?_=1587984655761"
+{
+    "action":{
+        "bri":127,
+        "colormode":"hs",
+        "ct":0,
+        "effect":"none",
+        "hue":0,
+        "on":false,
+        "sat":127,
+        "scene":null,
+        "xy":[0,0]},
+    "devicemembership":[],
+    "etag":"caf50d499b4c8fbfdbda2cc0f099c2ac",
+    "hidden":false,
+    "id":"1",
+    "lights":["1","2"],
+    "lightsequence":[],
+    "multideviceids":[],
+    "name":"test group",
+    "scenes":[],
+    "state":{
+        "all_on":false,
+        "any_on":false},
+    "type":"LightGroup"
+}
+"GET","/api/<apikey>/sensors/new"
+{
+    "lastscan":"2020-04-27T10:50:21"
+}
+"GET","/api/<apikey>/lights?_=1587984655762"
+{
+    "1":{
+        "etag":"c6b9edd49b165fc2bcc15f0baff92d22",
+        "hascolor":false,
+        "manufacturername":"dresden elektronik",
+        "modelid":"ConBee II",
+        "name":"Unknown 1",
+        "state":{
+            "alert":"none",
+            "on":false,
+            "reachable":true},
+        "swversion":"0x264a0700",
+        "type":"Unknown",
+        "uniqueid":"00:21:2e:ff:ff:05:03:60-01"},
+    "2":{
+        "etag":"4acab2584ab114d94445f139d90c0883",
+        "hascolor":false,
+        "manufacturername":"innr",
+        "modelid":"SP 222",
+        "name":"On/Off plug-in unit 2",
+        "state":{
+            "alert":"none",
+            "on":false,
+            "reachable":true},
+        "swversion":"2.1",
+        "type":"On/Off plug-in unit",
+        "uniqueid":"00:0d:6f:ff:fe:53:c1:fa-01"}
+}
+"GET","/api/<apikey>/groups/1?_=1587984655763"
+"GET","/api/<apikey>/sensors/new"
+"GET","/api/<apikey>/lights?_=1587984655764"
+```
+
+### Rename an existing device (e.g. for lights/2)
+```
+PUT /api/<apikey>/lights/2/state
+{ alert: "lselect" }
+```
+Responds:
+```
+[ {"success": { "lights/2/state/alert": "lselect" }} ]
+```
+```
+PUT /api/<apikey>/lights/2
+{ "name": "newname" }
+```
+Response:
+```
+[ { "success":{ "lights/2/name":"newname" } } ]
+```
+```
+PUT /api/<apikey>/lights/2/state
+{ "alert": "none" }
+```
+Responds:
+```
+[ {"success": { "lights/2/state/alert": "none" }} ]
+```
+# Detail of each API call from PWA including headers
 
 ## POST `/api/<apikey>/sensors` (from Add New Sensor)
 ```
@@ -139,7 +416,7 @@ Then websocket receives:
     "time": 4.205000004731119,
     "request": {
       "method": "POST",
-      "url": "http://192.168.1.118/api/<apikey>/sensors",
+      "url": "/api/<apikey>/sensors",
       "httpVersion": "HTTP/1.1",
       "headers": "usual stuff",
       "queryString": [],
@@ -194,7 +471,7 @@ Then websocket receives:
     "time": 13.6009999550879,
     "request": {
       "method": "PUT",
-      "url": "http://192.168.1.118/api/<apikey>/config",
+      "url": "/api/<apikey>/config",
       "httpVersion": "HTTP/1.1",
       "headers": "usual stuff",
       "queryString": [],
@@ -249,7 +526,7 @@ Then websocket receives:
     "time": 3.7360000424087048,
     "request": {
       "method": "GET",
-      "url": "http://192.168.1.118/api/<apikey>/sensors/2",
+      "url": "/api/<apikey>/sensors/2",
       "httpVersion": "HTTP/1.1",
       "headers": "usual stuff",
       "queryString": [],
