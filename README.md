@@ -11,3 +11,7 @@ whether the device is a switch or a light bulb) until later in the software stac
 
 The work-in-progress tracing the `deCONZ REST API` calls is in [PWA API Calls](pwa_api_calls/pwa_api_calls.md).
 
+Below is an architectural diagram of how the Adaptive City components will combine
+to support Zigbee sensors.
+
+![ACP Zigbee Support](images/acp_zigbee_support.png)
