@@ -9,7 +9,7 @@ that is connected to the network (WTF?). We will try and ease this restriction, 
 about allowing devices to connect to the network, and defer dealing with the application-level issues (like
 whether the device is a switch or a light bulb) until later in the software stack.
 
-The work-in-progress tracing the `deCONZ REST API` calls is in [PWA API Calls](pwa_api_calls/pwa_api_calls.md).
+The work-in-progress tracing the `deCONZ REST API` calls is in [PWA API Calls](pwa_api_calls/README.md).
 
 Below is an architectural diagram of how the Adaptive City components will combine
 to support Zigbee sensors.
