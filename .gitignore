@@ -34,4 +34,5 @@ nohup.out
 .vertx
 secrets.sh
 secrets/
+venv/
 
