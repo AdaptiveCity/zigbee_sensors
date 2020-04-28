@@ -15,3 +15,19 @@ Below is an architectural diagram of how the Adaptive City components will combi
 to support Zigbee sensors.
 
 ![ACP Zigbee Support](images/acp_zigbee_support.png)
+
+## Decoders
+
+See `acp_decoders` in [acp_local_mqtt](https://github.com/AdaptiveCity/acp_local_mqtt).
+
+There are two particular reasons decoders are necessary in our system:
+
+1. We want consistent reference to sensor identifiers and timestamps. Each sensor manufacturer 
+(and zigbee controller software) uses its own way of recording an identifier for the
+sensor and the timestamp of the reading.
+
+2. Sensor providers are shockingly amateur in dealing with *events*. For example the Xioami Aqara Door/Window
+sensor sends a periodic 'state' message (`open: true|false`) every 50 minutes, but sends the *same*
+message when the door/window is actually opened or closed. This requires the *application* to maintain state in some
+unique way for this sensor. Instead, we add properties `"acp_event": "openclose"`, `"acp_event_value": "open"` where
+we believe an actual event has occurred.
