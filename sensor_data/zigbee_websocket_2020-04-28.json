@@ -1,0 +1,1093 @@
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T10:38:02",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "added",
+  "id": "2",
+  "r": "lights",
+  "t": "event",
+  "uniqueid": "00:0d:6f:ff:fe:53:c1:fa-01"
+}
+{
+  "e": "changed",
+  "id": "65520",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": false
+  },
+  "t": "event"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2600
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T11:28:13",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-27T11:58:02",
+    "status": 170,
+    "sunrise": "2020-04-27T04:37:23",
+    "sunset": "2020-04-27T19:18:26"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": false
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T12:10:39",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T12:10:39",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T12:10:40",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2700
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T13:00:54",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "name": "innr-smartplug-fe53c1",
+  "r": "lights",
+  "t": "event",
+  "uniqueid": "00:0d:6f:ff:fe:53:c1:fa-01"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "name": "newname",
+  "r": "lights",
+  "t": "event",
+  "uniqueid": "00:0d:6f:ff:fe:53:c1:fa-01"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "name": "innr-smartplug-fe53c1",
+  "r": "lights",
+  "t": "event",
+  "uniqueid": "00:0d:6f:ff:fe:53:c1:fa-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2800
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T13:51:07",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T14:20:37",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2900
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T15:10:49",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T15:28:48",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T15:28:48",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2800
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T16:19:04",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2800
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T17:09:18",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T17:10:11",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T17:10:11",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T17:10:11",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T17:10:11",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "name": "aqa-wd-5c91b3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2800
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T18:00:25",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "lights",
+  "state": {
+    "on": true,
+    "reachable": true
+  },
+  "t": "event",
+  "uniqueid": "00:0d:6f:ff:fe:53:c1:fa-01"
+}
+{
+  "e": "changed",
+  "id": "65520",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "lights",
+  "state": {
+    "on": true,
+    "reachable": false
+  },
+  "t": "event",
+  "uniqueid": "00:0d:6f:ff:fe:53:c1:fa-01"
+}
+{
+  "e": "changed",
+  "id": "65520",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": false
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": false
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "lights",
+  "state": {
+    "on": true,
+    "reachable": true
+  },
+  "t": "event",
+  "uniqueid": "00:0d:6f:ff:fe:53:c1:fa-01"
+}
+{
+  "e": "changed",
+  "id": "65520",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-27T18:31:12",
+    "status": 180,
+    "sunrise": "2020-04-27T04:37:23",
+    "sunset": "2020-04-27T19:18:26"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-27T18:48:32",
+    "status": 180,
+    "sunrise": "2020-04-27T04:37:23",
+    "sunset": "2020-04-27T19:18:26"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2700
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T18:50:42",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-27T19:14:42",
+    "status": 190,
+    "sunrise": "2020-04-27T04:37:23",
+    "sunset": "2020-04-27T19:18:26"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-27T19:18:32",
+    "status": 200,
+    "sunrise": "2020-04-27T04:37:23",
+    "sunset": "2020-04-27T19:18:26"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-27T19:26:42",
+    "status": 200,
+    "sunrise": "2020-04-27T04:37:23",
+    "sunset": "2020-04-27T19:18:26"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2600
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T19:40:57",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-27T19:56:42",
+    "status": 210,
+    "sunrise": "2020-04-27T04:37:23",
+    "sunset": "2020-04-27T19:18:26"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2600
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T20:31:14",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-27T20:45:52",
+    "status": 220,
+    "sunrise": "2020-04-27T04:37:23",
+    "sunset": "2020-04-27T19:18:26"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2600
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T21:21:29",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-27T21:45:52",
+    "status": 230,
+    "sunrise": "2020-04-27T04:37:23",
+    "sunset": "2020-04-27T19:18:26"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2600
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T22:11:45",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2600
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T23:02:01",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2600
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-27T23:52:18",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-28T00:00:32",
+    "status": 100,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2600
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T00:42:33",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T01:32:48",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-28T02:06:22",
+    "status": 110,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T02:23:03",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-28T03:07:32",
+    "status": 120,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T03:13:20",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-28T03:57:02",
+    "status": 130,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T04:03:35",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-28T04:27:02",
+    "status": 130,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-28T04:35:32",
+    "status": 140,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-28T04:39:22",
+    "status": 150,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T04:53:52",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-28T05:05:32",
+    "status": 150,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-28T05:23:02",
+    "status": 160,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T05:44:07",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T06:34:24",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T06:37:49",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T06:38:09",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
