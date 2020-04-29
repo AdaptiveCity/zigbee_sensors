@@ -14,7 +14,7 @@ messages e.g. when a sensor sends data.
 ![PWA screenshot](pwa.png)
 
 PWA (and deconz?) categorizes all Zigbee devices (including the controller)
-as one of 
+as one of
 * Lights
 * Sensors
 * Switches
@@ -133,14 +133,55 @@ Returns
 ```
 
 ### View a sensor status
-With test usage of PWA: startup, select `Sensors`, select `Sensor #2`, 
+With test usage of PWA: startup, select `Sensors`, select `Sensor #2`,
 PWA makes the following calls to the deconz REST API:
 
 ```
 GET /api/<apikey>/config?_=1587834781941
 GET /api/<apikey>/config?_=1587834781942
 GET /api/<apikey>/sensors/new
+{
+  "lastscan":"2020-04-27T10:50:21"
+}
 GET /api/<apikey>/sensors?_=1587834781943
+{
+  "1":{
+    "config":{
+      "configured":true,
+      "on":true,
+      "sunriseoffset":30,
+      "sunsetoffset":-30},
+      "etag":"5e9b2fa6de155930860cc05c38f36e03",
+      "manufacturername":"Philips",
+      "modelid":"PHDL00",
+      "name":"Daylight",
+      "state":{
+        "dark":false,
+        "daylight":true,
+        "lastupdated":"2020-04-29T05:21:12",
+        "status":160,"sunrise":"2020-04-29T04:33:27",
+        "sunset":"2020-04-29T19:21:51"},
+      "swversion":"1.0",
+      "type":"Daylight",
+      "uniqueid":"00:21:2e:ff:ff:05:03:60-01"},
+    "2":{
+      "config":{
+        "battery":100,
+        "on":true,
+        "reachable":true,
+        "temperature":2300},
+      "ep":1,
+      "etag":"1f977b1040530dd874c19af7e42a250b",
+      "manufacturername":"LUMI",
+      "modelid":"lumi.sensor_magnet.aq2",
+      "name":"aqa-wd-5c91b3",
+      "state":{
+        "lastupdated":"2020-04-29T08:52:44",
+        "open":false},
+      "swversion":"20161128",
+      "type":"ZHAOpenClose",
+      "uniqueid":"00:15:8d:00:04:5c:91:b3-01-0006"}
+}
 GET /api/<apikey>/sensors?_=1587834781944
 ws://<hostaddress>:443/
 GET /api/<apikey>/sensors/new?_=1587834781945
@@ -245,7 +286,7 @@ Then websocket receives:
     "lastscan": "active"
 }
 "GET","/api/<apikey>/lights?_=1587984654808"
-{ 
+{
     "mimeType": "application/json",
     "text": {
         "1":{
@@ -276,7 +317,7 @@ Then websocket receives:
             "uniqueid":"00:0d:6f:ff:fe:53:c1:fa-01"}
         }
 }
-    
+
 "PUT","/api/<apikey>/config"
 {
       "mimeType": "application/json",
@@ -676,7 +717,7 @@ Responds:
       "size": 3249,
       "mimeType": "application/json",
       "compression": 0,
-      "text": 
+      "text":
       {
     "UTC":"2020-04-25T17:12:52",
     "announceinterval":45,
