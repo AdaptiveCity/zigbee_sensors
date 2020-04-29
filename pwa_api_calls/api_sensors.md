@@ -1,0 +1,88 @@
+# /api/<apikey>/sensors
+
+API response after added Aqara Motion Sensor aqa-mot-6657d3
+
+Note that this sensor node has **two** entries in the `sensors` response, both
+with the same `name` property.
+
+```
+{
+  "1":{
+    "config":{
+      "configured":true,
+      "on":true,
+      "sunriseoffset":30,
+      "sunsetoffset":-30},
+    "etag":"8bd046b9a5340839b658ed2696c1ea34",
+    "manufacturername":"Philips",
+    "modelid":"PHDL00",
+    "name":"Daylight",
+    "state":{
+      "dark":false,
+      "daylight":true,
+      "lastupdated":"2020-04-29T10:25:06",
+      "status":160,
+      "sunrise":"2020-04-29T04:33:27",
+      "sunset":"2020-04-29T19:21:51"},
+    "swversion":"1.0",
+    "type":"Daylight",
+    "uniqueid":"00:21:2e:ff:ff:05:03:60-01"},
+  "2":{
+    "config":{
+      "battery":100,
+      "on":true,
+      "reachable":true,
+      "temperature":2500},
+    "ep":1,
+    "etag":"87355e3adaead72213862997bb887112",
+    "manufacturername":"LUMI",
+    "modelid":"lumi.sensor_magnet.aq2",
+    "name":"aqa-wd-5c91b3",
+    "state":{
+      "lastupdated":"2020-04-29T10:26:56",
+      "open":true},
+    "swversion":"20161128",
+    "type":"ZHAOpenClose",
+    "uniqueid":"00:15:8d:00:04:5c:91:b3-01-0006"},
+  "3":{
+    "config":{
+      "battery":100,
+      "on":true,
+      "reachable":true,
+      "temperature":2400,
+      "tholddark":12000,
+      "tholdoffset":7000},
+    "ep":1,
+    "etag":"a7fd2d22656e4696b3a26086f3bacc62",
+    "manufacturername":"LUMI",
+    "modelid":"lumi.sensor_motion.aq2",
+    "name":"aqa-mot-6657d3",
+    "state":{
+      "dark":false,
+      "daylight":true,
+      "lastupdated":"2020-04-29T10:42:48",
+      "lightlevel":21336,
+      "lux":136},
+    "swversion":"20170627",
+    "type":"ZHALightLevel",
+    "uniqueid":"00:15:8d:00:04:66:57:d3-01-0400"},
+  "4":{
+    "config":{
+      "battery":100,
+      "duration":90,
+      "on":true,
+      "reachable":true,
+      "temperature":2400},
+    "ep":1,
+    "etag":"a7fd2d22656e4696b3a26086f3bacc62",
+    "manufacturername":"LUMI",
+    "modelid":"lumi.sensor_motion.aq2",
+    "name":"aqa-mot-6657d3",
+    "state":{
+      "lastupdated":"2020-04-29T10:42:48",
+      "presence":true},
+    "swversion":"20170627",
+    "type":"ZHAPresence",
+    "uniqueid":"00:15:8d:00:04:66:57:d3-01-0406"}
+  }
+  ```

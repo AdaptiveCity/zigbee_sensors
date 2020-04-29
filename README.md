@@ -1,6 +1,6 @@
 # Conbee II deconz API and websocket access
 
-This is an effort to connect Zigbee sensors to the Adaptive City platform. 
+This is an effort to connect Zigbee sensors to the Adaptive City platform.
 
 A particular challenge is the
 usual tight integration between Zigbee networking and the 'application layer', i.e. all software
@@ -14,7 +14,7 @@ The work-in-progress tracing the `deCONZ REST API` calls is in [PWA API Calls](p
 Below is an architectural diagram of how the Adaptive City components will combine
 to support Zigbee sensors.
 
-![ACP Zigbee Support](images/acp_zigbee_support.png)
+![ACP Zigbee Support](images/deconz2mqtt.png)
 
 ## Decoders
 
@@ -22,7 +22,7 @@ See `acp_decoders` in [acp_local_mqtt](https://github.com/AdaptiveCity/acp_local
 
 There are two particular reasons decoders are necessary in our system:
 
-1. We want consistent reference to sensor identifiers and timestamps. Each sensor manufacturer 
+1. We want consistent reference to sensor identifiers and timestamps. Each sensor manufacturer
 (and zigbee controller software) uses its own way of recording an identifier for the
 sensor and the timestamp of the reading.
 

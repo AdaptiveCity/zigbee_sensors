@@ -18,7 +18,7 @@ from gmqtt.mqtt.constants import MQTTv311
 # gmqtt compatible with uvloop
 import uvloop
 
-DEBUG = False
+DEBUG = True
 
 #import logging
 #logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(message)s')
@@ -26,18 +26,18 @@ DEBUG = False
 
 ##################################################################
 ##################################################################
-# WS2MQTT
+# Deconz2mqtt
 ##################################################################
 ##################################################################
 
-class WS2MQTT():
+class Deconz2mqtt():
 
     ###################
     # Sync class init
     ###################
     def __init__(self):
-        print("WS2MQTT __init__", flush=True)
-        print("{} WS2MQTT started\n".format(self.ts_string()),file=sys.stderr,flush=True)
+        print("Deconz2mqtt __init__", flush=True)
+        print("{} Deconz2mqtt started\n".format(self.ts_string()),file=sys.stderr,flush=True)
 
         self.settings = {}
         self.settings["decoders"] = []
@@ -82,39 +82,43 @@ class WS2MQTT():
         else:
             self.protocol_in = "mqtt"
             await self.connect_input_mqtt()
-            
+
     # Connect to input websocket
     async def connect_input_ws(self):
-        #debug still MQTT - add websocket code here
-        #self.input_client = MQTTClient(None) # auto-generate client id
-
-        #self.input_client.on_connect = self.input_on_connect
-        #self.input_client.on_message = self.input_on_message
-        #self.input_client.on_disconnect = self.input_on_disconnect
-        #self.input_client.on_subscribe = self.input_on_subscribe
-
-        #user = self.settings["input_ws"]["user"]
-        #password = self.settings["input_ws"]["password"]
         host = self.settings["input_ws"]["host"]
         port = self.settings["input_ws"]["port"]
 
         uri = "ws://"+host+":"+str(port)
-        
-        #self.input_client.set_auth_credentials(user, password)
 
-        #await self.input_client.connect(host, port, keepalive=20, version=MQTTv311)
+        connected = False
 
         while True:
-            async with websockets.connect(uri) as ws:
-                print("ws2mqtt connected to {}".format(uri),flush=True)
-                while True:
-                    msg = await ws.recv()
-                    if DEBUG:
-                        print("{} ws2mqtt websocket message: {}".format(self.ts_string(),msg))
-                    #debug topic?
-                    self.handle_input_message("zigbee", msg)
-                print("{} ws2mqtt disconnected to {}".format(self.ts_string,uri),flush=True)
-        
+            try:
+                async with websockets.connect(uri) as ws:
+                    connected = True
+                    print("{} Deconz2mqtt connected to {}".format(self.ts_string(),uri),flush=True)
+                    while connected:
+                        try:
+                            if DEBUG:
+                                print("{} Deconz2mqtt awaiting msg from {}".format(self.ts_string(),uri),flush=True)
+                            # Here we await & receive any websocket message
+                            msg = await ws.recv()
+                            if DEBUG:
+                                print("{} Deconz2mqtt msg received from {}: {}".format(self.ts_string(),uri,msg),flush=True)
+                        except websockets.exceptions.ConnectionClosedError:
+                            connected = False
+                            print("{} Deconz2mqtt disconnected from {}".format(self.ts_string(),uri),flush=True)
+                        if DEBUG and connected:
+                            print("{} Deconz2mqtt websocket message: {}".format(self.ts_string(),msg),flush=True)
+                            #debug topic?
+                            self.handle_input_message("zigbee", msg)
+                    print("{} Deconz2mqtt websocket read loop ended".format(self.ts_string()),flush=True)
+            except ConnectionRefusedError:
+                    print("{} Deconz2mqtt websocket connection refused from {}".format(self.ts_string(),uri),flush=True)
+                    await asyncio.sleep(2) # sleep 2 seconds and retry
+
+        print("{} Deconz2mqtt websocket connect loop ended".format(self.ts_string()),flush=True)
+
     # Connect to input MQTT broker
     async def connect_input_mqtt(self):
         self.input_client = MQTTClient(None) # auto-generate client id
@@ -296,7 +300,7 @@ class WS2MQTT():
 
     async def finish(self):
         await self.STOP.wait()
-        print("\n{} WS2MQTT interrupted - disconnecting\n".format(self.ts_string()),file=sys.stderr,flush=True)
+        print("\n{} Deconz2mqtt interrupted - disconnecting\n".format(self.ts_string()),file=sys.stderr,flush=True)
         if self.protocol_in == "mqtt":
             await self.input_client.disconnect()
         await self.output_client.disconnect()
@@ -307,8 +311,8 @@ class WS2MQTT():
 ###################################################################
 async def async_main():
 
-    # Instantiate a WS2MQTT
-    decoder_manager = WS2MQTT()
+    # Instantiate a Deconz2mqtt
+    decoder_manager = Deconz2mqtt()
 
     # Add signal handlers for EXIT and RELOAD
     loop = asyncio.get_event_loop()
@@ -332,6 +336,3 @@ if __name__ == '__main__':
     loop = asyncio.get_event_loop()
 
     loop.run_until_complete(async_main())
-
-
-
