@@ -1,4 +1,4 @@
-# /api/<apikey>/sensors
+# `/api/<apikey>/sensors`
 
 API response after added Aqara Motion Sensor aqa-mot-6657d3
 
