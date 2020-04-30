@@ -1,0 +1,10184 @@
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T15:02:08",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T15:05:29",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T15:13:53",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T15:13:53",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2800
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T16:04:09",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2800
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T16:54:14",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2700
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T17:44:28",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-28T18:32:42",
+    "status": 180,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2700
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T18:34:44",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-28T18:50:12",
+    "status": 180,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-28T19:16:22",
+    "status": 190,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-28T19:20:12",
+    "status": 200,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2600
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T19:25:01",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-28T19:28:42",
+    "status": 200,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-28T19:58:42",
+    "status": 210,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2600
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T20:15:15",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-28T20:48:12",
+    "status": 220,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T21:05:32",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-28T21:49:22",
+    "status": 230,
+    "sunrise": "2020-04-28T04:35:24",
+    "sunset": "2020-04-28T19:20:09"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T21:55:47",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T22:45:53",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-28T23:36:11",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T00:00:32",
+    "status": 100,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T00:26:27",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T01:16:34",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T02:02:42",
+    "status": 110,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T02:06:51",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T02:57:10",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T03:04:52",
+    "status": 120,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T03:47:26",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T03:54:52",
+    "status": 130,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T04:24:52",
+    "status": 130,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T04:33:32",
+    "status": 140,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T04:37:22",
+    "status": 150,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T04:37:43",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T05:03:32",
+    "status": 150,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T05:21:12",
+    "status": 160,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T05:27:59",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T06:18:17",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T07:08:35",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T07:58:55",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T08:43:01",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T08:43:01",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T08:43:01",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T08:43:01",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T08:52:43",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T08:52:44",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T09:43:01",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T09:56:34",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T09:56:36",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T09:57:54",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T09:57:56",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "65520",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:09:07",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:09:11",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:10:59",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:11:01",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:15:20",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "65520",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:19:53",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "65520",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:23:16",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "65520",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "groups",
+  "state": {
+    "all_on": false,
+    "any_on": true
+  },
+  "t": "event"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:26:45",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:26:56",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "name": "dresden-conbee2-050360",
+  "r": "lights",
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "added",
+  "id": "3",
+  "r": "sensors",
+  "sensor": {
+    "config": {
+      "battery": 100,
+      "on": true,
+      "reachable": true,
+      "temperature": 2400,
+      "tholddark": 12000,
+      "tholdoffset": 7000
+    },
+    "ep": 1,
+    "etag": "42b55c52b596c5b7e309d15dc5b3c128",
+    "id": "3",
+    "manufacturername": "LUMI",
+    "modelid": "lumi.sensor_motion.aq2",
+    "name": "LightLevel_3",
+    "state": {
+      "dark": false,
+      "daylight": false,
+      "lastupdated": "2020-04-29T10:33:56",
+      "lightlevel": 12788,
+      "lux": 19
+    },
+    "type": "ZHALightLevel",
+    "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:33:56",
+    "lightlevel": 12788,
+    "lux": 19
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "name": "Motion_Sensor",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:34:04",
+    "lightlevel": 21761,
+    "lux": 150
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "added",
+  "id": "4",
+  "r": "sensors",
+  "sensor": {
+    "config": {
+      "battery": 100,
+      "duration": 90,
+      "on": true,
+      "reachable": true,
+      "temperature": 2400
+    },
+    "ep": 1,
+    "etag": "c41a2fb7f2f1184835cf29ed523a7184",
+    "id": "4",
+    "manufacturername": "LUMI",
+    "modelid": "lumi.sensor_motion.aq2",
+    "name": "Presence_4",
+    "state": {
+      "lastupdated": "2020-04-29T10:34:04",
+      "presence": true
+    },
+    "type": "ZHAPresence",
+    "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:34:04",
+    "lightlevel": 21173,
+    "lux": 131
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:34:04",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:34:16",
+    "lightlevel": 22228,
+    "lux": 167
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:34:16",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:34:22",
+    "lightlevel": 22577,
+    "lux": 181
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:34:22",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:34:34",
+    "lightlevel": 15315,
+    "lux": 34
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:34:34",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:34:47",
+    "lightlevel": 16435,
+    "lux": 44
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:34:47",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:34:53",
+    "lightlevel": 21847,
+    "lux": 153
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:34:53",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:34:59",
+    "lightlevel": 22014,
+    "lux": 159
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:35:01",
+    "lightlevel": 22042,
+    "lux": 160
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:35:03",
+    "lightlevel": 22069,
+    "lux": 161
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:35:05",
+    "lightlevel": 22069,
+    "lux": 161
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:35:05",
+    "lightlevel": 20970,
+    "lux": 125
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:35:05",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:35:11",
+    "lightlevel": 16128,
+    "lux": 41
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:35:11",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:35:17",
+    "lightlevel": 16533,
+    "lux": 45
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:35:17",
+    "lightlevel": 15911,
+    "lux": 39
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:35:17",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:35:22",
+    "lightlevel": 18865,
+    "lux": 77
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:35:22",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:35:28",
+    "lightlevel": 13618,
+    "lux": 23
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:35:28",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:35:33",
+    "lightlevel": 16813,
+    "lux": 48
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:35:33",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:35:38",
+    "lightlevel": 18751,
+    "lux": 75
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:35:38",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:35:44",
+    "lightlevel": 19494,
+    "lux": 89
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:35:44",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:35:49",
+    "lightlevel": 17404,
+    "lux": 55
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:35:49",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:35:54",
+    "lightlevel": 16628,
+    "lux": 46
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:35:54",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:02",
+    "lightlevel": 13618,
+    "lux": 23
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:02",
+    "lightlevel": 14150,
+    "lux": 26
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:36:02",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:09",
+    "lightlevel": 17324,
+    "lux": 54
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:36:09",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:14",
+    "lightlevel": 17324,
+    "lux": 54
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:36:14",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:20",
+    "lightlevel": 18921,
+    "lux": 78
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:22",
+    "lightlevel": 18977,
+    "lux": 79
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:24",
+    "lightlevel": 18751,
+    "lux": 75
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:26",
+    "lightlevel": 18977,
+    "lux": 79
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:29",
+    "lightlevel": 18693,
+    "lux": 74
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:29",
+    "lightlevel": 18389,
+    "lux": 69
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:36:29",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:36",
+    "lightlevel": 18865,
+    "lux": 77
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T10:36:38",
+    "lightlevel": 18921,
+    "lux": 78
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:36:38",
+    "lightlevel": 19868,
+    "lux": 97
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:36:38",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:36:44",
+    "lightlevel": 19591,
+    "lux": 91
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:36:44",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:36:50",
+    "lightlevel": 20531,
+    "lux": 113
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:36:50",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:36:55",
+    "lightlevel": 22069,
+    "lux": 161
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:36:55",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:00",
+    "lightlevel": 20294,
+    "lux": 107
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:37:00",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:06",
+    "lightlevel": 21336,
+    "lux": 136
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:37:06",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:13",
+    "lightlevel": 21462,
+    "lux": 140
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:37:13",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:19",
+    "lightlevel": 21732,
+    "lux": 149
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:19",
+    "lightlevel": 21703,
+    "lux": 148
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:37:19",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:24",
+    "lightlevel": 21584,
+    "lux": 144
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:37:24",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:30",
+    "lightlevel": 21614,
+    "lux": 145
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:37:30",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:35",
+    "lightlevel": 21272,
+    "lux": 134
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:37:35",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:41",
+    "lightlevel": 21140,
+    "lux": 130
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:37:41",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:46",
+    "lightlevel": 21004,
+    "lux": 126
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:37:46",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:51",
+    "lightlevel": 20970,
+    "lux": 125
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:37:51",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:37:57",
+    "lightlevel": 21493,
+    "lux": 141
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:37:57",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:02",
+    "lightlevel": 21272,
+    "lux": 134
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:38:02",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:10",
+    "lightlevel": 21399,
+    "lux": 138
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:12",
+    "lightlevel": 21399,
+    "lux": 138
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:14",
+    "lightlevel": 21399,
+    "lux": 138
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:14",
+    "lightlevel": 21399,
+    "lux": 138
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:38:14",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:21",
+    "lightlevel": 21336,
+    "lux": 136
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:23",
+    "lightlevel": 21336,
+    "lux": 136
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:25",
+    "lightlevel": 21336,
+    "lux": 136
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:27",
+    "lightlevel": 21368,
+    "lux": 137
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:29",
+    "lightlevel": 21368,
+    "lux": 137
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:31",
+    "lightlevel": 21368,
+    "lux": 137
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:33",
+    "lightlevel": 21368,
+    "lux": 137
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:35",
+    "lightlevel": 21368,
+    "lux": 137
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:37",
+    "lightlevel": 21336,
+    "lux": 136
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:39",
+    "lightlevel": 21336,
+    "lux": 136
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:41",
+    "lightlevel": 21336,
+    "lux": 136
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:43",
+    "lightlevel": 21368,
+    "lux": 137
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:45",
+    "lightlevel": 21336,
+    "lux": 136
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:38:51",
+    "lightlevel": 21368,
+    "lux": 137
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:38:51",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:39:35",
+    "lightlevel": 20970,
+    "lux": 125
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:39:35",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:39:40",
+    "lightlevel": 20970,
+    "lux": 125
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:39:40",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:39:46",
+    "lightlevel": 20970,
+    "lux": 125
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:39:46",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "name": "aqa-mot-6657d3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "name": "aqa-mot-6657d3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:39:51",
+    "lightlevel": 21106,
+    "lux": 129
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:39:51",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:40:01",
+    "lightlevel": 21073,
+    "lux": 128
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:40:01",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:41:07",
+    "lightlevel": 21462,
+    "lux": 140
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:41:07",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:41:13",
+    "lightlevel": 21304,
+    "lux": 135
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:41:13",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:41:21",
+    "lightlevel": 21336,
+    "lux": 136
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:41:21",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:41:31",
+    "lightlevel": 21399,
+    "lux": 138
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:41:31",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:42:13",
+    "lightlevel": 21584,
+    "lux": 144
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:42:13",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:42:42",
+    "lightlevel": 21523,
+    "lux": 142
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:42:42",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:42:48",
+    "lightlevel": 21336,
+    "lux": 136
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:42:48",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:42:53",
+    "lightlevel": 21554,
+    "lux": 143
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:42:53",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:42:58",
+    "lightlevel": 21523,
+    "lux": 142
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:42:58",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:43:18",
+    "lightlevel": 21554,
+    "lux": 143
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:43:18",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:43:24",
+    "lightlevel": 21368,
+    "lux": 137
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:43:24",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:43:30",
+    "lightlevel": 21399,
+    "lux": 138
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:43:30",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:43:36",
+    "lightlevel": 21368,
+    "lux": 137
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:43:36",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:43:41",
+    "lightlevel": 21584,
+    "lux": 144
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:43:41",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:43:47",
+    "lightlevel": 21431,
+    "lux": 139
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:43:47",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:43:52",
+    "lightlevel": 21462,
+    "lux": 140
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:43:52",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:43:59",
+    "lightlevel": 21462,
+    "lux": 140
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:43:59",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:44:14",
+    "lightlevel": 21554,
+    "lux": 143
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:44:14",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:44:42",
+    "lightlevel": 21761,
+    "lux": 150
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:44:42",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:44:51",
+    "lightlevel": 22122,
+    "lux": 163
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:44:51",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:44:58",
+    "lightlevel": 21932,
+    "lux": 156
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:44:58",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:45:39",
+    "lightlevel": 22719,
+    "lux": 187
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:45:39",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:45:47",
+    "lightlevel": 22480,
+    "lux": 177
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:45:47",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:47:04",
+    "lightlevel": 22175,
+    "lux": 165
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:47:04",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:47:29",
+    "lightlevel": 21614,
+    "lux": 145
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:47:29",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:47:38",
+    "lightlevel": 21004,
+    "lux": 126
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:47:38",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:47:54",
+    "lightlevel": 20792,
+    "lux": 120
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:47:54",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:48:00",
+    "lightlevel": 20792,
+    "lux": 120
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:48:00",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:48:06",
+    "lightlevel": 21140,
+    "lux": 130
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:48:06",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:48:11",
+    "lightlevel": 21554,
+    "lux": 143
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:48:11",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:48:17",
+    "lightlevel": 22122,
+    "lux": 163
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:48:17",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:48:22",
+    "lightlevel": 22381,
+    "lux": 173
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:48:22",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:48:27",
+    "lightlevel": 22254,
+    "lux": 168
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:48:27",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:48:34",
+    "lightlevel": 22175,
+    "lux": 165
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:48:34",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:48:52",
+    "lightlevel": 22330,
+    "lux": 171
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:48:52",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:48:57",
+    "lightlevel": 22406,
+    "lux": 174
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:48:57",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:49:03",
+    "lightlevel": 22149,
+    "lux": 164
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:49:03",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:49:10",
+    "lightlevel": 22069,
+    "lux": 161
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:49:10",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:49:16",
+    "lightlevel": 22175,
+    "lux": 165
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:49:16",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:49:21",
+    "lightlevel": 22122,
+    "lux": 163
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:49:21",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:49:27",
+    "lightlevel": 22122,
+    "lux": 163
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:49:27",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:49:33",
+    "lightlevel": 21987,
+    "lux": 158
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:49:33",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:49:41",
+    "lightlevel": 21819,
+    "lux": 152
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:49:41",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:49:46",
+    "lightlevel": 21272,
+    "lux": 134
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:49:46",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:49:52",
+    "lightlevel": 20719,
+    "lux": 118
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:49:52",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T10:49:58",
+    "lightlevel": 21073,
+    "lux": 128
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:49:58",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T10:51:28",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T11:17:12",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T11:53:22",
+    "lightlevel": 21336,
+    "lux": 136
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T11:53:22",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T11:54:30",
+    "lightlevel": 22042,
+    "lux": 160
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T11:54:30",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T11:55:31",
+    "lightlevel": 21761,
+    "lux": 150
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T11:55:31",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T11:57:01",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T11:57:46",
+    "status": 170,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T11:58:37",
+    "lightlevel": 21039,
+    "lux": 127
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T11:58:37",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T11:59:46",
+    "lightlevel": 20493,
+    "lux": 112
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T11:59:46",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T12:00:49",
+    "lightlevel": 20493,
+    "lux": 112
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:00:49",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T12:01:54",
+    "lightlevel": 19396,
+    "lux": 87
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:01:54",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:03:24",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:03:27",
+    "lightlevel": 18865,
+    "lux": 77
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:03:27",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:04:30",
+    "lightlevel": 18693,
+    "lux": 74
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:04:30",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:06:00",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:06:55",
+    "lightlevel": 18062,
+    "lux": 64
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:06:55",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:07:30",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:07:55",
+    "lightlevel": 18693,
+    "lux": 74
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:07:55",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:09:25",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:31:29",
+    "lightlevel": 14914,
+    "lux": 31
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:31:29",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:32:33",
+    "lightlevel": 14914,
+    "lux": 31
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:32:33",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:33:39",
+    "lightlevel": 15052,
+    "lux": 32
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:33:39",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:34:50",
+    "lightlevel": 14772,
+    "lux": 30
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:34:50",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:35:51",
+    "lightlevel": 15052,
+    "lux": 32
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:35:51",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:36:06",
+    "lightlevel": 15186,
+    "lux": 33
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:36:06",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:37:36",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:38:08",
+    "lightlevel": 16128,
+    "lux": 41
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:38:08",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:39:08",
+    "lightlevel": 16902,
+    "lux": 49
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:39:08",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:40:09",
+    "lightlevel": 17635,
+    "lux": 58
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:40:09",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:41:39",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:41:45",
+    "lightlevel": 18451,
+    "lux": 70
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:41:45",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:42:59",
+    "lightlevel": 18693,
+    "lux": 74
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:42:59",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:43:59",
+    "lightlevel": 17994,
+    "lux": 63
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:43:59",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:45:07",
+    "lightlevel": 18326,
+    "lux": 68
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:45:07",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:46:21",
+    "lightlevel": 18693,
+    "lux": 74
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:46:21",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:47:26",
+    "lightlevel": 18809,
+    "lux": 76
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:47:26",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:48:28",
+    "lightlevel": 18921,
+    "lux": 78
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:48:28",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:49:29",
+    "lightlevel": 18977,
+    "lux": 79
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:49:29",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:51:00",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:51:10",
+    "lightlevel": 18634,
+    "lux": 73
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:51:10",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:52:12",
+    "lightlevel": 18451,
+    "lux": 70
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:52:12",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:53:14",
+    "lightlevel": 17924,
+    "lux": 62
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:53:14",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:54:15",
+    "lightlevel": 17243,
+    "lux": 53
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:54:15",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:55:28",
+    "lightlevel": 16902,
+    "lux": 49
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:55:28",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:56:58",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:57:37",
+    "lightlevel": 18389,
+    "lux": 69
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:57:37",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:57:47",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T12:58:38",
+    "lightlevel": 18809,
+    "lux": 76
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T12:58:38",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:00:09",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:00:23",
+    "lightlevel": 18809,
+    "lux": 76
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:00:23",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:01:30",
+    "lightlevel": 18196,
+    "lux": 66
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:01:30",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:02:31",
+    "lightlevel": 17994,
+    "lux": 63
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:02:31",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:03:32",
+    "lightlevel": 19085,
+    "lux": 81
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:03:32",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:04:32",
+    "lightlevel": 19638,
+    "lux": 92
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:04:32",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:06:02",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:06:47",
+    "lightlevel": 20570,
+    "lux": 114
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:06:47",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:07:51",
+    "lightlevel": 20414,
+    "lux": 110
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:07:51",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:09:06",
+    "lightlevel": 20493,
+    "lux": 112
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:09:06",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:10:06",
+    "lightlevel": 19913,
+    "lux": 98
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:10:07",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:11:23",
+    "lightlevel": 17404,
+    "lux": 55
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:11:23",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:12:53",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:13:08",
+    "lightlevel": 16335,
+    "lux": 43
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:13:08",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:14:38",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:17:16",
+    "lightlevel": 16435,
+    "lux": 44
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:17:16",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:18:16",
+    "lightlevel": 19085,
+    "lux": 81
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:18:16",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:19:46",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:21:53",
+    "lightlevel": 18977,
+    "lux": 79
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:21:53",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:22:53",
+    "lightlevel": 18809,
+    "lux": 76
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:22:53",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:23:54",
+    "lightlevel": 18809,
+    "lux": 76
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:23:54",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:24:55",
+    "lightlevel": 18865,
+    "lux": 77
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:24:55",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:25:56",
+    "lightlevel": 18865,
+    "lux": 77
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:25:56",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:26:57",
+    "lightlevel": 18634,
+    "lux": 73
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:26:57",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:28:21",
+    "lightlevel": 18693,
+    "lux": 74
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:28:21",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:29:29",
+    "lightlevel": 18751,
+    "lux": 75
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:29:29",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:29:32",
+    "lightlevel": 18451,
+    "lux": 70
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:29:32",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:30:45",
+    "lightlevel": 18574,
+    "lux": 72
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:30:45",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:31:58",
+    "lightlevel": 18634,
+    "lux": 73
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:31:58",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:33:28",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:33:59",
+    "lightlevel": 18451,
+    "lux": 70
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:33:59",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:35:11",
+    "lightlevel": 18574,
+    "lux": 72
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:35:11",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:36:15",
+    "lightlevel": 18513,
+    "lux": 71
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:36:15",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:37:45",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:38:19",
+    "lightlevel": 19345,
+    "lux": 86
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:38:19",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:39:49",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:39:56",
+    "lightlevel": 18977,
+    "lux": 79
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:39:56",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:40:59",
+    "lightlevel": 18634,
+    "lux": 73
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:40:59",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:42:05",
+    "lightlevel": 18389,
+    "lux": 69
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:42:05",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:43:35",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:43:45",
+    "lightlevel": 18865,
+    "lux": 77
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:43:45",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:45:02",
+    "lightlevel": 17782,
+    "lux": 60
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:45:02",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:46:04",
+    "lightlevel": 18809,
+    "lux": 76
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:46:04",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:47:09",
+    "lightlevel": 18513,
+    "lux": 71
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:47:09",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:48:04",
+    "open": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:48:39",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T13:49:10",
+    "lightlevel": 18809,
+    "lux": 76
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:49:10",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:49:37",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:50:11",
+    "lightlevel": 19191,
+    "lux": 83
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:50:11",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:51:42",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:52:06",
+    "lightlevel": 19295,
+    "lux": 85
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:52:06",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:53:36",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:53:54",
+    "lightlevel": 19638,
+    "lux": 92
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:53:54",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:55:24",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T13:57:17",
+    "lightlevel": 19823,
+    "lux": 96
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:57:17",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T13:58:47",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T14:02:53",
+    "lightlevel": 19732,
+    "lux": 94
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:02:53",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:04:24",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T14:05:43",
+    "lightlevel": 19139,
+    "lux": 82
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:05:43",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T14:06:46",
+    "lightlevel": 19345,
+    "lux": 86
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:06:46",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T14:08:10",
+    "lightlevel": 19295,
+    "lux": 85
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:08:10",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T14:09:14",
+    "lightlevel": 19139,
+    "lux": 82
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:09:14",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:10:16",
+    "lightlevel": 18977,
+    "lux": 79
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:10:16",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:11:46",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:13:20",
+    "lightlevel": 18513,
+    "lux": 71
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:13:20",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:14:26",
+    "lightlevel": 18389,
+    "lux": 69
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:14:26",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:15:56",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:15:59",
+    "lightlevel": 17994,
+    "lux": 63
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:15:59",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:17:08",
+    "lightlevel": 17709,
+    "lux": 59
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:17:08",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:18:09",
+    "lightlevel": 16990,
+    "lux": 50
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:18:09",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:19:16",
+    "lightlevel": 17635,
+    "lux": 58
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:19:16",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:20:46",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:20:57",
+    "lightlevel": 17404,
+    "lux": 55
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:20:57",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:22:20",
+    "lightlevel": 17324,
+    "lux": 54
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:22:20",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:22:27",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:22:36",
+    "lightlevel": 17243,
+    "lux": 53
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:22:36",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:23:36",
+    "lightlevel": 16902,
+    "lux": 49
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:23:37",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:25:07",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:26:19",
+    "lightlevel": 18574,
+    "lux": 72
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:26:19",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:27:19",
+    "lightlevel": 18865,
+    "lux": 77
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:27:19",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:28:24",
+    "lightlevel": 18921,
+    "lux": 78
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:28:24",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:29:26",
+    "lightlevel": 18513,
+    "lux": 71
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:29:26",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:30:56",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:30:58",
+    "lightlevel": 18196,
+    "lux": 66
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:30:58",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:32:29",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:32:44",
+    "lightlevel": 17854,
+    "lux": 61
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:32:44",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:34:14",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:34:22",
+    "lightlevel": 17854,
+    "lux": 61
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:34:22",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:35:52",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:36:27",
+    "lightlevel": 17161,
+    "lux": 52
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:36:27",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:37:57",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:39:09",
+    "lightlevel": 16533,
+    "lux": 45
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:39:09",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:39:51",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:40:14",
+    "lightlevel": 16533,
+    "lux": 45
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:40:14",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:41:27",
+    "lightlevel": 16435,
+    "lux": 44
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:41:27",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:42:28",
+    "lightlevel": 15798,
+    "lux": 38
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:42:28",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:43:33",
+    "lightlevel": 15564,
+    "lux": 36
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:43:34",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:44:47",
+    "lightlevel": 15186,
+    "lux": 33
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:44:47",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:45:55",
+    "lightlevel": 14914,
+    "lux": 31
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:45:55",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:47:25",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:47:36",
+    "lightlevel": 15315,
+    "lux": 34
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:47:36",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:49:06",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:51:11",
+    "lightlevel": 15798,
+    "lux": 38
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:51:11",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:52:40",
+    "lightlevel": 16990,
+    "lux": 50
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:52:40",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:53:40",
+    "lightlevel": 16902,
+    "lux": 49
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:53:40",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:54:44",
+    "lightlevel": 15798,
+    "lux": 38
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:54:44",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:56:14",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:56:15",
+    "lightlevel": 16721,
+    "lux": 47
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:56:15",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:57:19",
+    "lightlevel": 16128,
+    "lux": 41
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:57:19",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:58:32",
+    "lightlevel": 16721,
+    "lux": 47
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:58:32",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T14:59:40",
+    "lightlevel": 16021,
+    "lux": 40
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T14:59:40",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:00:45",
+    "lightlevel": 16128,
+    "lux": 41
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:00:45",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:02:15",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:02:23",
+    "lightlevel": 15798,
+    "lux": 38
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:02:23",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:03:42",
+    "lightlevel": 16435,
+    "lux": 44
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:03:42",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:04:42",
+    "lightlevel": 16335,
+    "lux": 43
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:04:42",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:06:01",
+    "lightlevel": 15798,
+    "lux": 38
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:06:01",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:07:02",
+    "lightlevel": 17404,
+    "lux": 55
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:07:02",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:08:32",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:08:39",
+    "lightlevel": 17782,
+    "lux": 60
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:08:39",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:09:44",
+    "lightlevel": 16533,
+    "lux": 45
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:09:44",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:11:14",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:12:53",
+    "lightlevel": 15564,
+    "lux": 36
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:12:53",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:14:23",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:14:52",
+    "lightlevel": 16435,
+    "lux": 44
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:14:52",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:15:56",
+    "lightlevel": 17076,
+    "lux": 51
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:15:56",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:16:01",
+    "lightlevel": 17161,
+    "lux": 52
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:16:01",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:17:02",
+    "lightlevel": 16628,
+    "lux": 46
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:17:02",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:18:20",
+    "lightlevel": 16435,
+    "lux": 44
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:18:20",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:19:22",
+    "lightlevel": 15186,
+    "lux": 33
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:19:22",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:20:27",
+    "lightlevel": 14914,
+    "lux": 31
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:20:27",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:21:28",
+    "lightlevel": 16628,
+    "lux": 46
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:21:28",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:22:58",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:23:33",
+    "lightlevel": 16435,
+    "lux": 44
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:23:33",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:24:43",
+    "lightlevel": 16128,
+    "lux": 41
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:24:43",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:25:44",
+    "lightlevel": 15441,
+    "lux": 35
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:25:44",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:27:15",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:27:35",
+    "lightlevel": 15186,
+    "lux": 33
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:27:35",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T15:28:59",
+    "lightlevel": 14914,
+    "lux": 31
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:28:59",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2600
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:30:07",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T15:30:29",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T16:10:41",
+    "lightlevel": 16533,
+    "lux": 45
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T16:10:41",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T16:20:23",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T17:05:44",
+    "lightlevel": 20531,
+    "lux": 113
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T17:05:44",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T17:10:38",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T18:00:43",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T18:00:46",
+    "lightlevel": 17076,
+    "lux": 51
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T18:00:46",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-29T18:34:16",
+    "status": 180,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2500
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T18:51:01",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T18:51:56",
+    "status": 180,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T18:55:49",
+    "lightlevel": 8451,
+    "lux": 7
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T18:55:49",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T19:18:06",
+    "status": 190,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T19:21:56",
+    "status": 200,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-29T19:22:29",
+    "lightlevel": 14914,
+    "lux": 31
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T19:22:29",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T19:24:00",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T19:30:36",
+    "status": 200,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T19:41:17",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T19:47:33",
+    "lightlevel": 9031,
+    "lux": 8
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T19:47:33",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T20:00:36",
+    "status": 210,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T20:31:34",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T20:42:35",
+    "lightlevel": 9031,
+    "lux": 8
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T20:42:35",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T20:50:36",
+    "status": 220,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T21:21:51",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T21:37:36",
+    "lightlevel": 9031,
+    "lux": 8
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T21:37:36",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T21:52:46",
+    "status": 230,
+    "sunrise": "2020-04-29T04:33:27",
+    "sunset": "2020-04-29T19:21:51"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T22:12:07",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T22:32:38",
+    "lightlevel": 9031,
+    "lux": 8
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T22:32:38",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T23:02:26",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-29T23:27:41",
+    "lightlevel": 9031,
+    "lux": 8
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T23:27:41",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-29T23:52:44",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-30T00:00:36",
+    "status": 100,
+    "sunrise": "2020-04-30T04:31:30",
+    "sunset": "2020-04-30T19:23:33"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-30T00:22:40",
+    "lightlevel": 9031,
+    "lux": 8
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T00:22:40",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2400
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T00:43:04",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-30T01:17:42",
+    "lightlevel": 9031,
+    "lux": 8
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T01:17:42",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T01:33:22",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-30T01:58:56",
+    "status": 110,
+    "sunrise": "2020-04-30T04:31:30",
+    "sunset": "2020-04-30T19:23:33"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-30T02:12:45",
+    "lightlevel": 9031,
+    "lux": 8
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T02:12:45",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T02:23:40",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-30T03:02:16",
+    "status": 120,
+    "sunrise": "2020-04-30T04:31:30",
+    "sunset": "2020-04-30T19:23:33"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-30T03:07:46",
+    "lightlevel": 9031,
+    "lux": 8
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T03:07:46",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T03:13:56",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-30T03:52:46",
+    "status": 130,
+    "sunrise": "2020-04-30T04:31:30",
+    "sunset": "2020-04-30T19:23:33"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-30T04:02:46",
+    "lightlevel": 9031,
+    "lux": 8
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T04:02:46",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T04:04:18",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T04:22:46",
+    "status": 130,
+    "sunrise": "2020-04-30T04:31:30",
+    "sunset": "2020-04-30T19:23:33"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T04:31:36",
+    "status": 140,
+    "sunrise": "2020-04-30T04:31:30",
+    "sunset": "2020-04-30T19:23:33"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T04:35:26",
+    "status": 150,
+    "sunrise": "2020-04-30T04:31:30",
+    "sunset": "2020-04-30T19:23:33"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T04:54:35",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2200,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": true,
+    "daylight": false,
+    "lastupdated": "2020-04-30T04:57:47",
+    "lightlevel": 6021,
+    "lux": 4
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2200
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T04:57:47",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-30T05:01:36",
+    "status": 150,
+    "sunrise": "2020-04-30T04:31:30",
+    "sunset": "2020-04-30T19:23:33"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "e": "changed",
+  "id": "1",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-30T05:19:26",
+    "status": 160,
+    "sunrise": "2020-04-30T04:31:30",
+    "sunset": "2020-04-30T19:23:33"
+  },
+  "t": "event",
+  "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T05:44:52",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2200,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T05:52:49",
+    "lightlevel": 14472,
+    "lux": 28
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2200
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T05:52:49",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T06:35:10",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2200,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T06:47:49",
+    "lightlevel": 16628,
+    "lux": 46
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2200
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T06:47:49",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "e": "changed",
+  "id": "2",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:25:29",
+    "open": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:5c:91:b3-01-0006"
+}
+{
+  "config": {
+    "battery": 100,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300,
+    "tholddark": 12000,
+    "tholdoffset": 7000
+  },
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-30T07:42:52",
+    "lightlevel": 20001,
+    "lux": 100
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "config": {
+    "battery": 100,
+    "duration": 90,
+    "on": true,
+    "reachable": true,
+    "temperature": 2300
+  },
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:42:52",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T07:49:09",
+    "lightlevel": 18389,
+    "lux": 69
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:49:09",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T07:50:20",
+    "lightlevel": 16902,
+    "lux": 49
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:50:21",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T07:51:24",
+    "lightlevel": 16902,
+    "lux": 49
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:51:24",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T07:52:32",
+    "lightlevel": 16628,
+    "lux": 46
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:52:32",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:54:02",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": true,
+    "lastupdated": "2020-04-30T07:54:34",
+    "lightlevel": 19345,
+    "lux": 86
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:54:34",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:56:04",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T07:56:37",
+    "lightlevel": 18196,
+    "lux": 66
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:56:37",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T07:57:43",
+    "lightlevel": 18326,
+    "lux": 68
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:57:43",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T07:59:00",
+    "lightlevel": 17782,
+    "lux": 60
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T07:59:00",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T08:00:12",
+    "lightlevel": 17782,
+    "lux": 60
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T08:00:12",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T08:01:42",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T08:02:13",
+    "lightlevel": 18574,
+    "lux": 72
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T08:02:13",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T08:03:19",
+    "lightlevel": 18809,
+    "lux": 76
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T08:03:19",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T08:04:21",
+    "lightlevel": 18634,
+    "lux": 73
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T08:04:21",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T08:05:51",
+    "presence": false
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
+{
+  "e": "changed",
+  "id": "3",
+  "r": "sensors",
+  "state": {
+    "dark": false,
+    "daylight": false,
+    "lastupdated": "2020-04-30T08:05:52",
+    "lightlevel": 18865,
+    "lux": 77
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0400"
+}
+{
+  "e": "changed",
+  "id": "4",
+  "r": "sensors",
+  "state": {
+    "lastupdated": "2020-04-30T08:05:52",
+    "presence": true
+  },
+  "t": "event",
+  "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
+}
