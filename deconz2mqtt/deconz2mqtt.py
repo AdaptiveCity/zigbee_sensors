@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import simplejson as json
 
 import asyncio
@@ -36,7 +34,6 @@ class Deconz2mqtt():
     # Sync class init
     ###################
     def __init__(self):
-        print("Deconz2mqtt __init__", flush=True)
         print("{} Deconz2mqtt started\n".format(self.ts_string()),file=sys.stderr,flush=True)
 
         self.settings = {}
@@ -104,14 +101,12 @@ class Deconz2mqtt():
                             # Here we await & receive any websocket message
                             msg = await ws.recv()
                             if DEBUG:
-                                print("{} Deconz2mqtt msg received from {}: {}".format(self.ts_string(),uri,msg),flush=True)
+                                pretty_msg = json.dumps(json.loads(msg), indent=4)
+                                print("{} Deconz2mqtt msg received from {}:\n{}".format(self.ts_string(),uri,pretty_msg),flush=True)
+                            self.handle_input_message("zigbee", msg)
                         except websockets.exceptions.ConnectionClosedError:
                             connected = False
                             print("{} Deconz2mqtt disconnected from {}".format(self.ts_string(),uri),flush=True)
-                        if DEBUG and connected:
-                            print("{} Deconz2mqtt websocket message: {}".format(self.ts_string(),msg),flush=True)
-                            #debug topic?
-                            self.handle_input_message("zigbee", msg)
                     print("{} Deconz2mqtt websocket read loop ended".format(self.ts_string()),flush=True)
             except ConnectionRefusedError:
                     print("{} Deconz2mqtt websocket connection refused from {}".format(self.ts_string(),uri),flush=True)
