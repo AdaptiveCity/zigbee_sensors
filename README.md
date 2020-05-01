@@ -2,16 +2,22 @@
 
 This is an effort to connect Zigbee sensors to the Adaptive City platform.
 
+The work does *not*
+address the issue of seamless connectivity of ZigBee devices into a consumer-friendly home
+automation service, in fact it does pretty much the opposite by trying collect the data from the
+devices and send commands to them with as little 'application-level' software in the way
+as possible.
+
 A particular challenge is the
 usual tight integration between Zigbee networking and the 'application layer', i.e. all software
-available for Zigbee hardware seems to need to include a configuration for every single device type
+available for Zigbee hardware seems to require a configuration for every single device type
 that is connected to the network (WTF?). We will try and ease this restriction, i.e. be more permissive
 about allowing devices to connect to the network, and defer dealing with the application-level issues (like
 whether the device is a switch or a light bulb) until later in the software stack.
 
 The work-in-progress tracing the `deCONZ REST API` calls is in [PWA API Calls](pwa_api_calls/README.md).
 
-Below is an architectural diagram of how the Adaptive City components will combine
+Below is an architectural diagram of how the Adaptive City components combine
 to support Zigbee sensors.
 
 ![ACP Zigbee Support](images/deconz2mqtt.png)
