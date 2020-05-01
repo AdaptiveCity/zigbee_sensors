@@ -13,6 +13,8 @@ import websockets
 from gmqtt import Client as MQTTClient
 from gmqtt.mqtt.constants import MQTTv311
 
+from deconzapi import ZigBeeData
+
 # gmqtt compatible with uvloop
 import uvloop
 
@@ -60,7 +62,10 @@ class Deconz2mqtt():
     ###############################################################
     # Async initialization
     ###############################################################
-    async def start(self):
+    async def start(self, zigbee_data):
+
+        self.zigbee_data = zigbee_data
+
         # Define async events for exit and reload (will set via signals)
         self.STOP = asyncio.Event()
         self.RELOAD = asyncio.Event()
@@ -75,13 +80,13 @@ class Deconz2mqtt():
         #debug settings.json should be extended to support WS|MQTT
         if (True):
             self.protocol_in = "ws"
-            asyncio.ensure_future(self.connect_input_ws())
+            asyncio.ensure_future(self.subscribe_input_ws())
         else:
             self.protocol_in = "mqtt"
             await self.connect_input_mqtt()
 
     # Connect to input websocket
-    async def connect_input_ws(self):
+    async def subscribe_input_ws(self):
         host = self.settings["input_ws"]["host"]
         port = self.settings["input_ws"]["port"]
 
@@ -103,6 +108,7 @@ class Deconz2mqtt():
                             if DEBUG:
                                 pretty_msg = json.dumps(json.loads(msg), indent=4)
                                 print("{} Deconz2mqtt msg received from {}:\n{}".format(self.ts_string(),uri,pretty_msg),flush=True)
+                            #debug we're stuffing in a fake "zigbee" topic
                             self.handle_input_message("zigbee", msg)
                         except websockets.exceptions.ConnectionClosedError:
                             connected = False
@@ -212,6 +218,15 @@ class Deconz2mqtt():
     def handle_input_message(self, topic, msg_bytes):
         acp_ts = self.ts_string()
         msg_is_decoded = False
+
+        #debug check if input is deconz websocket here
+        if (True):
+            msg_dict = json.loads(msg_bytes)
+            # add required zigbee properties to message before passing it to decoders
+            self.zigbee_data.decode(msg_dict)
+            #debug a bit awkward to have to convert back to bytes
+            msg_bytes = json.dumps(msg_dict)
+
         for decoder in self.decoders:
             if decoder["decoder"].test(topic, msg_bytes):
                 decoded = decoder["decoder"].decode(topic, msg_bytes)
@@ -307,18 +322,23 @@ class Deconz2mqtt():
 async def async_main():
 
     # Instantiate a Deconz2mqtt
-    decoder_manager = Deconz2mqtt()
+    deconz_2_mqtt = Deconz2mqtt()
 
     # Add signal handlers for EXIT and RELOAD
     loop = asyncio.get_event_loop()
-    loop.add_signal_handler(signal.SIGINT, decoder_manager.ask_exit)
-    loop.add_signal_handler(signal.SIGTERM, decoder_manager.ask_exit)
-    loop.add_signal_handler(signal.SIGALRM, decoder_manager.reload)
+    loop.add_signal_handler(signal.SIGINT, deconz_2_mqtt.ask_exit)
+    loop.add_signal_handler(signal.SIGTERM, deconz_2_mqtt.ask_exit)
+    loop.add_signal_handler(signal.SIGALRM, deconz_2_mqtt.reload)
 
-    await decoder_manager.start()
+    zigbee_data = ZigBeeData()
+
+    done, pending = await asyncio.wait(
+        [ deconz_2_mqtt.start(zigbee_data),
+          zigbee_data.start()],
+         return_when=asyncio.FIRST_COMPLETED)
 
     # This call to 'finish' awaits the 'STOP' event
-    await decoder_manager.finish()
+    await deconz_2_mqtt.finish()
 
 ###################################################################
 # Program main

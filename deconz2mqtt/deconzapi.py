@@ -99,7 +99,11 @@ url = "http://192.168.1.118/api/B9FAF065F0/"
   }
 }
 
-Zigbee device data:
+Zigbee device data (delivered over websocket from deCONZ):
+
+Note in this case (streamed sensor data) the payload includes
+properties "r" and "id" which can be used to find the corresponding
+ZigBeeData record with "name" (which is our definitive acp_id).
 
 Xiaomi Door/Window:
 {
@@ -194,6 +198,24 @@ class ZigBeeData(object):
         self.endpoints["lights"] = {}
         self.endpoints["switches"] = {}
 
+    #####################################
+    # Async start()
+    #####################################
+    async def start(self):
+        async with aiohttp.ClientSession() as session:
+            while True:
+                r = "sensors"
+                json_response = await self.fetch(session, url+r)
+                print("{} {}".format(ts_string(), json_response))
+                endpoints_data = json.loads(json_response)
+                self.update_all("sensors", endpoints_data)
+                await asyncio.sleep(15)
+
+    # decode(msg) will 'normalize' the properties,  e.g. copy 'name' into 'acp_id'
+    def decode(self,msg):
+        #debug still to be written!
+        msg["acp_id"] = "foodle-ba-437dff"
+
     # Update the Nodes data given a dictionary containing entries for multiple endpoints
     def update_all(self, r, endpoints_dict):
         for endpoint_id in endpoints_dict:
@@ -203,6 +225,36 @@ class ZigBeeData(object):
             self.update(endpoints_dict[endpoint_id])
 
     # Update the Nodes data with info for a single endpoint.
+    """
+    From http://host:port/api/<apikey>/sensors
+
+    Note from this request we expand the dict with "sensors" (r) and
+    "1" (id) as sensors/1 is the unique local id of the sensor.
+
+    { "1": {
+          "config": {
+            "configured": true,
+            "on": true,
+            "sunriseoffset": 30,
+            "sunsetoffset": -30
+          },
+          "etag": "8bd046b9a5340839b658ed2696c1ea34",
+          "manufacturername": "Philips",
+          "modelid": "PHDL00",
+          "name": "Daylight",
+          "state": {
+            "dark": false,
+            "daylight": true,
+            "lastupdated": "2020-05-01T05:17:36",
+            "status": 160,
+            "sunrise": "2020-05-01T04:29:35",
+            "sunset": "2020-05-01T19:25:15"
+          },
+          "swversion": "1.0",
+          "type": "Daylight",
+          "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
+         }
+    """
     def update(self, endpoint_dict):
         node_id = endpoint_dict["name"]
         endpoint_r = endpoint_dict["r"]
@@ -215,6 +267,13 @@ class ZigBeeData(object):
         # Update reference in self.nodes to same endpoint object
         self.nodes[node_id].update(endpoint_id, endpoint)
 
+    #####################################
+    # GET http
+    #####################################
+    async def fetch(self, session, url):
+        async with session.get(url) as response:
+            return await response.text()
+
 #####################################
 # Return current timestamp as string
 #####################################
@@ -222,27 +281,9 @@ def ts_string():
     return '{:.6f}'.format(time.time())
 
 #####################################
-# GET http
-#####################################
-async def fetch(session, url):
-    async with session.get(url) as response:
-        return await response.text()
-
-#####################################
-# Async main()
-#####################################
-async def async_main():
-    zigbee_data = ZigBeeData()
-    async with aiohttp.ClientSession() as session:
-        r = "sensors"
-        json_response = await fetch(session, url+r)
-        print("{} {}".format(ts_string(), json_response))
-        endpoints_data = json.loads(json_response)
-        zigbee_data.update_all("sensors", endpoints_data)
-
-#####################################
 # main()
 #####################################
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(async_main())
+    zigbee_data = ZigBeeData()
+    loop.run_until_complete(zigbee_data.start())
