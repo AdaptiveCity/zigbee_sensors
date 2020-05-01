@@ -1,10 +1,6 @@
 # `/api/<apikey>/sensors`
 
-API response after added Aqara Motion Sensor aqa-mot-6657d3
-
-Note that this sensor node has **two** entries in the `sensors` response, both
-with the same `name` property.
-
+## deCONZ 'virtual sensor'
 ```
 {
   "1":{
@@ -27,6 +23,9 @@ with the same `name` property.
     "swversion":"1.0",
     "type":"Daylight",
     "uniqueid":"00:21:2e:ff:ff:05:03:60-01"},
+```
+## Xiaomi Aqara Door/Window Sensor
+```
   "2":{
     "config":{
       "battery":100,
@@ -44,6 +43,11 @@ with the same `name` property.
     "swversion":"20161128",
     "type":"ZHAOpenClose",
     "uniqueid":"00:15:8d:00:04:5c:91:b3-01-0006"},
+```
+## Xiaomi Aqara Motion Sensor
+Note that this sensor node has **two** entries in the `sensors` response, both
+with the same `name` property.
+```
   "3":{
     "config":{
       "battery":100,
@@ -85,4 +89,26 @@ with the same `name` property.
     "type":"ZHAPresence",
     "uniqueid":"00:15:8d:00:04:66:57:d3-01-0406"}
   }
+  ```
+  ## Philips Hue Dimmer Switch
+  ```
+  "5":{
+    "config":{
+      "group":"13070",
+      "on":true,
+      "reachable":true},
+    "ep":2,
+    "etag":"a5e9f2d7de2b6265b82fc0e2542b051a",
+    "manufacturername":"Philips",
+    "mode":1,
+    "modelid":
+    "RWL021",
+    "name":"Dimmer Switch",
+    "state":{
+      "buttonevent":null,
+      "eventduration":null,
+      "lastupdated":"none"},
+    "swversion":"5.45.1.17846",
+    "type":"ZHASwitch",
+    "uniqueid":"00:17:88:01:08:0e:10:d4-02-fc00"}
   ```

@@ -87,35 +87,32 @@ class Deconz2mqtt():
 
     # Connect to input websocket
     async def subscribe_input_ws(self):
-        host = self.settings["input_ws"]["host"]
-        port = self.settings["input_ws"]["port"]
-
-        uri = "ws://"+host+":"+str(port)
+        url = self.settings["input_ws"]["url"]
 
         connected = False
 
         while True:
             try:
-                async with websockets.connect(uri) as ws:
+                async with websockets.connect(url) as ws:
                     connected = True
-                    print("{} Deconz2mqtt connected to {}".format(self.ts_string(),uri),flush=True)
+                    print("{} Deconz2mqtt connected to {}".format(self.ts_string(),url),flush=True)
                     while connected:
                         try:
                             if DEBUG:
-                                print("{} Deconz2mqtt awaiting msg from {}".format(self.ts_string(),uri),flush=True)
+                                print("{} Deconz2mqtt awaiting msg from {}".format(self.ts_string(),url),flush=True)
                             # Here we await & receive any websocket message
                             msg = await ws.recv()
                             if DEBUG:
                                 pretty_msg = json.dumps(json.loads(msg), indent=4)
-                                print("{} Deconz2mqtt msg received from {}:\n{}".format(self.ts_string(),uri,pretty_msg),flush=True)
+                                print("{} Deconz2mqtt msg received from {}:\n{}".format(self.ts_string(),url,pretty_msg),flush=True)
                             #debug we're stuffing in a fake "zigbee" topic
                             self.handle_input_message("zigbee", msg)
                         except websockets.exceptions.ConnectionClosedError:
                             connected = False
-                            print("{} Deconz2mqtt disconnected from {}".format(self.ts_string(),uri),flush=True)
+                            print("{} Deconz2mqtt disconnected from {}".format(self.ts_string(),url),flush=True)
                     print("{} Deconz2mqtt websocket read loop ended".format(self.ts_string()),flush=True)
             except ConnectionRefusedError:
-                    print("{} Deconz2mqtt websocket connection refused from {}".format(self.ts_string(),uri),flush=True)
+                    print("{} Deconz2mqtt websocket connection refused from {}".format(self.ts_string(),url),flush=True)
                     await asyncio.sleep(2) # sleep 2 seconds and retry
 
         print("{} Deconz2mqtt websocket connect loop ended".format(self.ts_string()),flush=True)

@@ -158,26 +158,33 @@ Xiaomi Motion:
     "uniqueid": "00:15:8d:00:04:66:57:d3-01-0406"
 }
 """
+#####################################
+# Return current timestamp as string
+#####################################
+def ts_string():
+    return '{:.6f}'.format(time.time())
 
 class EndPoint(object):
     """ Represents an 'endpoint' in the ZigBee network, i.e. a sensor or
     actuator within a ZigBee device. A single device (which we call a Node)
     may contain multiple endpoints.
     """
-    def __init__(self, node_id, endpoint_id, endpoint_dict):
-        print("{} EndPoint __init__() {}/{}".format(ts_string(),node_id,endpoint_id))
+    def __init__(self, name, r, endpoint_id, endpoint_dict):
+        print("{} EndPoint __init__() {} {}/{}".format(ts_string(),name,r,endpoint_id))
         self.properties = endpoint_dict
-        self.properties["endpoint_id"] = endpoint_id
-        self.properties["node_id"] = node_id
+        self.properties["name"] = name # we are adding name, r, id to the endpoint_dict properties
+        self.properties["r"] = r
+        self.properties["id"] = endpoint_id
 
 class Node(object):
     """ Represents a ZigBee device which may contain multiple endpoints.
     """
-    def __init__(self, node_id):
-        self.node_id = node_id
+    def __init__(self, name):
+        self.name = name
         self.endpoints = {}
 
-    def update(self, endpoint_id, endpoint):
+    def update(self, endpoint):
+        endpoint_id = endpoint.properties["id"]
         self.endpoints[endpoint_id] = endpoint
 
 class ZigBeeData(object):
@@ -189,8 +196,8 @@ class ZigBeeData(object):
     definitive 'sensor id'
     """
     def __init__(self):
-        print("{} EndPoints __init__()".format(ts_string()))
-        # endpoints will be referenced by self.nodes[node_id].endpoints[endpoint_id]
+        print("{} ZigBeeData __init__()".format(ts_string()))
+        # endpoints will be referenced by self.nodes[name].endpoints[endpoint_id]
         self.nodes = {}
         # endpoints also referenced self.endpoints[endpoint_type][endpoint_id]
         self.endpoints = {}
@@ -204,32 +211,36 @@ class ZigBeeData(object):
     async def start(self):
         async with aiohttp.ClientSession() as session:
             while True:
-                r = "sensors"
-                json_response = await self.fetch(session, url+r)
-                print("{} {}".format(ts_string(), json_response))
-                endpoints_data = json.loads(json_response)
-                self.update_all("sensors", endpoints_data)
+                for r in ["sensors","lights"]:
+                    #print("{} Getting {}".format(ts_string(), r))
+                    json_response = await self.http_get(session, url+r)
+                    print("{} {}".format(ts_string(), json_response))
+                    endpoints_dict = json.loads(json_response)
+                    self.update_all(r, endpoints_dict)
                 await asyncio.sleep(15)
 
     # decode(msg) will 'normalize' the properties,  e.g. copy 'name' into 'acp_id'
-    def decode(self,msg):
+    # input is a dictionary
+    def decode(self,msg_dict):
         #debug still to be written!
-        msg["acp_id"] = "foodle-ba-437dff"
+        msg_dict["acp_id"] = self.get_acp_id(msg_dict)
+        msg_dict["acp_ts"] = ts_string()
+
+    def get_acp_id(self, msg_dict):
+        return self.endpoints[msg_dict["r"]][msg_dict["id"]].properties["name"]
 
     # Update the Nodes data given a dictionary containing entries for multiple endpoints
     def update_all(self, r, endpoints_dict):
         for endpoint_id in endpoints_dict:
-            endpoint = endpoints_dict[endpoint_id]
-            endpoint["r"] = r
-            endpoint["id"] = endpoint_id
-            self.update(endpoints_dict[endpoint_id])
+            endpoint_dict = endpoints_dict[endpoint_id]
+            self.update(r, endpoint_id, endpoint_dict)
 
     # Update the Nodes data with info for a single endpoint.
     """
     From http://host:port/api/<apikey>/sensors
 
     Note from this request we expand the dict with "sensors" (r) and
-    "1" (id) as sensors/1 is the unique local id of the sensor.
+    "1" (endpoint_id) as sensors/1 is the unique local id of the sensor.
 
     { "1": {
           "config": {
@@ -255,35 +266,19 @@ class ZigBeeData(object):
           "uniqueid": "00:21:2e:ff:ff:05:03:60-01"
          }
     """
-    def update(self, endpoint_dict):
-        node_id = endpoint_dict["name"]
-        endpoint_r = endpoint_dict["r"]
-        endpoint_id = endpoint_dict["id"]
-        endpoint = EndPoint(node_id, endpoint_id, endpoint_dict)
+    def update(self, r, endpoint_id, endpoint_dict):
+        name = endpoint_dict["name"]
+        endpoint = EndPoint(name, r, endpoint_id, endpoint_dict)
         # Update reference in self.endpoints to this data
-        self.endpoints[endpoint_r][endpoint_id] = endpoint
-        if not node_id in self.nodes:
-            self.nodes[node_id] = Node(node_id)
+        self.endpoints[r][endpoint_id] = endpoint
+        if not name in self.nodes:
+            self.nodes[name] = Node(name)
         # Update reference in self.nodes to same endpoint object
-        self.nodes[node_id].update(endpoint_id, endpoint)
+        self.nodes[name].update(endpoint)
 
     #####################################
-    # GET http
+    # GET http from REST API
     #####################################
-    async def fetch(self, session, url):
+    async def http_get(self, session, url):
         async with session.get(url) as response:
             return await response.text()
-
-#####################################
-# Return current timestamp as string
-#####################################
-def ts_string():
-    return '{:.6f}'.format(time.time())
-
-#####################################
-# main()
-#####################################
-if __name__ == '__main__':
-    loop = asyncio.get_event_loop()
-    zigbee_data = ZigBeeData()
-    loop.run_until_complete(zigbee_data.start())
