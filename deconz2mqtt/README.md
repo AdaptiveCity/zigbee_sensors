@@ -13,7 +13,7 @@ City platform via MQTT. Messages *from* the platform can send simple updates to 
 
 For any data reaching the Adaptive City platform we need a *minimum* of:
 
-1. a 'sensor id' telling us which sensor the data came from, and also a timestamp most relevant to the data being sent.
+1. a 'sensor id' telling us which device the data came from
 
 2. a timestamp most relevant to the data
 
@@ -27,7 +27,7 @@ above.
 `deconz2mqtt`:
 
 1. uses the deCONZ REST API to collect the metadata of the devices connected to the ZigBee network and
-uses this to add a system-wide 'sensor id' (actually `acp-id`) to the data, in addition to an accurate timestamp in
+uses this to add a system-wide 'sensor id' (actually `acp_id`) to the data, in addition to an accurate timestamp in
 `acp_ts`.
 
 2. uses the deCONZ websocket to receive the sensor data in real-time (rather than polling the REST API and
