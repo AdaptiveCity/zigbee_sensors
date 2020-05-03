@@ -1,7 +1,8 @@
 # deconz2mqtt
 
-`deconz2mqtt` connects via http to the `deCONZ` program which supports the Conbee II ZigBee coordinator. `deCONZ`
-can be run 'headless' as we only need access to the REST API and the websocket.
+`deconz2mqtt` connects via a websocket and the http REST API of the `deCONZ` software which supports the Conbee II ZigBee coordinator.
+
+`deCONZ` can be run 'headless' as we only need access to the REST API and the websocket.
 
 The objective is to normalize and simplify the sensor/device Json data messages and send them to the Adaptive
 City platform via MQTT. Messages *from* the platform can send simple updates to the powered ZigBee devices.
@@ -32,12 +33,9 @@ uses this to add a system-wide 'sensor id' (actually `acp-id`) to the data, in a
 2. uses the deCONZ websocket to receive the sensor data in real-time (rather than polling the REST API and
   introducing unnecessary latency)
 
-3. passes the sensor data through dynamically-added *decoders* in case additional data transformations are
-required
+3. pushes the enriched sensor data up to the Adaptive City Platform via MQTT
 
-4. pushes the enriched sensor data up to the Adaptive City Platform via MQTT
-
-5. accepts MQTT messages *from* the Adaptive City Platform to be interpreted as commands affecting either
+4. accepts MQTT messages *from* the Adaptive City Platform to be interpreted as commands affecting either
 the local system software or to be transmitted to selected ZigBee devices.
 
 ## deCONZ REST API

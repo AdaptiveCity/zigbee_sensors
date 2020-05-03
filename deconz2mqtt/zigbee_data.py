@@ -1,10 +1,17 @@
+"""
+zigbee_data provides the ZigBeeData class to store metadata from the
+deCONZ REST API.
+
+The 'ZigBeeData.decode(msg_dict)' method injects additional properties
+into the msg_dict (such as 'acp_id')
+"""
 
 import aiohttp
 import asyncio
 import time
 import simplejson as json
 
-url = "http://192.168.1.118/api/B9FAF065F0/"
+DEBUG = True
 
 """
 {
@@ -193,41 +200,71 @@ class ZigBeeData(object):
     "endpoint_type:endpoint_id". The immediate need for this is because the
     sensor data from the deCONZ websocket *only* contains the
     "endpoint_type:endpoint_id" identifier and this needs enriching with a
-    definitive 'sensor id'
+    definitive sensor identifier ('acp_id').
     """
-    def __init__(self):
+    def __init__(self, settings):
         print("{} ZigBeeData __init__()".format(ts_string()))
+        self.settings = settings
         # endpoints will be referenced by self.nodes[name].endpoints[endpoint_id]
         self.nodes = {}
         # endpoints also referenced self.endpoints[endpoint_type][endpoint_id]
         self.endpoints = {}
-        self.endpoints["sensors"] = {}
-        self.endpoints["lights"] = {}
-        self.endpoints["switches"] = {}
+        self.endpoints["sensors"] = {} # ZigBee devices (battery powered)
+        self.endpoints["lights"] = {} # ZigBee devices (mains powered)
 
     #####################################
     # Async start()
     #####################################
     async def start(self):
+        api_url = self.settings["deconz_api"]["url"]
         async with aiohttp.ClientSession() as session:
             while True:
                 for r in ["sensors","lights"]:
                     #print("{} Getting {}".format(ts_string(), r))
-                    json_response = await self.http_get(session, url+r)
-                    print("{} {}".format(ts_string(), json_response))
+                    json_response = await self.http_get(session, api_url+r)
+                    if DEBUG:
+                        print("{} REST API /{} response:\n{}".format(
+                            ts_string(),
+                            r,
+                            json_response), flush=True)
                     endpoints_dict = json.loads(json_response)
                     self.update_all(r, endpoints_dict)
                 await asyncio.sleep(15)
 
     # decode(msg) will 'normalize' the properties,  e.g. copy 'name' into 'acp_id'
+    # Returns True/False (and updates msg_dict) indicating a successful decode.
     # input is a dictionary
     def decode(self,msg_dict):
-        #debug still to be written!
-        msg_dict["acp_id"] = self.get_acp_id(msg_dict)
+        # timestamp
         msg_dict["acp_ts"] = ts_string()
 
-    def get_acp_id(self, msg_dict):
-        return self.endpoints[msg_dict["r"]][msg_dict["id"]].properties["name"]
+        # sensor identifier
+        acp_id = self.acp_id(msg_dict)
+        if acp_id is None:
+            return False
+        msg_dict["acp_id"] = self.acp_id(msg_dict)
+
+        # temperature
+        temperature = self.acp_temperature(msg_dict)
+        if temperature is not None:
+            msg_dict["acp_temperature"] = temperature
+
+        return True
+
+    # Try and extract a known identifier for the device
+    def acp_id(self, msg_dict):
+        try:
+            return self.endpoints[msg_dict["r"]][msg_dict["id"]].properties["name"]
+        except KeyError:
+            return None
+
+    # If there is a "temperature" property, return value as degrees C
+    def acp_temperature(self, msg_dict):
+        try:
+            #debug is this 'standard' or just Aqara / deCONZ ?
+            return msg_dict["config"]["temperature"] / 100
+        except KeyError:
+            return None
 
     # Update the Nodes data given a dictionary containing entries for multiple endpoints
     def update_all(self, r, endpoints_dict):
