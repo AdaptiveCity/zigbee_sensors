@@ -155,7 +155,7 @@ class Deconz2mqtt():
         msg_dict = json.loads(msg_bytes)
         # Add required zigbee properties by updating msg_dict
         # send_data will be True if zigbee_data.decode decides this message should be sent via MQTT.
-        send_data = self.zigbee_data.decode(msg_dict)
+        send_data = self.zigbee_data.handle_ws_message(msg_dict)
 
         if send_data:
             self.send_output_message(topic, msg_dict)
