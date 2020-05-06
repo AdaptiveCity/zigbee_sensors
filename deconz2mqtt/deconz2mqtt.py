@@ -26,7 +26,7 @@ from zigbee_data import ZigBeeData
 # gmqtt compatible with uvloop
 import uvloop
 
-DEBUG = True
+DEBUG = False
 
 #import logging
 #logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(message)s')
@@ -100,7 +100,7 @@ class Deconz2mqtt():
                                     ws_url,
                                     pretty_msg),flush=True)
                             #debug we're stuffing in a fake "zigbee" topic
-                            self.handle_input_message("zigbee", msg)
+                            self.handle_input_message(msg)
                         except websockets.exceptions.ConnectionClosedError:
                             connected = False
                             print("{} Deconz2mqtt disconnected from {}".format(self.ts_string(),ws_url),flush=True)
@@ -110,24 +110,6 @@ class Deconz2mqtt():
                     await asyncio.sleep(2) # sleep 2 seconds and retry
 
         print("{} Deconz2mqtt websocket connect loop ended".format(self.ts_string()),flush=True)
-
-    # Connect to input MQTT broker
-    async def connect_input_mqtt(self):
-        self.input_client = MQTTClient(None) # auto-generate client id
-
-        self.input_client.on_connect = self.input_on_connect
-        self.input_client.on_message = self.input_on_message
-        self.input_client.on_disconnect = self.input_on_disconnect
-        self.input_client.on_subscribe = self.input_on_subscribe
-
-        user = self.settings["input_mqtt"]["user"]
-        password = self.settings["input_mqtt"]["password"]
-        host = self.settings["input_mqtt"]["host"]
-        port = self.settings["input_mqtt"]["port"]
-
-        self.input_client.set_auth_credentials(user, password)
-
-        await self.input_client.connect(host, port, keepalive=20, version=MQTTv311)
 
     async def connect_output_mqtt(self):
         self.output_client = MQTTClient(None) # auto-generate client id
@@ -144,13 +126,25 @@ class Deconz2mqtt():
 
         self.output_client.set_auth_credentials(user, password)
 
-        await self.output_client.connect(host, port, keepalive=60, version=MQTTv311)
+        try:
+            await self.output_client.connect(host, port, keepalive=60, version=MQTTv311)
+        except Exception as e:
+            if hasattr(e, 'args') and e.args[0] == 5:
+                print("{}\033[1;31m FAIL: Connect output_mqtt auth (as {} )\033[0;0m".format(
+                    self.ts_string(),
+                    user),file=sys.stderr,flush=True)
+            else:
+                print("{}\033[1;31m FAIL gmqtt connect exception\n{}\n{}\033[0;0m".format(
+                    self.ts_string(),
+                    e),file=sys.stderr,flush=True)
+            self.ask_exit()
+
 
     ###############################################################
     # Sensor data message handler
     ###############################################################
 
-    def handle_input_message(self, topic, msg_bytes):
+    def handle_input_message(self, msg_bytes):
 
         msg_dict = json.loads(msg_bytes)
         # Add required zigbee properties by updating msg_dict
@@ -158,6 +152,9 @@ class Deconz2mqtt():
         send_data = self.zigbee_data.handle_ws_message(msg_dict)
 
         if send_data:
+            topic = ""
+            if "acp_id" in msg_dict:
+                topic += msg_dict["acp_id"]
             self.send_output_message(topic, msg_dict)
         else:
             print("{} Incoming message not sent to MQTT\n{}\n".format(
@@ -184,39 +181,6 @@ class Deconz2mqtt():
         print('{} INPUT Connected to {}'.format(
             self.ts_string(),
             uri), flush=True)
-
-    ###############################################################
-    # MQTT INPUT
-    ###############################################################
-
-    def input_on_connect(self, client, flags, rc, properties):
-        print('{} INPUT Connected to {} as {}'.format(
-            self.ts_string(),
-            self.settings["input_mqtt"]["host"],
-            self.settings["input_mqtt"]["user"]), flush=True)
-        client.subscribe('#', qos=0)
-
-    def input_on_message(self, client, topic, msg_bytes, qos, properties):
-        # IMPORTANT! We avoid a loop by ignoring input messages with the output prefix
-        if not topic.startswith(self.settings["output_mqtt"]["topic_prefix"]):
-            if DEBUG:
-                print('{} INPUT RECV MSG:\n{}'.format(
-                    self.ts_string(),
-                    msg_bytes), flush=True)
-            self.handle_input_message(topic, msg_bytes)
-        else:
-            if DEBUG:
-                print("{} INPUT RECV COOKED MSG SKIPPED".format(
-                    self.ts_string()), flush=True)
-
-    def input_on_disconnect(self, client, packet, exc=None):
-        print("{} INPUT Disconnected\n".format(
-            self.ts_string()),file=sys.stderr,flush=True)
-
-    def input_on_subscribe(self, client, mid, qos, properties):
-        print('{} INPUT SUBSCRIBED to {}'.format(
-            self.ts_string(),
-            self.settings["input_mqtt"]["topic"]), flush=True)
 
     ###############################################################
     # MQTT OUTPUT
