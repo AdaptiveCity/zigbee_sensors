@@ -1,13 +1,13 @@
-# deconz2mqtt
+# deconz2acp
 
-`deconz2mqtt` connects via a websocket and the http REST API of the `deCONZ` software which supports the Conbee II ZigBee coordinator.
+`deconz2acp` connects via a websocket and the http REST API of the `deCONZ` software which supports the Conbee II ZigBee coordinator.
 
 `deCONZ` can be run 'headless' as we only need access to the REST API and the websocket.
 
 The objective is to normalize and simplify the sensor/device Json data messages and send them to the Adaptive
 City platform via MQTT. Messages *from* the platform can send simple updates to the powered ZigBee devices.
 
-![ACP Zigbee Support](../images/deconz2mqtt.png)
+![ACP Zigbee Support](../images/deconz2acp.png)
 
 ## Requirement
 
@@ -22,9 +22,9 @@ For any data reaching the Adaptive City platform we need a *minimum* of:
 Surprisingly, most consumer sensor software (like deCONZ), and the consumer sensors, fail **all** of the requirements
 above.
 
-## Main functions of `deconz2mqtt`
+## Main functions of `deconz2acp`
 
-`deconz2mqtt`:
+`deconz2acp`:
 
 1. uses the deCONZ REST API to collect the metadata of the devices connected to the ZigBee network and
 uses this to add a system-wide 'sensor id' (actually `acp_id`) to the data, in addition to an accurate timestamp in
@@ -85,12 +85,12 @@ git clone https://github.com/AdaptiveCity/zigbee_sensors
 ```
 Create the python virtual environment
 ```
-cd zigbee_sensors/deconz2mqtt
+cd zigbee_sensors/deconz2acp
 python3 -m venv venv
 source venv/bin/activate
 python3 -m pip install pip --upgrade
 python3 -m pip install wheel
-python3 -m pip install -r requirements.txt 
+python3 -m pip install -r requirements.txt
 ```
 From another server, collect the `zigbee_sensors/deconz2acp/secrets` directory containing `settings.json`,
 for example:
@@ -136,7 +136,7 @@ crontab -e
 
 
 
- 5027  2020-05-09 11:13:57 ./run_dev.sh 
+ 5027  2020-05-09 11:13:57 ./run_dev.sh
  5028  2020-05-09 11:14:16 sftp ijl20-iot
  5029  2020-05-09 11:14:59 ll
  5030  2020-05-09 11:15:06 cat secrets/settings.json

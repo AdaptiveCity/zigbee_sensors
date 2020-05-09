@@ -1,5 +1,5 @@
 """
-deconz2mqtt uses the deCONZ REST API to collect metadata for the connected
+deconz2acp uses the deCONZ REST API to collect metadata for the connected
 ZigBee devices and uses that to enhance data messages from the ZigBee devices
 to be sent to a MQTT broker, for example to include a clear sensor identifer
 in the MQTT message.
@@ -34,17 +34,17 @@ DEBUG = False
 
 ##################################################################
 ##################################################################
-# Deconz2mqtt
+# Deconz2acp
 ##################################################################
 ##################################################################
 
-class Deconz2mqtt():
+class Deconz2acp():
 
     ###################
     # Sync class init
     ###################
     def __init__(self, settings):
-        print("{} Deconz2mqtt __init__()".format(self.ts_string()),file=sys.stderr,flush=True)
+        print("{} Deconz2acp __init__()".format(self.ts_string()),file=sys.stderr,flush=True)
         self.settings = settings
 
     #####################################
@@ -86,16 +86,16 @@ class Deconz2mqtt():
             try:
                 async with websockets.connect(ws_url) as ws:
                     connected = True
-                    print("{} Deconz2mqtt connected to {}".format(self.ts_string(),ws_url),flush=True)
+                    print("{} Deconz2acp connected to {}".format(self.ts_string(),ws_url),flush=True)
                     while connected:
                         try:
                             if DEBUG:
-                                print("{} Deconz2mqtt awaiting msg from {}".format(self.ts_string(),ws_url),flush=True)
+                                print("{} Deconz2acp awaiting msg from {}".format(self.ts_string(),ws_url),flush=True)
                             # Here we await & receive any websocket message
                             msg = await ws.recv()
                             if DEBUG:
                                 pretty_msg = json.dumps(json.loads(msg), indent=4)
-                                print("{} Deconz2mqtt msg received from {}:\n{}".format(
+                                print("{} Deconz2acp msg received from {}:\n{}".format(
                                     self.ts_string(),
                                     ws_url,
                                     pretty_msg),flush=True)
@@ -103,13 +103,13 @@ class Deconz2mqtt():
                             self.handle_input_message(msg)
                         except websockets.exceptions.ConnectionClosedError:
                             connected = False
-                            print("{} Deconz2mqtt disconnected from {}".format(self.ts_string(),ws_url),flush=True)
-                    print("{} Deconz2mqtt websocket read loop ended".format(self.ts_string()),flush=True)
+                            print("{} Deconz2acp disconnected from {}".format(self.ts_string(),ws_url),flush=True)
+                    print("{} Deconz2acp websocket read loop ended".format(self.ts_string()),flush=True)
             except ConnectionRefusedError:
-                    print("{} Deconz2mqtt websocket connection refused from {}".format(self.ts_string(),ws_url),flush=True)
+                    print("{} Deconz2acp websocket connection refused from {}".format(self.ts_string(),ws_url),flush=True)
                     await asyncio.sleep(2) # sleep 2 seconds and retry
 
-        print("{} Deconz2mqtt websocket connect loop ended".format(self.ts_string()),flush=True)
+        print("{} Deconz2acp websocket connect loop ended".format(self.ts_string()),flush=True)
 
     async def connect_output_mqtt(self):
         self.output_client = MQTTClient(None) # auto-generate client id
@@ -209,7 +209,7 @@ class Deconz2mqtt():
 
     async def finish(self):
         await self.STOP.wait()
-        print("\n{} Deconz2mqtt interrupted - disconnecting\n".format(self.ts_string()),file=sys.stderr,flush=True)
+        print("\n{} Deconz2acp interrupted - disconnecting\n".format(self.ts_string()),file=sys.stderr,flush=True)
         await self.output_client.disconnect()
 
 
@@ -227,23 +227,23 @@ async def async_main():
     # Instantiate a ZigBeeData to interface with deCONZ REST API
     zigbee_data = ZigBeeData(settings)
 
-    # Instantiate a Deconz2mqtt
-    deconz_2_mqtt = Deconz2mqtt(settings)
+    # Instantiate a Deconz2acp
+    deconz_2_acp = Deconz2acp(settings)
 
     # Add signal handlers for EXIT and RELOAD
     loop = asyncio.get_event_loop()
-    loop.add_signal_handler(signal.SIGINT, deconz_2_mqtt.ask_exit)
-    loop.add_signal_handler(signal.SIGTERM, deconz_2_mqtt.ask_exit)
+    loop.add_signal_handler(signal.SIGINT, deconz_2_acp.ask_exit)
+    loop.add_signal_handler(signal.SIGTERM, deconz_2_acp.ask_exit)
 
     # Start the async coroutines.
-    # Note we give deconz_2_mqtt a reference to zigbee_data
+    # Note we give deconz_2_acp a reference to zigbee_data
     done, pending = await asyncio.wait(
-        [ deconz_2_mqtt.start(zigbee_data),
+        [ deconz_2_acp.start(zigbee_data),
           zigbee_data.start()],
          return_when=asyncio.FIRST_COMPLETED)
 
     # This call to 'finish' awaits the 'STOP' event
-    await deconz_2_mqtt.finish()
+    await deconz_2_acp.finish()
 
 ###################################################################
 # Program main

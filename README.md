@@ -20,7 +20,7 @@ The work-in-progress tracing the `deCONZ REST API` calls is in [PWA API Calls](p
 Below is an architectural diagram of how the Adaptive City components combine
 to support Zigbee sensors.
 
-![ACP Zigbee Support](images/deconz2mqtt.png)
+![ACP Zigbee Support](images/deconz2acp.png)
 
 ## Decoders
 
@@ -38,7 +38,7 @@ categorized (a property called "r" as "sensors", "switches" or "lights" and give
 within that category. The same device is `uniqueid: "00:15:8d:00:04:5c:91`, `name: "aqa-wd-5747f1"`
 and `"r"/"id": "sensors"/"2"` with different identifiers used in different messages. The identifier
 may be contained within the data payload, or embedded in the path used to reach the payload in an
-aggregated data structure. `deconz2mqtt` normalizes these identifiers by including
+aggregated data structure. `deconz2acp` normalizes these identifiers by including
 them in the data messages and setting the `acp_id` property to the value of `name`.
 
 3. Sensor providers are shockingly amateur in dealing with *events*. For example the Xiaomi Aqara Door/Window
@@ -62,7 +62,7 @@ still do).
 
 This metadata was received via a `GET` from `/api/<apikey>/sensors`, so the local `id`s are `sensors/3`
 and `sensors/4`, with both of these mapping to the `name` `aqa-mot-6657d3`. For metadata for all devices
-we also query `/api/<apikey>/lights` and `/api/<apikey>/switches`, but `deconz2mqtt` merges these into a
+we also query `/api/<apikey>/lights` and `/api/<apikey>/switches`, but `deconz2acp` merges these into a
 single internal lookup table.
 
 ```
