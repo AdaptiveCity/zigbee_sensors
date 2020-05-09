@@ -132,11 +132,3 @@ crontab -e
 ```
 @reboot /home/acp_prod/zigbee_sensors/deconz2acp/run.sh
 ```
-
-
-
-
- 5027  2020-05-09 11:13:57 ./run_dev.sh
- 5028  2020-05-09 11:14:16 sftp ijl20-iot
- 5029  2020-05-09 11:14:59 ll
- 5030  2020-05-09 11:15:06 cat secrets/settings.json
