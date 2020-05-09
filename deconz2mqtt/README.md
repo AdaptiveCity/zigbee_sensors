@@ -73,3 +73,70 @@ with example request data:
 ## Example data for various ZigBee devices
 
 Examples of the Json returns for a few example devices are provided in [sensor_data/README.md](../sensor_data/README.md).
+
+## Installation
+
+### Install Conbee II and deCONZ
+
+### Install deconz2acp
+As user `acp_prod` get the repo
+```
+git clone https://github.com/AdaptiveCity/zigbee_sensors
+```
+Create the python virtual environment
+```
+cd zigbee_sensors/deconz2mqtt
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install pip --upgrade
+python3 -m pip install wheel
+python3 -m pip install -r requirements.txt 
+```
+From another server, collect the `zigbee_sensors/deconz2acp/secrets` directory containing `settings.json`,
+for example:
+```
+{
+    "deconz_api": { "url": "http://localhost/api/B9FAF065F0/"
+                  },
+
+    "input_ws": {  "url": "ws://localhost:443"
+                },
+
+    "output_mqtt": { "user": "YOUR MQTT USER",
+                    "password": "YOUR MQTT PASSWORD",
+                    "host": "localhost",
+                    "port": 1883,
+                    "topic_prefix": "csn-zigbee/"
+                  }
+}
+```
+Test run `deconz2acp` with:
+```
+./run_dev.sh
+```
+In another terminal on the MQTT server test running `deconz2acp` with:
+```
+mosquitto_sub -u MQTTUSER -P MQTTPASSWORD -t '#' -v
+```
+You should see new messages beginning with your `settings.json` `topic_prefix` e.g. `csn-zigbee/`.
+
+To manually run `deconz2acp`:
+```
+/home/acp_prod/zigbee_sensors/deconz2acp/run.sh
+```
+
+As the `acp_prod` user, create the crontab entry to auto-start `deconz2acp` on boot:
+```
+crontab -e
+```
+```
+@reboot /home/acp_prod/zigbee_sensors/deconz2acp/run.sh
+```
+
+
+
+
+ 5027  2020-05-09 11:13:57 ./run_dev.sh 
+ 5028  2020-05-09 11:14:16 sftp ijl20-iot
+ 5029  2020-05-09 11:14:59 ll
+ 5030  2020-05-09 11:15:06 cat secrets/settings.json
