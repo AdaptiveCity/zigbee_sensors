@@ -158,7 +158,7 @@ class Deconz2acp():
             self.send_output_message(topic, msg_dict)
         else:
             print("{} Incoming message not sent to MQTT\n{}\n".format(
-                acp_ts,
+                self.ts_string(),
                 msg_bytes), flush=True)
 
     def send_output_message(self, topic, msg_dict):
