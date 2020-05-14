@@ -44,8 +44,10 @@ class Deconz2acp():
     # Sync class init
     ###################
     def __init__(self, settings):
-        print("{} Deconz2acp __init__()".format(self.ts_string()),file=sys.stderr,flush=True)
         self.settings = settings
+        print("{} Deconz2acp __init__() DEBUG={}".format(
+            self.ts_string(),
+            DEBUG),file=sys.stderr,flush=True)
 
     #####################################
     # Signal handler for SIGINT, SIGTERM
@@ -63,6 +65,8 @@ class Deconz2acp():
     # Async initialization
     ###############################################################
     async def start(self, zigbee_data):
+        print("{} Deconz2acp start()".format(
+            self.ts_string()),file=sys.stderr,flush=True)
 
         self.zigbee_data = zigbee_data
 
@@ -209,7 +213,8 @@ class Deconz2acp():
 
     async def finish(self):
         await self.STOP.wait()
-        print("\n{} Deconz2acp interrupted - disconnecting\n".format(self.ts_string()),file=sys.stderr,flush=True)
+        print("\n{} Deconz2acp interrupted - disconnecting\n".format(
+            self.ts_string()),file=sys.stderr,flush=True)
         await self.output_client.disconnect()
 
 
@@ -217,12 +222,19 @@ class Deconz2acp():
 # Async main - load settings.json and start coroutines
 ###################################################################
 async def async_main():
-
+    global DEBUG
     with open('settings.json', 'r') as sf:
         settings_data = sf.read()
 
     # parse file
     settings = json.loads(settings_data)
+
+    if "DEBUG" in settings:
+        DEBUG = settings["DEBUG"]
+
+    print("{} deconz2acp settings.json loaded DEBUG={}".format(
+                '{:.6f}'.format(time.time()), # ts_string
+                DEBUG),file=sys.stderr,flush=True)
 
     # Instantiate a ZigBeeData to interface with deCONZ REST API
     zigbee_data = ZigBeeData(settings)

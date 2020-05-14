@@ -13,6 +13,7 @@ import aiohttp
 import asyncio
 import time
 import simplejson as json
+import sys
 
 DEBUG = True
 
@@ -48,6 +49,13 @@ class EndPoint(object):
         self.rest_dict = endpoint_dict
         if "config" in endpoint_dict:
             self.rest_config = endpoint_dict["config"]
+            # Handle name change (happens on install "Door/Window" to "aqa-wd-1a2b3c")
+            if "name" in self.rest_config and self.rest_config["name"] != self.name:
+                print("{} rest config sensor name change {} to {}".format(
+                    ts_string(),
+                    self.name,
+                    self.rest_config["name"]), file=sys.stderr, flush=True)
+                self.name = self.rest_config["name"]
         if "state" in endpoint_dict:
             self.rest_state = endpoint_dict["state"]
 
@@ -55,6 +63,13 @@ class EndPoint(object):
     def handle_ws(self, msg_dict):
         # Make a *copy* of the message
         msg_copy = json.loads(json.dumps(msg_dict))
+        # Handle name change (happens on install "Door/Window" to "aqa-wd-1a2b3c")
+        if "name" in msg_dict and msg_dict["name"] != self.name:
+            print("{} ws sensor name change {} to {}".format(
+                ts_string(),
+                self.name,
+                msg_dict["name"]), file=sys.stderr, flush=True)
+            self.name = msg_dict["name"]
 
         # These calls will add properties to msg_dict
         # add "acp_id" and "acp_ts"
@@ -84,7 +99,7 @@ class EndPoint(object):
         if prop == "open":
             return "openclose", "open" if prop_value else "close"
         return None,None
-        
+
     # Try and work out if the websocket message implies an EVENT, e.g.
     # a message with state.open=True can be compared with the previous
     # state and if changed then we mark this as an event.
@@ -98,10 +113,11 @@ class EndPoint(object):
                         if event is not None:
                             msg_dict["acp_event"] = event
                             msg_dict["acp_event_value"] = value
-                            print("{} state change {} to {}".format(
-                                ts_string(),
-                                event,
-                                value), flush=True)
+                            if DEBUG:
+                                print("{} state change {} to {}".format(
+                                    ts_string(),
+                                    event,
+                                    value), flush=True)
 
     # decode(msg) interprets data fields to possible add ACP 'standard' versions
     def decode(self,msg_dict):
@@ -138,8 +154,14 @@ class ZigBeeData(object):
     definitive sensor identifier ('acp_id').
     """
     def __init__(self, settings):
-        print("{} ZigBeeData __init__()".format(ts_string()))
+        global DEBUG
         self.settings = settings
+        if "DEBUG" in settings:
+            DEBUG = settings["DEBUG"]
+        print("{} ZigBeeData __init__() DEBUG={}".format(
+            ts_string(),
+            DEBUG),file=sys.stderr,flush=True)
+
         # endpoints will be referenced by self.nodes[name].endpoints[endpoint_id]
         self.nodes = {}
         # endpoints also referenced self.endpoints[endpoint_type][endpoint_id]
@@ -151,6 +173,7 @@ class ZigBeeData(object):
     # Async start()
     #####################################
     async def start(self):
+        print("{} ZigBeeData start()".format(ts_string()))
         api_url = self.settings["deconz_api"]["url"]
         async with aiohttp.ClientSession() as session:
             while True:
