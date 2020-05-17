@@ -48,6 +48,31 @@ unique way for this sensor to work out if the door has just been opened.
 Instead, we add properties `"acp_event": "openclose"`, `"acp_event_value": "open"` where
 we believe an actual event has occurred.
 
+## Installing deCONZ
+
+See `https://phoscon.de/en/conbee/install#raspbian`
+
+Support: `https://github.com/dresden-elektronik/deconz-rest-plugin/wiki`
+
+REST API docs: `https://dresden-elektronik.github.io/deconz-rest-doc/`
+
+```
+sudo gpasswd -a pi dialout
+wget -O- http://phoscon.de/apt/deconz.pub.key | sudo apt-key add -
+sudo sh -c "echo 'deb http://phoscon.de/apt/deconz \
+             $(lsb_release -cs) main' > \
+             /etc/apt/sources.list.d/deconz.list"
+sudo apt update
+sudo apt install deconz
+sudo apt upgrade
+```
+For headless autostart (`https://github.com/dresden-elektronik/deconz-rest-plugin/blob/master/README.md`):
+```
+sudo systemctl enable deconz
+sudo systemctl disable deconz-gui
+sudo systemctl stop deconz-gui
+```
+
 ## Example data messages
 These messages are for the same device (a Xiaomi Aqara Motion Sensor), firstly as reported in the
 REST API `sensors` query and secondly as the real-time sensor data provided via the deCONZ websocket.
