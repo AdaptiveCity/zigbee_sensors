@@ -73,6 +73,54 @@ sudo systemctl disable deconz-gui
 sudo systemctl stop deconz-gui
 ```
 
+## Current test setup in the Lockdown Lab
+
+The 'production' intent is use the Raspberry Pi to run everything needed to send zigbee data to the Adaptive City Platform.
+I.e. the Pi will run:
+1. the `deconz` Conbee II device driver (providing http restful API and also streaming data via a websocket).
+2. the `deconz2acp.py` program in this repo which collects the data from `deconz` and publishes it to:
+3. a local MQTT (Mosquitto) server required by `deconz2acp`.
+4. a Mosquitto Bridge configuration which sends the data UP to the ACP production server (cdbb.uk, also running an MQTT server).
+
+For development purposes in the Lockdown Lab, currently we have `deconz` (1) running on the Raspberry Pi, and `deconz2acp.py` (2),
+`mosquitto` (3) and the mosquitto bridge (4) running on a development server (ijl20-iot).
+
+### On the Zigbee Gateway Raspberry Pi
+
+This repo is installed for user `acp_prod` i.e. `/home/acp_prod/zigbee_sensors`.
+
+Currently we are *only* using the Raspberry Pi to run the `deconz` Conbee II device driver, as described above,
+providing the restful API at `http://<pi address>/api/<deconz_token>/` and the real-time websocket at
+`ws://<pi address>:443`.
+
+The status of the deconz device driver can be checked with
+```
+ps aux deconz
+sudo systemctl status deconz
+```
+
+The deconz device driver can be restarted with:
+```
+sudo systemctl restart deconz
+```
+If needed you can `kill -9` the current deconz process and then `sudo systemctl start deconz`.
+
+
+To test the restful API in the Lockdown Lab browse to: `http://192.168.1.118/api/B9FAF065F0/`.
+
+To test the deconz websocket: This `zigbee_sensors` repo includes a web page which can be used to 
+test the deconz websocket, e.g. in
+the Lockdown Lab via `http://ijl20-iot/~ijl20/zigbee_sensors/websocket_test.html`.
+
+### On the Lockdown Lab test server
+
+`deconz2acp` can be checked running with `ps aux deconz2acp`.
+
+Messages arriving from `deconz2acp` into the local MQTT can be checked with 
+`mosquitto_sub -v -t 'csn-zigbee/#' -u <username> -P <password>`
+
+The MQTT bridge to the ACP Platform can be checked with a similar `mosquitto_sub` on that production server.
+
 ## Example data messages
 These messages are for the same device (a Xiaomi Aqara Motion Sensor), firstly as reported in the
 REST API `sensors` query and secondly as the real-time sensor data provided via the deCONZ websocket.
